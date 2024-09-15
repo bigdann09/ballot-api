@@ -75,7 +75,6 @@ func StartCronScheduler() *cron.Cron {
 
 	// Start the cron scheduler
 	c.Start()
-	fmt.Println("Cron scheduler initialized")
 	return c
 }
 
