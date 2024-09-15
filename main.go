@@ -10,6 +10,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/gin-gonic/gin"
 	"github.com/robfig/cron"
 )
 
@@ -44,15 +45,22 @@ func main() {
 	port := ":8001"
 	fmt.Println("Server started at port ", port)
 
-	http.HandleFunc("/news", GetBallotNews)
-	http.ListenAndServe(port, nil)
+	// set mode
+	gin.SetMode(gin.ReleaseMode)
+
+	router := gin.Default()
+	router.GET("/news", GetBallotNewsArticles)
+	router.Run(port)
 }
 
-func GetBallotNews(res http.ResponseWriter, req *http.Request) {
+func GetBallotNewsArticles(c *gin.Context) {
 	// get json data from file
 	file, err := os.Open("news_articles.json")
 	if err != nil {
-		res.WriteHeader(http.StatusInternalServerError)
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"message": err.Error(),
+		})
+		return
 	}
 	defer file.Close()
 
@@ -62,8 +70,7 @@ func GetBallotNews(res http.ResponseWriter, req *http.Request) {
 	json.Unmarshal(byteValue, &articles)
 
 	// set content type and write response
-	res.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(res).Encode(articles)
+	c.JSON(http.StatusOK, articles)
 }
 
 func StartCronScheduler() *cron.Cron {
