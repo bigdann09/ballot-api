@@ -51,8 +51,8 @@ func main() {
 	c := StartCronScheduler()
 	defer c.Stop()
 
-	port := ":8001"
-	fmt.Println("Server started at port ", port)
+	port := ":8002"
+	fmt.Println("Server started at port", port)
 
 	// set mode
 	gin.SetMode(gin.ReleaseMode)
@@ -157,10 +157,13 @@ func fetchNews() {
 
 	// filter data
 	var articles []Article
+	count := 1
 	for _, article := range data.Articles {
 		if article.Content != "[Removed]" || article.Description != "[Removed]" {
+			article.ID = uint(count)
 			article.Slug = parseToSlug(article.Title)
 			articles = append(articles, article)
+			count++
 		}
 	}
 

@@ -1,7 +1,8 @@
 {
- "refereshedAt": "2024-09-16T22:27:07.614744455+01:00",
+ "refereshedAt": "2024-09-16T23:04:57.536010021+01:00",
  "articles": [
   {
+   "id": 1,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -16,6 +17,7 @@
    "content": "Eluned Morgan was appointed first minister after Vaughan Gething quit\r\nFirst Minister Eluned Morgan says she will \"undoubtedly fall out\" with the UK Labour government as she tries to realise her own … [+4566 chars]"
   },
   {
+   "id": 2,
    "source": {
     "id": "the-verge",
     "name": "The Verge"
@@ -30,6 +32,7 @@
    "content": "JD Vance sells himself to Silicon Valley\r\nJD Vance sells himself to Silicon Valley\r\n / Always exciting to see a brand collab!\r\nByElizabeth Lopatto, a reporter who writes about tech, money, and human … [+8840 chars]"
   },
   {
+   "id": 3,
    "source": {
     "id": "",
     "name": "NPR"
@@ -44,6 +47,7 @@
    "content": "Former President Donald Trump has declared himself very much not a Swiftie.\r\nDays after Taylor Swift endorsed Kamala Harris for president, the Republican presidential nominee expressed his distaste f… [+2534 chars]"
   },
   {
+   "id": 4,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -58,6 +62,7 @@
    "content": "The clock on the mantelpiece in the Cabinet Room ticks surprisingly loudly, marking every half-second. The moment prime ministers take their seat in the captains chair, time is running out.\r\nSir Keir… [+8459 chars]"
   },
   {
+   "id": 5,
    "source": {
     "id": "al-jazeera-english",
     "name": "Al Jazeera English"
@@ -72,6 +77,7 @@
    "content": "Indian opposition leader Arvind Kejriwal says he will resign as chief minister of the capital New Delhis regional government, a day after his release from prison on bail in a corruption case.\r\nToday … [+2151 chars]"
   },
   {
+   "id": 6,
    "source": {
     "id": "al-jazeera-english",
     "name": "Al Jazeera English"
@@ -86,6 +92,7 @@
    "content": "Amman, Jordan In the early hours after election day in Jordans capital, the pervasive campaign posters were stripped from the citys central districts before the preliminary results were announced.\r\nI… [+7562 chars]"
   },
   {
+   "id": 7,
    "source": {
     "id": "",
     "name": "Rolling Stone"
@@ -100,6 +107,7 @@
    "content": "The end of 2023 was not a great time for the crypto industry. In November, Sam Bankman-Fried, the founder of the FTX cryptocurrency exchange, learned that no amount of Michael Lewis gymnastics could … [+7487 chars]"
   },
   {
+   "id": 8,
    "source": {
     "id": "al-jazeera-english",
     "name": "Al Jazeera English"
@@ -114,6 +122,7 @@
    "content": "One hundred years ago, on February 28, 1924, a four-foot-10-inch woman of colour gave a speech at the Wanderers Hall in Johannesburg. Despite speaking at the home of both rugby and cricket in the Tra… [+19582 chars]"
   },
   {
+   "id": 9,
    "source": {
     "id": "",
     "name": "Slate Magazine"
@@ -128,6 +137,7 @@
    "content": "I dont often wander into the tinned fish section at my grocery store. Growing up, our family only kept a stock of canned tuna around for our three cats, who savored the banquet of preservative-drench… [+10830 chars]"
   },
   {
+   "id": 10,
    "source": {
     "id": "",
     "name": "Nakedcapitalism.com"
@@ -142,6 +152,7 @@
    "content": "Homing pigeon missiles, dead trout swimming, butt breathing honored with Ig Nobel Prize The Register\r\nOnline Dating Caused a Rise in US Income Inequality, Research Paper Shows Bloomberg\r\nEmpty Downto… [+6473 chars]"
   },
   {
+   "id": 11,
    "source": {
     "id": "",
     "name": "The Intercept"
@@ -156,6 +167,7 @@
    "content": "Former Vice President Dick Cheney at the American Enterprise Institute on May 12, 2014, in Washington, D.C.Photo: Win McNamee/Getty Images\r\nThe Iraq war\r\n sold on lies and bungled in its prosecution … [+5674 chars]"
   },
   {
+   "id": 12,
    "source": {
     "id": "",
     "name": "Forbes"
@@ -170,6 +182,7 @@
    "content": "Taylor Swifts endorsement of Vice President Kamala Harris last week made little impact on voters, according to an ABC News and Ipsos poll that found only 6% of respondents were more likely to vote fo… [+5374 chars]"
   },
   {
+   "id": 13,
    "source": {
     "id": "",
     "name": "Forbes"
@@ -184,6 +197,7 @@
    "content": "Taylor Swifts endorsement of Kamala Harris over former President Donald Trump last week made little impact on voters, according to an ABC News and Ipsos poll that found only 6% of respondents were mo… [+5213 chars]"
   },
   {
+   "id": 14,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -198,6 +212,7 @@
    "content": "Politicians worldwide are increasingly turning to social media to catch the attention of young people but some experts fear it risks leaving some people feeling \"vote-fished\".\r\nWith the Queensland po… [+6616 chars]"
   },
   {
+   "id": 15,
    "source": {
     "id": "",
     "name": "Des Moines Register"
@@ -212,6 +227,7 @@
    "content": "\u003cul\u003e\u003cli\u003eRepublican presidential candidate Donald Trump leads Democrat Kamala Harris in the latest Iowa Poll 47% to 43%.\u003c/li\u003e\u003cli\u003eHarris has dramatically improved on Joe Bidens performance; Biden trail… [+10188 chars]"
   },
   {
+   "id": 16,
    "source": {
     "id": "",
     "name": "Deadline"
@@ -226,6 +242,7 @@
    "content": "EXCLUSIVE: David Oyelowo says he wants to use his star power to make more films in Africa and help boost the continent’s movie-making prowess. But he assures “there’s not going to be a cultural colon… [+11984 chars]"
   },
   {
+   "id": 17,
    "source": {
     "id": "cbc-news",
     "name": "CBC News"
@@ -240,6 +257,7 @@
    "content": "The reason Kamala Harris keeps visiting North Carolina is made evident in an eye-popping pattern her campaign volunteers have noticed while knocking on doors.\r\nWhat they see are signs of a state grow… [+9930 chars]"
   },
   {
+   "id": 18,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -254,6 +272,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
+   "id": 19,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -268,6 +287,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
+   "id": 20,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -282,6 +302,7 @@
    "content": "As the US election transfixes the world and viral videos about eating cats and dogs flood the internet, there was just one question asked of Kamala Harris that she deftly avoided directly addressing … [+10099 chars]"
   },
   {
+   "id": 21,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -296,6 +317,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
+   "id": 22,
    "source": {
     "id": "",
     "name": "Thegospelcoalition.org"
@@ -310,6 +332,7 @@
    "content": "One hundred years from now, when historians recount the events of 2024, theyll almost certainly write about the division of the country. Theyll describe how Democrats and Republicans couldn’t seem to… [+9147 chars]"
   },
   {
+   "id": 23,
    "source": {
     "id": "",
     "name": "International Business Times"
@@ -324,6 +347,7 @@
    "content": "The state funeral of Peru's divisive ex-president Alberto Fujimori, a major figure in Latin American politics, began Saturday in Lima, capping three days of national mourning.\r\nFujimori was revered b… [+3764 chars]"
   },
   {
+   "id": 24,
    "source": {
     "id": "",
     "name": "Independent.ie"
@@ -338,6 +362,7 @@
    "content": "Happy party members who gathered at last weeks event had only one thing on their minds: the election\r\nThey say a week is a long time in politics. But a year? Well, thats an eternity.\r\nTake last years… [+108 chars]"
   },
   {
+   "id": 25,
    "source": {
     "id": "",
     "name": "Sputnikglobe.com"
@@ -352,6 +377,7 @@
    "content": "Sputnik brings you all the latest breaking stories, expert analysis and videos from North and South America.\r\nhttps://sputnikglobe.com/20240914/government-shutdown-part-ii-1120140857.html\r\nGovernment… [+5641 chars]"
   },
   {
+   "id": 26,
    "source": {
     "id": "",
     "name": "Independent.ie"
@@ -366,6 +392,7 @@
    "content": "Happy party members who gathered at last weeks event had only one thing on their minds: the election\r\nThey say a week is a long time in politics. But a year? Well, thats an eternity.\r\nTake last years… [+108 chars]"
   },
   {
+   "id": 27,
    "source": {
     "id": "",
     "name": "Bangkok Post"
@@ -380,6 +407,7 @@
    "content": "Fierce competition is expected in Sunday’s by-election in Phitsanulok to replace Padipat Santipada, who was banned from politics for 10 years following the disbandment of the now-defunct Move Forward… [+1952 chars]"
   },
   {
+   "id": 28,
    "source": {
     "id": "",
     "name": "Truthout"
@@ -394,6 +422,7 @@
    "content": "When pop star Taylor Swift posted her much-anticipated endorsement of Kamala Harris for president on Instagram this week, she explained that the other candidate, Donald Trump, pushed her to be crysta… [+6944 chars]"
   },
   {
+   "id": 29,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -408,6 +437,7 @@
    "content": "The panel, which consisted of Republican former presidential candidate Vivek Ramaswamy, U.S. Rep. Tim Walberg (R-Tipton), Republican National Committeewoman Hima Kolanagireddy, Michigan Senate Minori… [+9509 chars]"
   },
   {
+   "id": 30,
    "source": {
     "id": "",
     "name": "Littlesis.org"
@@ -422,6 +452,22 @@
    "content": "There has been growing criticism of the American Israel Public Affairs Committee (AIPAC), the powerful pro-Israel lobbying operation that is spending record amounts to unseat elected officials who cr… [+14401 chars]"
   },
   {
+   "id": 31,
+   "source": {
+    "id": "",
+    "name": "Vanity Fair"
+   },
+   "author": "Eve Batey",
+   "title": "Taylor Swift Strides Into Kansas City Chiefs Game Following Trump’s Slam Against the Singer",
+   "slug": "taylor-swift-strides-into-kansas-city-chiefs-game-following-trumps-slam-against-the-singer",
+   "description": "Shortly after the former president announced his “hate” for Swift, she arrived to watch boyfriend Travis Kelce play against the Cincinnati Bengals.",
+   "url": "https://www.vanityfair.com/style/story/taylor-swift-kansas-city-chiefs-cincinnati-bengals-donald-trump-hate",
+   "urlToImage": "https://media.vanityfair.com/photos/66e737fc95cac8f6c3b9ec70/16:9/w_1280,c_limit/2171409270",
+   "publishedAt": "2024-09-15T21:26:41Z",
+   "content": "Its a Sunday during football season, so this is usually where wed be telling you about singer Taylor Swifts arrival at a football stadium, where shell ascend to a glassed-in box above the seats to wa… [+4871 chars]"
+  },
+  {
+   "id": 32,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -436,6 +482,7 @@
    "content": "With Donald Trump's third run for the presidency faltering as election day nears, political observers looking at his need to bring independent voters into his camp claim he is doing himself no favors… [+1915 chars]"
   },
   {
+   "id": 33,
    "source": {
     "id": "cbc-news",
     "name": "CBC News"
@@ -450,6 +497,7 @@
    "content": "The 2024 British Columbia election is on the horizon after some big changes in provincial politics since the last election.\r\nOn Aug. 28, B.C. United, formerly the B.C. Liberals, announced it was susp… [+3205 chars]"
   },
   {
+   "id": 34,
    "source": {
     "id": "",
     "name": "Nakedcapitalism.com"
@@ -464,6 +512,7 @@
    "content": "Yves here. While it might seem that Larry Summers has finally faded from public life, think again! Wikipedia reports that Summers joined the board of OpenAI in November 2023. And one can be sure he’d… [+10029 chars]"
   },
   {
+   "id": 35,
    "source": {
     "id": "",
     "name": "TheWrap"
@@ -478,6 +527,7 @@
    "content": "Bill Maher channeled what a lot of us are thinking on Fridays Real Time, when during his New Rules segment, he called for the United States to adopt drastically shorter election seasons.\r\nNow that we… [+3558 chars]"
   },
   {
+   "id": 36,
    "source": {
     "id": "msnbc",
     "name": "MSNBC"
@@ -492,6 +542,7 @@
    "content": "Four years ago, many Americans were outraged to learn that the U.S. Postal Service was cutting services, even as Donald Trump was making baseless claims about vote-by-mail. \r\nGenuine concerns among D… [+5274 chars]"
   },
   {
+   "id": 37,
    "source": {
     "id": "new-york-magazine",
     "name": "New York Magazine"
@@ -506,6 +557,7 @@
    "content": "Its been very clear for a very long time that Donald Trump has some complicated feelings about Taylor Swift. On one hand, the former president has quite obviously and openly pined for the pop megasta… [+2783 chars]"
   },
   {
+   "id": 38,
    "source": {
     "id": "",
     "name": "Forbes"
@@ -520,6 +572,7 @@
    "content": "Celebrity voices have entered the 2024 presidential race in a variety of ways in recent weeks, and some of the biggest names in politics and in Hollywood have lent their voices to a particular candid… [+8525 chars]"
   },
   {
+   "id": 39,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -534,6 +587,7 @@
    "content": "Republicans on three local canvass boards voted against certifying the June primary results, according to the secretary of states office. It is a tiny percentage of the 64 three-member boards in each… [+8215 chars]"
   },
   {
+   "id": 40,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -548,6 +602,7 @@
    "content": "The panel, which consisted of Republican former presidential candidate Vivek Ramaswamy, U.S. Rep. Tim Walberg (R-Tipton), Republican National Committeewoman Hima Kolanagireddy, Michigan Senate Minori… [+9509 chars]"
   },
   {
+   "id": 41,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -562,6 +617,7 @@
    "content": "Sir Ed Davey celebrated with supporters on election night as the party won a record number of MPs\r\nLiberal Democrat smiles will be so broad in the next few days they will stretch from the end of Brig… [+4422 chars]"
   },
   {
+   "id": 42,
    "source": {
     "id": "",
     "name": "Bitcoinist"
@@ -576,6 +632,7 @@
    "content": "In the run-up to the 2024 US election, crypto donations have already amassed $190 million. Such a huge amount reflects how strongly interdependent the crypto industry has become with the world of pol… [+3267 chars]"
   },
   {
+   "id": 43,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -590,6 +647,7 @@
    "content": "Sydney's longtime mayor Clover Moore says she expects to be returned to serve a record sixth term after claiming victory in the local government elections.\r\nMs Moore, who has been City of Sydney lord… [+2754 chars]"
   },
   {
+   "id": 44,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -604,6 +662,7 @@
    "content": "The panel, which consisted of Republican former presidential candidate Vivek Ramaswamy, U.S. Rep. Tim Walberg (R-Tipton), Republican National Committeewoman Hima Kolanagireddy, Michigan Senate Minori… [+9509 chars]"
   },
   {
+   "id": 45,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -618,6 +677,7 @@
    "content": "While allies of former President Donald Trump gathered in Farmington Hills on Friday for a town hall as part of Trumps Agenda 47 Policy Tour, policy discussions remained scant, as members of the pane… [+9802 chars]"
   },
   {
+   "id": 46,
    "source": {
     "id": "cbc-news",
     "name": "CBC News"
@@ -632,6 +692,7 @@
    "content": "Just as British Columbia is heading into a potentially polarizing election, two MLAs from opposing parties held a joint press conference Friday focused on the need to work across party lines.\r\nHealth… [+3126 chars]"
   },
   {
+   "id": 47,
    "source": {
     "id": "newsweek",
     "name": "Newsweek"
@@ -646,6 +707,7 @@
    "content": "Less than a week after Taylor Swift's endorsement of Vice President Kamala Harris for president, Donald Trump wrote in a social media post on Sunday that he hates the singer.\r\nIn a Sunday post on Tru… [+5729 chars]"
   },
   {
+   "id": 48,
    "source": {
     "id": "newsweek",
     "name": "Newsweek"
@@ -660,6 +722,7 @@
    "content": "Donald Trump has just had a \"week to forget\" that \"may have caused irreparable damage to his campaign,\" according to one prominent political scientist. The past seven days have seen Kamala Harris re-… [+6272 chars]"
   },
   {
+   "id": 49,
    "source": {
     "id": "",
     "name": "Fast Company"
@@ -674,6 +737,7 @@
    "content": "Music generates passion and emotion, so its little surprise that popular tunes have been featured in presidential contests since the days of George Washington and Thomas Jefferson.\r\nBut as a scholar … [+6865 chars]"
   },
   {
+   "id": 50,
    "source": {
     "id": "",
     "name": "Legalinsurrection.com"
@@ -688,6 +752,7 @@
    "content": "Kamala’s running mate Tim Walz was campaigning in Wisconsin this weekend when he told a crowd that the race is going to be a battle in which you speak to people in the grocery store and ask them if t… [+3590 chars]"
   },
   {
+   "id": 51,
    "source": {
     "id": "",
     "name": "Dianeravitch.net"
@@ -702,6 +767,7 @@
    "content": "Trump’s weird attachment to far-right provocateur Laura Loomer is causing rifts among Republicans. Trump brought her to the 9/11 memorial event, even though she has posted conspiracy theories about w… [+7520 chars]"
   },
   {
+   "id": 52,
    "source": {
     "id": "",
     "name": "Sky.com"
@@ -716,6 +782,7 @@
    "content": "A woman who wrote a Facebook post about Haitian immigrants eating local pets has said she is now filled with regret after it spiralled into a national frenzy.\r\nErika Lee, a resident of Springfield, O… [+3259 chars]"
   },
   {
+   "id": 53,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -730,6 +797,7 @@
    "content": "Two different versions of the US are on the table, but both of them are captive to the past.\r\nOf all the schisms which cleave contemporary America, few are more stark than the divide between those wh… [+19854 chars]"
   },
   {
+   "id": 54,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -744,6 +812,7 @@
    "content": "Sir Ed Davey celebrates his party's result in the general election \r\nThe Liberal Democrats are heading into their party conference in a celebratory mood.\r\nJuly's general election result saw them win … [+3653 chars]"
   },
   {
+   "id": 55,
    "source": {
     "id": "new-york-magazine",
     "name": "New York Magazine"
@@ -758,6 +827,7 @@
    "content": "At Tuesdays presidential debate, Donald Trump launched into a rant about Haitian immigrants kidnapping and eating pets in Springfield, Ohio. Theyre eating the dogs! he bellowed. The people that came … [+6443 chars]"
   },
   {
+   "id": 56,
    "source": {
     "id": "new-york-magazine",
     "name": "New York Magazine"
@@ -772,6 +842,7 @@
    "content": "When youre a celebrity promoting a book, there are a few basic things you need to accomplish. You want to make it clear what kind of book it is, tease some of the content, and clearly state the relea… [+6186 chars]"
   },
   {
+   "id": 57,
    "source": {
     "id": "msnbc",
     "name": "MSNBC"
@@ -786,6 +857,7 @@
    "content": "How Harris can use her debate momentum\r\nVice President Kamala Harris wiped the floor with former President Donald Trump at Tuesday night's debate. It started with her aggressive pursuit of a handshak… [+3960 chars]"
   },
   {
+   "id": 58,
    "source": {
     "id": "",
     "name": "Mediaite"
@@ -800,6 +872,7 @@
    "content": "“He’s not the same as he was in 2016,” said Ari Melber, host of The Beat on MSNBC and the network’s chief legal analyst. He was speaking of Donald Trump, having watched his 90-minute debate with Kama… [+40253 chars]"
   },
   {
+   "id": 59,
    "source": {
     "id": "cbc-news",
     "name": "CBC News"
@@ -814,6 +887,7 @@
    "content": "B.C. Conservatives are promising changes they say will bring more stability to the province's struggling forest industry as they released their forestry platform on Saturday.\r\nLeader John Rustad anno… [+3758 chars]"
   },
   {
+   "id": 60,
    "source": {
     "id": "",
     "name": "Wonkette.com"
@@ -828,6 +902,7 @@
    "content": "One of the more entertaining developments of the last couple of decades of American politics and by entertaining, we mean in the same way we would be entertained by someone repeatedly slamming a car … [+4933 chars]"
   },
   {
+   "id": 61,
    "source": {
     "id": "",
     "name": "NPR"
@@ -842,6 +917,7 @@
    "content": "The U.S. president may be referred to as the most powerful person in the world now, but that wasn't what the Founding Fathers intended.\r\nIn fact, when the United States was born, they didn't really h… [+8763 chars]"
   },
   {
+   "id": 62,
    "source": {
     "id": "",
     "name": "The Punch"
@@ -856,6 +932,7 @@
    "content": "A former Secretary-General of the Commonwealth, Chief Emeka Anyaoku, has urged the Federal Government and the relevant institutions to ensure that the forthcoming Edo and Ondo Governorship elections … [+2498 chars]"
   },
   {
+   "id": 63,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -870,6 +947,7 @@
    "content": "Some of the candidates arent replying to inquiries at all, while others have refused and said they think the League is partisan, according to LWV Louisville leaders.\r\nThe League says that out of cont… [+8810 chars]"
   },
   {
+   "id": 64,
    "source": {
     "id": "",
     "name": "Sky.com"
@@ -884,6 +962,7 @@
    "content": "Sir Ed Davey has said the NHS \"cannot withstand\" Labour reforms without more funding.\r\nThe Liberal Democrat leader, speaking from the party's conference in Brighton, said he is concerned the governme… [+1724 chars]"
   },
   {
+   "id": 65,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -898,6 +977,22 @@
    "content": "Some refer to the news. Others refer to universal themes of our democratic condition. Either way, I think they say something interesting and important about our country, our politics and the moment w… [+7273 chars]"
   },
   {
+   "id": 66,
+   "source": {
+    "id": "",
+    "name": "Biztoc.com"
+   },
+   "author": "pbs.org",
+   "title": "Do celebrity endorsements matter? A look at the role of pop stars in modern politics",
+   "slug": "do-celebrity-endorsements-matter-a-look-at-the-role-of-pop-stars-in-modern-politics",
+   "description": "Pop culture and politics have a history of crossover. These intersections take on new significance during an election year, but how important are celebrity endorsements of candidates, and do they actually make a difference in voters' minds? Lisa Desjardins sp…",
+   "url": "https://biztoc.com/x/11577beb12a376d0",
+   "urlToImage": "https://biztoc.com/cdn/11577beb12a376d0_s.webp",
+   "publishedAt": "2024-09-15T21:42:37Z",
+   "content": "Pop culture and politics have a history of crossover. These intersections take on new significance during an election year, but how important are celebrity endorsements of candidates, and do they act… [+133 chars]"
+  },
+  {
+   "id": 67,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -912,6 +1007,7 @@
    "content": "The League of Women Voters has a history of organizing debates and forums from elections for U.S. president to Kentucky governor to local school boards. But this year Republicans in Kentuckys largest… [+9104 chars]"
   },
   {
+   "id": 68,
    "source": {
     "id": "newsweek",
     "name": "Newsweek"
@@ -926,6 +1022,7 @@
    "content": "Donald Trump is being damaged by his association with Florida-based activist Laura Loomer, according to a number of academics specializing in American politics, with one warning it is playing into Ka… [+4182 chars]"
   },
   {
+   "id": 69,
    "source": {
     "id": "",
     "name": "TheJournal.ie"
@@ -940,6 +1037,7 @@
    "content": "US PRESIDENTIAL CANDIDATE Donald J. Trump took to site Truth Social to post a message: I HATE TAYLOR SWIFT! in the follow-up from Tuesday, when the world-famous pop star endorsed his rival. \r\nIn Penn… [+1648 chars]"
   },
   {
+   "id": 70,
    "source": {
     "id": "",
     "name": "TheJournal.ie"
@@ -954,6 +1052,7 @@
    "content": "ON TUESDAY MORNING the proposed makeup of the next European Commission will be announced as President Ursula von der Leyen outlines who she wants in each portfolio.\r\nThis week, the announcement was d… [+4362 chars]"
   },
   {
+   "id": 71,
    "source": {
     "id": "msnbc",
     "name": "MSNBC"
@@ -968,6 +1067,7 @@
    "content": "Im sure theres all kinds of ways in which I would be a totally terrible political candidate, JD Vance said in a recently resurfaced interview, conducted less than three months before he first became … [+7138 chars]"
   },
   {
+   "id": 72,
    "source": {
     "id": "",
     "name": "Bangkok Post"
@@ -982,6 +1082,7 @@
    "content": "An Islamic party said it was prepared to shut down Malaysia’s only casino if it wins control of the state where it is located, as the group looks to build its influence in the Southeast Asian nation.… [+2139 chars]"
   },
   {
+   "id": 73,
    "source": {
     "id": "cbs-news",
     "name": "CBS News"
@@ -996,6 +1097,7 @@
    "content": "On this \"Face the Nation\" broadcast, moderated by Nancy Cordes: \r\n\u003cul\u003e\u003cli\u003eRepublican vice-presidential nominee Sen. JD Vance of Ohio\u003c/li\u003e\u003cli\u003eMaryland Gov. Wes Moore, a Democrat\u003c/li\u003e\u003cli\u003eGary Cohn, for… [+52854 chars]"
   },
   {
+   "id": 74,
    "source": {
     "id": "newsweek",
     "name": "Newsweek"
@@ -1010,6 +1112,7 @@
    "content": "In a statement posted online, Donald Trump has vowed to dismantle what he claims is a phone application developed under President Joe Biden and Vice President Kamala Harris' administration to facilit… [+2801 chars]"
   },
   {
+   "id": 75,
    "source": {
     "id": "",
     "name": "Biztoc.com"
@@ -1024,6 +1127,7 @@
    "content": "Nippon Steel Finds Unlikely Ally in Pittsburgh Workers The Wall Street JournalBiden Administration Is Likely to Delay Decision Over U.S. Steel The New York TimesFate of US Steel merger expected to be… [+137 chars]"
   },
   {
+   "id": 76,
    "source": {
     "id": "",
     "name": "DW (English)"
@@ -1038,6 +1142,7 @@
    "content": "With Jens Stoltenberg, the Munich Security Conference is gaining one of the most experienced and high-profile security experts in the Western world.\r\nAnd he has the experience the world's most import… [+4986 chars]"
   },
   {
+   "id": 77,
    "source": {
     "id": "",
     "name": "The Diplomat"
@@ -1052,6 +1157,7 @@
    "content": "On September 9, the U.S. House Foreign Affairs Committee Chairman Micheal McCaul released the committees investigation report on the Biden administrations hasty and haphazard withdrawal from Afghanis… [+11807 chars]"
   },
   {
+   "id": 78,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -1066,6 +1172,7 @@
    "content": "I usually write what I hope are thoughtful pieces about American politics that feature something like a beginning, middle and end. But today, Im going to comment on short videos I have seen throughou… [+7485 chars]"
   },
   {
+   "id": 79,
    "source": {
     "id": "",
     "name": "Nakedcapitalism.com"
@@ -1080,6 +1187,7 @@
    "content": "This is Naked Capitalism fundraising week. 927 donors have already invested in our efforts to combat corruption and predatory conduct, particularly in the financial realm. Please join us and particip… [+40354 chars]"
   },
   {
+   "id": 80,
    "source": {
     "id": "",
     "name": "NDTV News"
@@ -1094,6 +1202,7 @@
    "content": "Awami Ittehad Party and Jama'at-e-Islami have come together in a strategic alliance\r\nSrinagar: In a new twist to pre-assembly election politics in Jammu and Kashmir, the Awami Ittehad Party (AIP) and… [+2683 chars]"
   },
   {
+   "id": 81,
    "source": {
     "id": "",
     "name": "VOA News"
@@ -1108,6 +1217,7 @@
    "content": "Peru bid an emotional farewell Saturday to its divisive ex-President Alberto Fujimori after three days of national mourning marked by expressions of nostalgia for his iron-fisted rule. \r\nFujimori was… [+4163 chars]"
   },
   {
+   "id": 82,
    "source": {
     "id": "",
     "name": "Legalinsurrection.com"
@@ -1122,6 +1232,7 @@
    "content": "About a month ago, Donald Trump said during some remarks that illegal immigrants are taking away black jobs. Democrats and people in media lost their ever-loving minds. Michelle Obama even used it to… [+2363 chars]"
   },
   {
+   "id": 83,
    "source": {
     "id": "",
     "name": "Sky.com"
@@ -1136,6 +1247,7 @@
    "content": "Sir Keir Starmer is under investigation for a possible breach of parliamentary rules after failing to declare that some of his wife's high-end clothes were bought for her by his biggest personal dono… [+2963 chars]"
   },
   {
+   "id": 84,
    "source": {
     "id": "",
     "name": "Typepad.com"
@@ -1150,6 +1262,7 @@
    "content": "Christianity Today:  How to Find Common Ground When You Disagree About the Common Good, by John Inazu (Washington University; Google Scholar):\r\nHow do Christians live faithfully and as good neighbors… [+6572 chars]"
   },
   {
+   "id": 85,
    "source": {
     "id": "",
     "name": "VOA News"
@@ -1164,6 +1277,7 @@
    "content": "TUNIS, Tunisia  The official start of the presidential campaign season in Tunisia began on Saturday, a day after Tunisians took their anger to the streets of the capital to decry what protesters say … [+4675 chars]"
   },
   {
+   "id": 86,
    "source": {
     "id": "",
     "name": "Economictimes.com"
@@ -1178,6 +1292,7 @@
    "content": "Sep 14, 2024, 12:59:42 PM IST\r\nSavitri Jindal, renowned as the wealthiest woman in India, is making waves by running as an independent candidate in the Haryana Assembly elections from Hisar. At 74, t… [+2448 chars]"
   },
   {
+   "id": 87,
    "source": {
     "id": "newsweek",
     "name": "Newsweek"
@@ -1192,6 +1307,7 @@
    "content": "In an appearance on Sunday on NBC News' Meet the Press,JD Vance, Republican presidential nominee Donald Trump's running mate, downplayed the former president's relationship with far-right political a… [+5679 chars]"
   },
   {
+   "id": 88,
    "source": {
     "id": "",
     "name": "Inside the Magic"
@@ -1206,6 +1322,7 @@
    "content": "After years of feuding, The Walt Disney Company and Florida Governor Ron DeSantis decided to put aside their differences and work together to expand the Walt Disney World Resort. The two never resolv… [+2737 chars]"
   },
   {
+   "id": 89,
    "source": {
     "id": "",
     "name": "Fark.com"
@@ -1220,6 +1337,7 @@
    "content": "Chainsaw Gutsfunk:Canada, are you ok?\r\nBC politics have never been OK.  The whole thing's been a shiatshow from Day 1.https://en.wikipedia.org/wiki/Amor_De_Cosmos\r\n/Well, OK, that was the second prem… [+24 chars]"
   },
   {
+   "id": 90,
    "source": {
     "id": "the-irish-times",
     "name": "The Irish Times"
@@ -1234,6 +1352,7 @@
    "content": "Last week it emerged that Phil Hogan, the former Fine Gael Minister and one-time EU commissioner, had finally made it out of the Golfgate rough. With his nemesis Leo Varadkar out of the Fine Gael lea… [+6341 chars]"
   },
   {
+   "id": 91,
    "source": {
     "id": "msnbc",
     "name": "MSNBC"
@@ -1246,34 +1365,6 @@
    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240912-republicans-for-kamala-harris-wm-314p-853e89.jpg",
    "publishedAt": "2024-09-15T10:00:00Z",
    "content": "To MAGA-era conservatives, there is no crime more unforgivable than for a traditional, Reagan-era Republican to endorse voting for Vice President Kamala Harris. You wont find any such endorsement her… [+5358 chars]"
-  },
-  {
-   "source": {
-    "id": "",
-    "name": "CNET"
-   },
-   "author": "Thomas Kika",
-   "title": "Get Ready for Election Day 2024 by Finding Your Ballot Online",
-   "slug": "get-ready-for-election-day-2024-by-finding-your-ballot-online",
-   "description": "Getting to know your choices this election season is a snap with these online resources.",
-   "url": "https://www.cnet.com/news/politics/get-ready-for-election-day-2024-by-finding-your-ballot-online/",
-   "urlToImage": "https://www.cnet.com/a/img/resize/9197dd7871c757be3b9382c33588f27438c43641/hub/2024/08/26/1a6e7cf2-79c9-4f4b-9468-ccb438b1973f/gettyimages-521347422.jpg?auto=webp\u0026fit=crop\u0026height=675\u0026width=1200",
-   "publishedAt": "2024-09-14T16:00:18Z",
-   "content": "The 2024 presidential race between Vice President Kamala Harris and former President Donald Trump is full steam ahead with roughly seven weeks left to go, but this election season will also involve a… [+9693 chars]"
-  },
-  {
-   "source": {
-    "id": "",
-    "name": "NDTV News"
-   },
-   "author": "",
-   "title": "Video: How Taylor Swift's Endorsement Can Impact Kamala Harris",
-   "slug": "video-how-taylor-swifts-endorsement-can-impact-kamala-harris",
-   "description": "Global pop sensation Taylor Swift's support for Kamala Harris may have boosted the Democratic vice president's hopes of attracting young voters, but the question remains: Will the celebrity endorsement make a difference on Election Day?",
-   "url": "https://www.ndtv.com/world-news/video-how-taylor-swifts-endorsement-can-impact-kamala-harris-details-here-6565588",
-   "urlToImage": "https://c.ndtvimg.com/2024-09/ve5683p_kamala-harris-taylor-swift-kamala-harris-afp_625x300_14_September_24.jpg",
-   "publishedAt": "2024-09-14T14:30:36Z",
-   "content": "Kamala Harris vs Donald Trump: Will Taylor Swift's Kamala Harris endorsement influence the US election?\r\nWashington: Global pop sensation Taylor Swift's support for Kamala Harris may have boosted the… [+4945 chars]"
   }
  ]
 }
