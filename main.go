@@ -8,9 +8,12 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"reflect"
+	"strings"
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/mrz1836/go-sanitize"
 	"github.com/robfig/cron"
 )
 
@@ -20,20 +23,26 @@ type Source struct {
 }
 
 type Article struct {
-	Source       Source        `json:"source"`
-	Author       string        `json:"author"`
-	Title        string        `json:"title"`
-	Description  string        `json:"description"`
-	URL          string        `json:"url"`
-	URLToImage   string        `json:"urlToImage"`
-	PublishedAt  string        `json:"publishedAt"`
-	Content      template.HTML `json:"content"`
-	RefereshedAt time.Time     `json:"refereshedAt"`
+	ID          uint          `json:"id"`
+	Source      Source        `json:"source"`
+	Author      string        `json:"author"`
+	Title       string        `json:"title"`
+	Slug        string        `json:"slug"`
+	Description string        `json:"description"`
+	URL         string        `json:"url"`
+	URLToImage  string        `json:"urlToImage"`
+	PublishedAt string        `json:"publishedAt"`
+	Content     template.HTML `json:"content"`
 }
 
 type Data struct {
 	Status       string    `json:"status"`
 	TotalResults uint      `json:"totalResults"`
+	Articles     []Article `json:"articles"`
+}
+
+type Response struct {
+	RefereshedAt time.Time `json:"refereshedAt"`
 	Articles     []Article `json:"articles"`
 }
 
@@ -50,6 +59,7 @@ func main() {
 
 	router := gin.Default()
 	router.GET("/news", GetBallotNewsArticles)
+	router.GET("/news/:slug", GetBallotNewsArticlesSlug)
 	router.Run(port)
 }
 
@@ -66,11 +76,45 @@ func GetBallotNewsArticles(c *gin.Context) {
 
 	byteValue, _ := io.ReadAll(file)
 
-	var articles []Article
-	json.Unmarshal(byteValue, &articles)
+	var response Response
+	json.Unmarshal(byteValue, &response)
 
 	// set content type and write response
-	c.JSON(http.StatusOK, articles)
+	c.JSON(http.StatusOK, response)
+}
+
+func GetBallotNewsArticlesSlug(c *gin.Context) {
+	slug := c.Param("slug")
+
+	filebytes, err := os.ReadFile("news_articles.json")
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{
+			"error": err.Error(),
+		})
+		return
+	}
+
+	var response Response
+	json.Unmarshal(filebytes, &response)
+
+	// get article
+	var article Article
+	for _, a := range response.Articles {
+		if strings.EqualFold(a.Slug, slug) {
+			article = a
+		}
+	}
+
+	// check if article is empty
+	value := reflect.ValueOf(article)
+	if value.IsZero() {
+		c.JSON(http.StatusNotFound, gin.H{
+			"error": "Article not found",
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, article)
 }
 
 func StartCronScheduler() *cron.Cron {
@@ -115,18 +159,29 @@ func fetchNews() {
 	var articles []Article
 	for _, article := range data.Articles {
 		if article.Content != "[Removed]" || article.Description != "[Removed]" {
-			article.RefereshedAt = time.Now()
+			article.Slug = parseToSlug(article.Title)
 			articles = append(articles, article)
 		}
 	}
 
-	parsedArticles, err := json.MarshalIndent(&articles, "", " ")
+	var response Response
+	response.RefereshedAt = time.Now()
+	response.Articles = articles
+
+	parsedResponse, err := json.MarshalIndent(&response, "", " ")
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	// save to file
-	if err := os.WriteFile("news_articles.json", parsedArticles, 0666); err != nil {
+	if err := os.WriteFile("news_articles.json", parsedResponse, 0666); err != nil {
 		log.Fatal(err)
 	}
+}
+
+func parseToSlug(title string) string {
+	title = strings.ToLower(title)
+	title = strings.ReplaceAll(title, " ", "-")
+	title = sanitize.Custom(title, "[^a-zA-Z0-9-]")
+	return title
 }
