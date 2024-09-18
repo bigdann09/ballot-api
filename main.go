@@ -124,7 +124,7 @@ func StartCronScheduler() *cron.Cron {
 	c := cron.New()
 
 	// Add a cron job that runs every 10 seconds
-	c.AddFunc("@every 00h00m05s", fetchNews)
+	c.AddFunc("@every 00h00m06s", fetchNews)
 
 	// Start the cron scheduler
 	c.Start()
