@@ -1,5 +1,5 @@
 {
- "refereshedAt": "2024-09-18T13:05:07.461214777+01:00",
+ "refereshedAt": "2024-09-18T15:30:34.35756923+01:00",
  "articles": [
   {
    "id": 1,
@@ -304,6 +304,21 @@
   {
    "id": 21,
    "source": {
+    "id": "",
+    "name": "Democracy Now!"
+   },
+   "author": "webdev@democracynow.org (Democracy Now!)",
+   "title": "\"Erasing History\": Yale Prof. Jason Stanley on Why Fascists Attack Education \u0026 Critical Inquiry",
+   "slug": "erasing-history-yale-prof-jason-stanley-on-why-fascists-attack-education--critical-inquiry",
+   "description": "We speak with Yale philosophy professor Jason Stanley, author of the new book Erasing History: How Fascists Rewrite the Past to Control the Future, which examines the global rise of authoritarianism in the United States, Russia, Israel and beyond. He says att…",
+   "url": "https://www.democracynow.org/2024/9/17/erasing_history",
+   "urlToImage": "https://www.democracynow.org/images/story/02/73802/full_hd/Seg2-Stanleyandbook.jpg",
+   "publishedAt": "2024-09-17T12:28:47Z",
+   "content": "Hi there,\r\nCan you donate $10 per month to support Democracy Now!s independent journalism all year long? Since our very first broadcast in 1996, weve refused to take government or corporate funding, … [+1374 chars]"
+  },
+  {
+   "id": 22,
+   "source": {
     "id": "cbs-news",
     "name": "CBS News"
    },
@@ -317,7 +332,7 @@
    "content": "Watch CBS News\r\nCopyright ©2024 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"
   },
   {
-   "id": 22,
+   "id": 23,
    "source": {
     "id": "new-york-magazine",
     "name": "New York Magazine"
@@ -332,7 +347,7 @@
    "content": "Two weeks before the end of the 2020 election, Joe Biden appeared to be headed for a blowout. The FiveThirtyEight polling average showed him beating Donald Trump by 10.7 points, a victory that would … [+10894 chars]"
   },
   {
-   "id": 23,
+   "id": 24,
    "source": {
     "id": "",
     "name": "The Atlantic"
@@ -347,7 +362,7 @@
    "content": "The best, and most disconcerting, proof of the increased threat environment this election season came today in the form of what appears to be an attempted assassination, according to the FBI, against… [+2961 chars]"
   },
   {
-   "id": 24,
+   "id": 25,
    "source": {
     "id": "",
     "name": "Rolling Stone"
@@ -362,7 +377,7 @@
    "content": "The end of 2023 was not a great time for the crypto industry. In November, Sam Bankman-Fried, the founder of the FTX cryptocurrency exchange, learned that no amount of Michael Lewis gymnastics could … [+7487 chars]"
   },
   {
-   "id": 25,
+   "id": 26,
    "source": {
     "id": "",
     "name": "Vox"
@@ -377,7 +392,7 @@
    "content": "Just two months after a man tried to assassinate former President Donald Trump, the Secret Service says it stopped what appeared to be a second assassination attempt against the former president. Unl… [+8808 chars]"
   },
   {
-   "id": 26,
+   "id": 27,
    "source": {
     "id": "",
     "name": "The Cut"
@@ -392,7 +407,7 @@
    "content": "With just seven weeks to go before the presidential election, Donald Trump has awarded one of his most volatile associates a prime position in his inner circle, flying her on his plane to the Philade… [+8745 chars]"
   },
   {
-   "id": 27,
+   "id": 28,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -407,7 +422,7 @@
    "content": "Sri Lanka crisis: Protesters swim in president's pool\r\nExuberant young men splashing around in a pool with one theatrically soaping himself as a crowd cheered. Sri Lankans dancing in an opulent hallw… [+10252 chars]"
   },
   {
-   "id": 28,
+   "id": 29,
    "source": {
     "id": "",
     "name": "Snopes.com"
@@ -422,7 +437,7 @@
    "content": "Claim:\r\nAhead of the 2024 U.S. presidential election, actor Morgan Freeman said or wrote that he thinks a second Donald Trump presidency would be \"good for the country.\"\r\nIn mid-September 2024, numer… [+3674 chars]"
   },
   {
-   "id": 29,
+   "id": 30,
    "source": {
     "id": "",
     "name": "Slate Magazine"
@@ -437,7 +452,7 @@
    "content": "I dont often wander into the tinned fish section at my grocery store. Growing up, our family only kept a stock of canned tuna around for our three cats, who savored the banquet of preservative-drench… [+10830 chars]"
   },
   {
-   "id": 30,
+   "id": 31,
    "source": {
     "id": "",
     "name": "The Atlantic"
@@ -452,7 +467,7 @@
    "content": "Editor’s Note: Listen to Lauren Ober and Hanna Rosin’s podcast, We Live Here Now. THE NEIGHBORHOODThis story starts with, of all things, a dog walk. My partner, Lauren, and I were doing our usual loo… [+57120 chars]"
   },
   {
-   "id": 31,
+   "id": 32,
    "source": {
     "id": "",
     "name": "Nakedcapitalism.com"
@@ -467,7 +482,7 @@
    "content": "Homing pigeon missiles, dead trout swimming, butt breathing honored with Ig Nobel Prize The Register\r\nOnline Dating Caused a Rise in US Income Inequality, Research Paper Shows Bloomberg\r\nEmpty Downto… [+6473 chars]"
   },
   {
-   "id": 32,
+   "id": 33,
    "source": {
     "id": "",
     "name": "AdExchanger"
@@ -482,7 +497,7 @@
    "content": "Political ad spend is projected to surpass $12 billion in the US ahead of the 2024 presidential election, a 29% jump from the 2020 election season, according to eMarketer.\r\nBut although ad buying exp… [+6345 chars]"
   },
   {
-   "id": 33,
+   "id": 34,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -497,7 +512,7 @@
    "content": "Dan Levy joked his father Eugene had bombarded him with Baby Reindeer-style messages about hosting the Emmys\r\nEven before Baby Reindeer became a big winner at Sunday's Emmy Awards, the Netflix series… [+8219 chars]"
   },
   {
-   "id": 34,
+   "id": 35,
    "source": {
     "id": "",
     "name": "TVLine"
@@ -512,7 +527,7 @@
    "content": "If the current state of American politics has you down, this year’s Emmys offered a few moments of respite, courtesy of the most aspirational political drama in TV history. \r\nMembers of The West Wing… [+2527 chars]"
   },
   {
-   "id": 35,
+   "id": 36,
    "source": {
     "id": "new-york-magazine",
     "name": "New York Magazine"
@@ -527,7 +542,7 @@
    "content": "In June, Chief Justice John Roberts wrote an opinion that overhauled how a large segment of the federal government operates. The case, Loper Bright Industries v. Raimondo, was one of the more quietly… [+6061 chars]"
   },
   {
-   "id": 36,
+   "id": 37,
    "source": {
     "id": "",
     "name": "Forbes"
@@ -542,7 +557,7 @@
    "content": "Taylor Swifts endorsement of Kamala Harris over former President Donald Trump last week made little impact on voters, according to an ABC News and Ipsos poll that found only 6% of respondents were mo… [+5213 chars]"
   },
   {
-   "id": 37,
+   "id": 38,
    "source": {
     "id": "",
     "name": "Forbes"
@@ -557,7 +572,7 @@
    "content": "Taylor Swifts endorsement of Vice President Kamala Harris last week made little impact on voters, according to an ABC News and Ipsos poll that found only 6% of respondents were more likely to vote fo… [+5374 chars]"
   },
   {
-   "id": 38,
+   "id": 39,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -572,7 +587,22 @@
    "content": "Politicians worldwide are increasingly turning to social media to catch the attention of young people but some experts fear it risks leaving some people feeling \"vote-fished\".\r\nWith the Queensland po… [+6616 chars]"
   },
   {
-   "id": 39,
+   "id": 40,
+   "source": {
+    "id": "",
+    "name": "Foodpolitics.com"
+   },
+   "author": "Marion",
+   "title": "Bad news: US food insecurity getting worse, not better",
+   "slug": "bad-news-us-food-insecurity-getting-worse-not-better",
+   "description": "The USDA has released its annual report on Household Food Security in the United States in 2023. The news is not good. What’s especially tragic is the reversal of the pandemic decline in food insecurity. Pandemic income support and higher SNAP benefits did ex…",
+   "url": "https://www.foodpolitics.com/2024/09/bad-news-us-food-insecurity-getting-worse-not-better/",
+   "urlToImage": "https://www.foodpolitics.com/wp-content/uploads/Screenshot-2024-09-05-151606.png",
+   "publishedAt": "2024-09-17T13:00:46Z",
+   "content": "The USDA has released its annual report on Household Food Security in the United States in 2023.\r\nThe news is not good.\r\nWhat’s especially tragic is the reversal of the pandemic decline in food insec… [+301 chars]"
+  },
+  {
+   "id": 41,
    "source": {
     "id": "new-york-magazine",
     "name": "New York Magazine"
@@ -587,7 +617,7 @@
    "content": "J.D. Vance is a liar, and he doesnt care who knows it. For the past several weeks, he has said, falsely, that Haitian immigrants have overrun Springfield, Ohio. Theyre eating cats, theyre spreading d… [+5577 chars]"
   },
   {
-   "id": 40,
+   "id": 42,
    "source": {
     "id": "",
     "name": "Des Moines Register"
@@ -602,7 +632,7 @@
    "content": "\u003cul\u003e\u003cli\u003eRepublican presidential candidate Donald Trump leads Democrat Kamala Harris in the latest Iowa Poll 47% to 43%.\u003c/li\u003e\u003cli\u003eHarris has dramatically improved on Joe Bidens performance; Biden trail… [+10188 chars]"
   },
   {
-   "id": 41,
+   "id": 43,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -617,7 +647,22 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 42,
+   "id": 44,
+   "source": {
+    "id": "",
+    "name": "DW (English)"
+   },
+   "author": "Christoph Strack",
+   "title": "German conservative Friedrich Merz to run for chancellor",
+   "slug": "german-conservative-friedrich-merz-to-run-for-chancellor",
+   "description": "It's as good as official: liberal businessman Friedrich Merz, head of the conservative Christian Democrats, will be the party's lead candidate in the upcoming federal election.",
+   "url": "https://www.dw.com/en/german-conservative-friedrich-merz-to-run-for-chancellor/a-70240130",
+   "urlToImage": "https://static.dw.com/image/70238338_6.jpg",
+   "publishedAt": "2024-09-17T14:06:00Z",
+   "content": "\"We're back on track,\" said Friedrich Merz, the leader of Germany's center-right Christian Democrats (CDU) on Tuesday, after it became clear that he would be the next chancellor candidate for the cen… [+5327 chars]"
+  },
+  {
+   "id": 45,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -632,7 +677,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 43,
+   "id": 46,
    "source": {
     "id": "",
     "name": "Yahoo Entertainment"
@@ -647,7 +692,7 @@
    "content": "NEW YORK (AP) Hours after an apparent attempt on Donald Trump's life over the weekend, Elon Musk took to his social platform X to post a thinking emoji and a comment that no one is even trying to ass… [+7848 chars]"
   },
   {
-   "id": 44,
+   "id": 47,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -662,7 +707,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 45,
+   "id": 48,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -677,7 +722,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 46,
+   "id": 49,
    "source": {
     "id": "breitbart-news",
     "name": "Breitbart News"
@@ -692,7 +737,7 @@
    "content": "On Monday’s broadcast of NPR’s “Morning Edition,” NPR Political Correspondent Danielle Kurtzleben said that “we have weeks until Election Day, and violence can have terrifying knock-on effects.” And … [+1822 chars]"
   },
   {
-   "id": 47,
+   "id": 50,
    "source": {
     "id": "al-jazeera-english",
     "name": "Al Jazeera English"
@@ -707,7 +752,7 @@
    "content": "Ryan W Routh, the 58-year-old man suspected of planning to assassinate Donald Trump, has been charged with two gun-related crimes in federal court a day after being spotted with a rifle on the perime… [+4836 chars]"
   },
   {
-   "id": 48,
+   "id": 51,
    "source": {
     "id": "",
     "name": "The Diplomat"
@@ -722,7 +767,7 @@
    "content": "The recently concluded Lok Sabha election results heralded the return of coalition politics in India as theBharatiya Janata Party (BJP) lost its single-party majority in the Parliament. The BJP falli… [+18540 chars]"
   },
   {
-   "id": 49,
+   "id": 52,
    "source": {
     "id": "",
     "name": "CounterPunch"
@@ -737,7 +782,7 @@
    "content": "“Were effectively run in this country,” J.D. Vance told Tucker Carlson in 2021, “be it the Democrats, be it our corporate oligarchs, by a bunch of childless cat ladies who are miserable at their ownl… [+3098 chars]"
   },
   {
-   "id": 50,
+   "id": 53,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -752,7 +797,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 51,
+   "id": 54,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -767,7 +812,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 52,
+   "id": 55,
    "source": {
     "id": "",
     "name": "Bangkok Post"
@@ -782,7 +827,22 @@
    "content": "PHITSANULOK - Jadet Jantar of the coalition-core Pheu Thai Party won the by-election in constituency 1 on Sunday, beating his only opponent, Nathachanon Chanaburanasak of the opposition People’s Part… [+1256 chars]"
   },
   {
-   "id": 53,
+   "id": 56,
+   "source": {
+    "id": "",
+    "name": "Mediaite"
+   },
+   "author": "Zoe Engels",
+   "title": "Venture Capitalist Bradley Tusk’s $20 Million Bet That Mobile Voting Will Fix Our Broken Politics",
+   "slug": "venture-capitalist-bradley-tusks-20-million-bet-that-mobile-voting-will-fix-our-broken-politics",
+   "description": "Bradley Tusk, a venture capitalist and political consultant who ran Mike Bloomberg's 2009 campaign for mayor of New York, has funneled $20 million of his own money into creating a secure mobile voting app.\nThe post Venture Capitalist Bradley Tusk’s $20 Millio…",
+   "url": "https://www.mediaite.com/politics/venture-capitalist-bradley-tusks-20-million-bet-that-mobile-voting-will-fix-our-broken-politics/",
+   "urlToImage": "https://www.mediaite.com/wp-content/uploads/2024/09/Screenshot-2024-09-17-at-9.45.19-AM.jpg",
+   "publishedAt": "2024-09-17T14:18:05Z",
+   "content": "Bradley Tusk on CNBC\r\nWhat if you could vote for the next president of the United States from your iPhone? Bradley Tusk, a venture capitalist and political consultant who ran Mike Bloomberg’s 2009 ca… [+4112 chars]"
+  },
+  {
+   "id": 57,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -797,7 +857,7 @@
    "content": "As the US election transfixes the world and viral videos about eating cats and dogs flood the internet, there was just one question asked of Kamala Harris that she deftly avoided directly addressing … [+10099 chars]"
   },
   {
-   "id": 54,
+   "id": 58,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -812,7 +872,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 55,
+   "id": 59,
    "source": {
     "id": "",
     "name": "Vanity Fair"
@@ -827,7 +887,7 @@
    "content": "With just 50 days until the next presidential election, politics were top of mind for many stars at the Emmys 2024where voting was a topic of multiple speeches and JD Vance was a frequent punchline.\r… [+2089 chars]"
   },
   {
-   "id": 56,
+   "id": 60,
    "source": {
     "id": "rt",
     "name": "RT"
@@ -842,7 +902,7 @@
    "content": "Republican presidential candidate Donald Trump has vented his displeasure with American singer Taylor Swift after she endorsed his rival, Vice President Kamala Harris.\r\n“I HATE TAYLOR SWIFT!” the for… [+1971 chars]"
   },
   {
-   "id": 57,
+   "id": 61,
    "source": {
     "id": "",
     "name": "The National Interest "
@@ -857,7 +917,7 @@
    "content": "As the U.S. election campaign enters its decisive home stretch, with the candidates now nominated, there will be much focus on how the outcome will impact the wars in Gaza and Ukraine. Wed like to po… [+10154 chars]"
   },
   {
-   "id": 58,
+   "id": 62,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -872,7 +932,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 59,
+   "id": 63,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -887,7 +947,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 60,
+   "id": 64,
    "source": {
     "id": "",
     "name": "Just Jared"
@@ -902,7 +962,7 @@
    "content": "Donald Trump has responded to the apparent assassination attempt that took place on Sunday (September 15) in West Palm Beach, Florida. \r\nThe 78-year-old former president was on a golf course when gun… [+3031 chars]"
   },
   {
-   "id": 61,
+   "id": 65,
    "source": {
     "id": "",
     "name": "Deadline"
@@ -917,7 +977,7 @@
    "content": "It was a tame throwback Sunday at the Emmy Awards tonight with blasts from the past taking center stage in a show seemingly longing for another era.\r\nBesides Hacks unexpected and well deserved Best C… [+5354 chars]"
   },
   {
-   "id": 62,
+   "id": 66,
    "source": {
     "id": "",
     "name": "The Daily Caller"
@@ -932,7 +992,7 @@
    "content": "Three Democratic senators urged the Federal Open Market Committee (FOMC) to aggressively cut its federal funds rate at its September meeting in an effort to jolt the economy as the November president… [+3862 chars]"
   },
   {
-   "id": 63,
+   "id": 67,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -947,7 +1007,7 @@
    "content": "After decades without political violence directed at a presidential candidate from one of the major parties, the US has now experienced this twice in the space of two months - with former president D… [+3486 chars]"
   },
   {
-   "id": 64,
+   "id": 68,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -962,7 +1022,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 65,
+   "id": 69,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -977,7 +1037,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 66,
+   "id": 70,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -992,7 +1052,7 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 67,
+   "id": 71,
    "source": {
     "id": "msnbc",
     "name": "MSNBC"
@@ -1007,7 +1067,7 @@
    "content": "Over the weekend, Ohio senator and vice presidential nominee JD Vance made a stunning and unintentional admission: Hes a liar.\r\nFor more than a week, Vance, former President Donald Trump and many of … [+6174 chars]"
   },
   {
-   "id": 68,
+   "id": 72,
    "source": {
     "id": "",
     "name": "The Conversation Africa"
@@ -1022,7 +1082,22 @@
    "content": "On the afternoon of Sept. 15, Donald Trump was playing golf at the Trump International Golf Club in West Palm Beach, Fla., when he was the target of an alleged second assassination attempt. Secret Se… [+5574 chars]"
   },
   {
-   "id": 69,
+   "id": 73,
+   "source": {
+    "id": "",
+    "name": "Thenation.com"
+   },
+   "author": "Elie Mystal",
+   "title": "How John Roberts Went Full MAGA",
+   "slug": "how-john-roberts-went-full-maga",
+   "description": "Elie Mystal\n\n\n\nA revealing article in The New York Times details how the chief justice put his thumb on the scale for Trump to keep him on the ballot and out of jail.\r\n\n\r\n\n\nThe post How John Roberts Went Full MAGA appeared first on The Nation.",
+   "url": "https://www.thenation.com/article/politics/how-john-roberts-trump-maga/",
+   "urlToImage": "https://www.thenation.com/wp-content/uploads/2024/09/GettyImages-1157214455.jpg",
+   "publishedAt": "2024-09-17T12:11:17Z",
+   "content": "Politics / September 17, 2024\r\nA revealing article in The New York Times details how the chief justice put his thumb on the scale for Trump to keep him on the ballot and out of jail.\r\nAd Policy\r\nForm… [+9829 chars]"
+  },
+  {
+   "id": 74,
    "source": {
     "id": "",
     "name": "Gwern.net"
@@ -1037,7 +1112,7 @@
    "content": "anxiety, depression, writing psychology\r\nA discussion of why I dont intend to turn Gwern.net into a book, and how trying to write a book can harm writers.\r\nAlong with asking about doing podcasts, peo… [+16436 chars]"
   },
   {
-   "id": 70,
+   "id": 75,
    "source": {
     "id": "",
     "name": "Independent.ie"
@@ -1052,7 +1127,7 @@
    "content": "Happy party members who gathered at last weeks event had only one thing on their minds: the election\r\nThey say a week is a long time in politics. But a year? Well, thats an eternity.\r\nTake last years… [+108 chars]"
   },
   {
-   "id": 71,
+   "id": 76,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -1067,7 +1142,7 @@
    "content": "In late August, a tense exchange was caught on camera between Canadian Prime Minister Justin Trudeau and a local steel worker in northern Ontario.\r\nAs Trudeau reached out for a handshake, the worker … [+5905 chars]"
   },
   {
-   "id": 72,
+   "id": 77,
    "source": {
     "id": "",
     "name": "Juancole.com"
@@ -1082,7 +1157,7 @@
    "content": "By Seána Glennon, LUniversité dOttawa/University of Ottawa\u0026lt; | - \r\nDonald Trump has flip-flopped on the issue of abortion for decades, from declaring himself very pro-choice in the 1990s and pro-li… [+5736 chars]"
   },
   {
-   "id": 73,
+   "id": 78,
    "source": {
     "id": "",
     "name": "Naturalnews.com"
@@ -1097,7 +1172,7 @@
    "content": "Dave Yost, the attorney general of Ohio, is fuming mad at the mainstream media for ignoring what he described as evidence showing that Haitian migrants are swarming Springfield to steal and feast on … [+3663 chars]"
   },
   {
-   "id": 74,
+   "id": 79,
    "source": {
     "id": "",
     "name": "Independent.ie"
@@ -1112,7 +1187,7 @@
    "content": "Happy party members who gathered at last weeks event had only one thing on their minds: the election\r\nThey say a week is a long time in politics. But a year? Well, thats an eternity.\r\nTake last years… [+108 chars]"
   },
   {
-   "id": 75,
+   "id": 80,
    "source": {
     "id": "",
     "name": "International Business Times"
@@ -1127,7 +1202,7 @@
    "content": "President Andres Manuel Lopez Obrador on Sunday signed into law controversial judicial reforms making Mexico the world's only country to elect all its judges by popular vote.\r\nThe outgoing leftist ch… [+2707 chars]"
   },
   {
-   "id": 76,
+   "id": 81,
    "source": {
     "id": "",
     "name": "Rogerebert.com"
@@ -1142,7 +1217,7 @@
    "content": "In the Toronto International Film Festivals documentary section, stories about fighting for ones beliefs, dreams, and survival sit side-by-side on the schedule. From near and afar, cameras give the a… [+7120 chars]"
   },
   {
-   "id": 77,
+   "id": 82,
    "source": {
     "id": "",
     "name": "Forbes"
@@ -1157,7 +1232,7 @@
    "content": "Former President Donald Trump alleged Monday the suspected assassination attempt against him a day earlier was the direct result of the rhetoric of Biden and Harris, as Republicans have seized on the… [+4064 chars]"
   },
   {
-   "id": 78,
+   "id": 83,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -1172,7 +1247,7 @@
    "content": "The panel, which consisted of Republican former presidential candidate Vivek Ramaswamy, U.S. Rep. Tim Walberg (R-Tipton), Republican National Committeewoman Hima Kolanagireddy, Michigan Senate Minori… [+9509 chars]"
   },
   {
-   "id": 79,
+   "id": 84,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -1187,7 +1262,7 @@
    "content": "A family battle over the future of Rupert Murdoch's media empire including most of Australia's capital city newspapers has begun in a court in the US state of Nevada.\r\nThe Australian-turned-American … [+6313 chars]"
   },
   {
-   "id": 80,
+   "id": 85,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -1202,7 +1277,7 @@
    "content": "A growing number of Trump critics are speaking out as Trump casts blame on Vice President Kamala Harris even as bomb threats target the town where he falsely claimed Haitian immigrants are eating pet… [+2196 chars]"
   },
   {
-   "id": 81,
+   "id": 86,
    "source": {
     "id": "",
     "name": "Littlesis.org"
@@ -1217,7 +1292,7 @@
    "content": "There has been growing criticism of the American Israel Public Affairs Committee (AIPAC), the powerful pro-Israel lobbying operation that is spending record amounts to unseat elected officials who cr… [+14401 chars]"
   },
   {
-   "id": 82,
+   "id": 87,
    "source": {
     "id": "",
     "name": "Vanity Fair"
@@ -1232,7 +1307,7 @@
    "content": "Its a Sunday during football season, so this is usually where wed be telling you about singer Taylor Swifts arrival at a football stadium, where shell ascend to a glassed-in box above the seats to wa… [+4871 chars]"
   },
   {
-   "id": 83,
+   "id": 88,
    "source": {
     "id": "",
     "name": "Nakedcapitalism.com"
@@ -1247,7 +1322,7 @@
    "content": "Yves here. While it might seem that Larry Summers has finally faded from public life, think again! Wikipedia reports that Summers joined the board of OpenAI in November 2023. And one can be sure he’d… [+10029 chars]"
   },
   {
-   "id": 84,
+   "id": 89,
    "source": {
     "id": "al-jazeera-english",
     "name": "Al Jazeera English"
@@ -1262,7 +1337,7 @@
    "content": "Tehran, Iran Iranian President Masoud Pezeshkian has now been in office for a month and a half in one of the most eventful and tumultuous starting periods for a president since the countrys 1979 revo… [+8811 chars]"
   },
   {
-   "id": 85,
+   "id": 90,
    "source": {
     "id": "",
     "name": "Teen Vogue"
@@ -1277,7 +1352,7 @@
    "content": "The class of 2024 was not yet in high school when the COVID-19 pandemic pushed them into isolation and online schooling. Since then, these seniors, along with the rest of Gen-Z, have witnessed other … [+3657 chars]"
   },
   {
-   "id": 86,
+   "id": 91,
    "source": {
     "id": "newsweek",
     "name": "Newsweek"
@@ -1292,7 +1367,7 @@
    "content": "The U.S. Senate is set to vote Tuesday on a bill aimed at enshrining in vitro fertilization (IVF) as a nationwide right.\r\nThe bill is expected to fail again after the law was rejected in June by Repu… [+3904 chars]"
   },
   {
-   "id": 87,
+   "id": 92,
    "source": {
     "id": "",
     "name": "Slate Magazine"
@@ -1307,7 +1382,7 @@
    "content": "On Sunday, New York Times reporters Jodi Kantor and Adam Liptak published a blockbuster article about the conservative justices efforts to shield Donald Trump from any consequences for his efforts to… [+9915 chars]"
   },
   {
-   "id": 88,
+   "id": 93,
    "source": {
     "id": "",
     "name": "The Cut"
@@ -1320,81 +1395,6 @@
    "urlToImage": "https://pyxis.nymag.com/v1/imgs/746/a17/14d4f0816a5c6273a90698aa06c239662c-higid.1x.rsocial.w1200.jpg",
    "publishedAt": "2024-09-16T16:02:02Z",
    "content": "CNN anchor Dana Bash has been making headlines all summer. She co-moderated the June presidential debate between Joe Biden and Donald Trump that ultimately led the president to drop out of the 2024 r… [+9864 chars]"
-  },
-  {
-   "id": 89,
-   "source": {
-    "id": "",
-    "name": "Japan Today"
-   },
-   "author": "",
-   "title": "Takaichi tops Kyodo poll of LDP supporters as most fit to be Japan PM",
-   "slug": "takaichi-tops-kyodo-poll-of-ldp-supporters-as-most-fit-to-be-japan-pm",
-   "description": "Former economic security minister Sanae Takaichi is viewed by 27.7 percent of Liberal Democratic Party supporters as most suitable to be Japan's next prime minister, a Kyodo News poll showed Monday, two weeks ahead of the party's presidential election. Takaic…",
-   "url": "https://japantoday.com/category/politics/Takaichi-tops-Kyodo-poll-of-LDP-supporters-as-most-fit-to-be-Japan-PM",
-   "urlToImage": "",
-   "publishedAt": "2024-09-16T21:35:07Z",
-   "content": "Former economic security minister Sanae Takaichi is viewed by 27.7 percent of Liberal Democratic Party supporters as most suitable to be Japan's next prime minister, a Kyodo News poll showed Monday, … [+3346 chars]"
-  },
-  {
-   "id": 90,
-   "source": {
-    "id": "",
-    "name": "Japan Today"
-   },
-   "author": "",
-   "title": "Takaichi tops Kyodo poll of LDP supporters as most fit to be Japan PM",
-   "slug": "takaichi-tops-kyodo-poll-of-ldp-supporters-as-most-fit-to-be-japan-pm",
-   "description": "Former economic security minister Sanae Takaichi is viewed by 27.7 percent of Liberal Democratic Party supporters as most suitable to be Japan's next prime minister, a Kyodo News poll showed Monday, two weeks ahead of the party's presidential election. Takaic…",
-   "url": "https://japantoday.com/category/politics/Takaichi-tops-poll-of-LDP-supporters-as-most-fit-to-be-Japan-PM",
-   "urlToImage": "",
-   "publishedAt": "2024-09-16T21:44:19Z",
-   "content": "Former economic security minister Sanae Takaichi is viewed by 27.7 percent of Liberal Democratic Party supporters as most suitable to be Japan's next prime minister, a Kyodo News poll showed Monday, … [+3346 chars]"
-  },
-  {
-   "id": 91,
-   "source": {
-    "id": "",
-    "name": "Japan Today"
-   },
-   "author": "",
-   "title": "Ex-PM Noda top choice to lead Japan's main opposition party: poll",
-   "slug": "ex-pm-noda-top-choice-to-lead-japans-main-opposition-party-poll",
-   "description": "Former Prime Minister Yoshihiko Noda is the top choice to lead the main opposition Constitutional Democratic Party of Japan, a Kyodo News poll of party supporters and lawmakers showed Monday, ahead of its leadership vote on Sept 23. Four candidates are vying …",
-   "url": "https://japantoday.com/category/politics/ex-pm-noda-top-choice-to-lead-japan%27s-main-opposition-party-poll",
-   "urlToImage": "",
-   "publishedAt": "2024-09-16T21:35:42Z",
-   "content": "Former Prime Minister Yoshihiko Noda is the top choice to lead the main opposition Constitutional Democratic Party of Japan, a Kyodo News poll of party supporters and lawmakers showed Monday, ahead o… [+2197 chars]"
-  },
-  {
-   "id": 92,
-   "source": {
-    "id": "",
-    "name": "The Conversation Africa"
-   },
-   "author": "Seána Glennon, Postdoctoral Fellow, Constitutional Law, L’Université d’Ottawa/University of Ottawa",
-   "title": "Trump’s abortion flip-flops: Lessons from Ireland on why reasons-based access to abortion doesn’t work",
-   "slug": "trumps-abortion-flip-flops-lessons-from-ireland-on-why-reasons-based-access-to-abortion-doesnt-work",
-   "description": "Abortion rights issues could decide the U.S. presidential election. Here’s what Ireland did wrong, and how voters successfully demanded a dramatic change in course for women’s health care.",
-   "url": "https://theconversation.com/trumps-abortion-flip-flops-lessons-from-ireland-on-why-reasons-based-access-to-abortion-doesnt-work-238934",
-   "urlToImage": "https://images.theconversation.com/files/619410/original/file-20240915-16-631kf9.jpg?ixlib=rb-4.1.0\u0026rect=49%2C742%2C5513%2C2756\u0026q=45\u0026auto=format\u0026w=1356\u0026h=668\u0026fit=crop",
-   "publishedAt": "2024-09-16T14:17:00Z",
-   "content": "Donald Trump has flip-flopped on the issue of abortion for decades, from declaring himself very pro-choice in the 1990s and pro-life in 2011 to hinting this year that hed support a national abortion … [+6025 chars]"
-  },
-  {
-   "id": 93,
-   "source": {
-    "id": "new-york-magazine",
-    "name": "New York Magazine"
-   },
-   "author": "Chas Danner",
-   "title": "Has Donald Trump Finally Given Up on Taylor Swift?",
-   "slug": "has-donald-trump-finally-given-up-on-taylor-swift",
-   "description": "Donald Trump now says ‘I HATE TAYLOR SWIFT!’ — but looking back at his clearly complicated feelings about the star who really doesn’t love him, it’s probably just a pose.",
-   "url": "http://nymag.com/intelligencer/article/does-donald-trump-really-hate-taylor-swift.html",
-   "urlToImage": "https://pyxis.nymag.com/v1/imgs/279/ed9/b37fa38ac3016994f563e787ed0e9c7077-donald-trump-lv.1x.rsocial.w1200.jpg",
-   "publishedAt": "2024-09-15T17:18:20Z",
-   "content": "Its been very clear for a very long time that Donald Trump has some complicated feelings about Taylor Swift. On one hand, the former president has quite obviously and openly pined for the pop megasta… [+2783 chars]"
   }
  ]
 }

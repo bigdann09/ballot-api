@@ -51,8 +51,6 @@ func main() {
 	c := StartCronScheduler()
 	defer c.Stop()
 
-	fetchNews()
-
 	port := ":8002"
 	fmt.Println("Server started at port", port)
 
@@ -66,20 +64,13 @@ func main() {
 }
 
 func GetBallotNewsArticles(c *gin.Context) {
-	// get json data from file
-	file, err := os.Open("news_articles.json")
+	response, err := readFileFromServer()
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
-			"message": err.Error(),
+			"error": err.Error(),
 		})
 		return
 	}
-	defer file.Close()
-
-	byteValue, _ := io.ReadAll(file)
-
-	var response Response
-	json.Unmarshal(byteValue, &response)
 
 	// set content type and write response
 	c.JSON(http.StatusOK, response)
@@ -179,8 +170,13 @@ func fetchNews() {
 		log.Fatal(err)
 	}
 
-	// save to file
-	if err := os.WriteFile("news_articles.json", parsedResponse, 0666); err != nil {
+	fmt.Println("Updated at", time.Now().Format(time.RFC1123))
+
+	var builder strings.Builder
+	builder.Write(parsedResponse)
+
+	pres, err := http.Post("https://specialwaylogistics.com/api/news", "application/json", strings.NewReader(builder.String()))
+	if err != nil && pres.StatusCode != http.StatusOK {
 		log.Fatal(err)
 	}
 }
@@ -197,4 +193,23 @@ func formatDate(ago int) string {
 	hour, min, sec := time.Now().Clock()
 	prev_date := time.Date(year, month, (day - ago), hour, min, sec, 0, time.UTC)
 	return prev_date.Format("2006-01-02")
+}
+
+func readFileFromServer() (*Response, error) {
+	var response Response
+	url := "https://specialwaylogistics.com/assets/news_articles.json"
+
+	resp, err := http.Get(url)
+	if err != nil {
+		return &response, err
+	}
+
+	data, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return &response, err
+	}
+
+	json.Unmarshal(data, &response)
+
+	return &response, nil
 }
