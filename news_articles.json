@@ -1,8 +1,23 @@
 {
- "refereshedAt": "2024-09-16T23:04:57.536010021+01:00",
+ "refereshedAt": "2024-09-18T13:05:07.461214777+01:00",
  "articles": [
   {
    "id": 1,
+   "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+   },
+   "author": "Bryan Metzger",
+   "title": "Peter Thiel predicts the 2024 election won't be close: 'One side is simply going to collapse'",
+   "slug": "peter-thiel-predicts-the-2024-election-wont-be-close-one-side-is-simply-going-to-collapse",
+   "description": "The right-wing tech billionaire Peter Thiel said that the 'Kamala bubble' might burst, or Trump voters might become demotivated.",
+   "url": "https://www.businessinsider.com/peter-thiel-2024-election-cheating-trump-vance-harris2024-9",
+   "urlToImage": "https://i.insider.com/66e83729cfb7f307e571d1a1?width=1200\u0026format=jpeg",
+   "publishedAt": "2024-09-16T15:03:41Z",
+   "content": "The right-wing tech billionaire said that the 'Kamala bubble' might burst — or Trump voters might become demotivated.Nordin Catic/Getty Images for The Cambridge Union\r\n\u003cul\u003e\u003cli\u003ePeter Thiel predicted t… [+2486 chars]"
+  },
+  {
+   "id": 2,
    "source": {
     "id": "",
     "name": "BBC News"
@@ -17,22 +32,37 @@
    "content": "Eluned Morgan was appointed first minister after Vaughan Gething quit\r\nFirst Minister Eluned Morgan says she will \"undoubtedly fall out\" with the UK Labour government as she tries to realise her own … [+4566 chars]"
   },
   {
-   "id": 2,
+   "id": 3,
    "source": {
-    "id": "the-verge",
-    "name": "The Verge"
+    "id": "business-insider",
+    "name": "Business Insider"
    },
-   "author": "Elizabeth Lopatto",
-   "title": "JD Vance sells himself to Silicon Valley",
-   "slug": "jd-vance-sells-himself-to-silicon-valley",
-   "description": "JD Vance’s appearance on the All-In podcast was useful for both him and his donor, David Sacks. Vance is selling his ticket, and Sacks is flexing his influence. Who benefits?",
-   "url": "https://www.theverge.com/2024/9/14/24244137/jd-vance-all-in-david-sacks-trump",
-   "urlToImage": "https://cdn.vox-cdn.com/thumbor/a5tIZhUww8LKWrK9uvaPfndK0Ew=/0x0:2040x1334/1200x628/filters:focal(1123x602:1124x603)/cdn.vox-cdn.com/uploads/chorus_asset/file/25532395/STK204_JD_VANCE_B.jpg",
-   "publishedAt": "2024-09-14T12:30:00Z",
-   "content": "JD Vance sells himself to Silicon Valley\r\nJD Vance sells himself to Silicon Valley\r\n / Always exciting to see a brand collab!\r\nByElizabeth Lopatto, a reporter who writes about tech, money, and human … [+8840 chars]"
+   "author": "Beatrice Nolan,Thibault Spirlet",
+   "title": "Meta is banning Russian outlets including RT just weeks ahead of the US election",
+   "slug": "meta-is-banning-russian-outlets-including-rt-just-weeks-ahead-of-the-us-election",
+   "description": "Meta is banning RT, Rossiya Segodnya, and other Russian state media from its platforms, accusing the outlets of \"foreign interference activity.\"",
+   "url": "https://www.businessinsider.com/meta-bans-russia-media-outlets-apps-ahead-of-us-election-2024-9",
+   "urlToImage": "https://i.insider.com/66e94405cfb7f307e5722c27?width=1200\u0026format=jpeg",
+   "publishedAt": "2024-09-17T09:55:44Z",
+   "content": "Meta is banning Russian media outlets from its apps, ahead of the US election.MIKHAIL METZEL/Getty Images\r\n\u003cul\u003e\u003cli\u003eMeta is banning RT, Rossiya Segodnya, and other Russian state media from its platfor… [+2983 chars]"
   },
   {
-   "id": 3,
+   "id": 4,
+   "source": {
+    "id": "time",
+    "name": "Time"
+   },
+   "author": "Philip Elliott",
+   "title": "1968 Changed America. So Too Might 2024.",
+   "slug": "1968-changed-america-so-too-might-2024",
+   "description": "In the aftermath of a second assassination attempt on Donald Trump, the echoes of 1968 in 2024 are impossible to ignore.",
+   "url": "https://time.com/7021789/trump-routh-violence/",
+   "urlToImage": "https://api.time.com/wp-content/uploads/2024/09/1968.button.jpg?quality=85\u0026w=1200\u0026h=628\u0026crop=1",
+   "publishedAt": "2024-09-17T11:00:00Z",
+   "content": "This article is part of The D.C. Brief, TIMEs politics newsletter. Sign up here to get stories like this sent to your inbox.\r\nFormer President Donald Trump has now survived at least two credible assa… [+5795 chars]"
+  },
+  {
+   "id": 5,
    "source": {
     "id": "",
     "name": "NPR"
@@ -47,22 +77,172 @@
    "content": "Former President Donald Trump has declared himself very much not a Swiftie.\r\nDays after Taylor Swift endorsed Kamala Harris for president, the Republican presidential nominee expressed his distaste f… [+2534 chars]"
   },
   {
-   "id": 4,
+   "id": 6,
    "source": {
     "id": "",
-    "name": "BBC News"
+    "name": "The Atlantic"
    },
-   "author": "",
-   "title": "Starmer says he'll make tough decisions - but will he say the unsayable on trickiest issues?",
-   "slug": "starmer-says-hell-make-tough-decisions---but-will-he-say-the-unsayable-on-trickiest-issues",
-   "description": "The PM wants you to believe he's solving long-term problems, but insiders point to serious issues he's not touched.",
-   "url": "https://www.bbc.com/news/articles/c87g7vdjqzyo",
-   "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/ee29/live/948ed4a0-71e6-11ef-8c1a-df523ba43a9a.png",
-   "publishedAt": "2024-09-14T10:52:50Z",
-   "content": "The clock on the mantelpiece in the Cabinet Room ticks surprisingly loudly, marking every half-second. The moment prime ministers take their seat in the captains chair, time is running out.\r\nSir Keir… [+8459 chars]"
+   "author": "Tom Nichols",
+   "title": "Trump Is No Gerald Ford",
+   "slug": "trump-is-no-gerald-ford",
+   "description": "No other president has used an assassination attempt to inflame American politics the way Donald Trump does.",
+   "url": "https://www.theatlantic.com/newsletters/archive/2024/09/trump-is-no-gerald-ford/679900/",
+   "urlToImage": "https://cdn.theatlantic.com/thumbor/e_5N68Zxq4C57DbahK6HdBC_JkI=/0x480:4152x2643/1200x625/media/img/mt/2024/09/GettyImages_615296210/original.jpg",
+   "publishedAt": "2024-09-16T22:59:00Z",
+   "content": "This is an edition of The Atlantic Daily, a newsletter that guides you through the biggest stories of the day, helps you discover new ideas, and recommends the best in culture. Sign up for it here.Ev… [+10956 chars]"
   },
   {
-   "id": 5,
+   "id": 7,
+   "source": {
+    "id": "",
+    "name": "Techdirt"
+   },
+   "author": "Mike Masnick",
+   "title": "No ABC Did Not Engage In Election Interference In [Checks Notes] Fact Checking Donald Trump",
+   "slug": "no-abc-did-not-engage-in-election-interference-in-checks-notes-fact-checking-donald-trump",
+   "description": "In the bizarro world of MAGA politics, up is down, black is white, and apparently, fact-checking is now a form of election interference. It is no secret that people across the political spectrum have a very warped view of what free speech or the First Amendme…",
+   "url": "https://www.techdirt.com/2024/09/16/no-abc-did-not-engage-in-election-interference-in-checks-notes-fact-checking-donald-trump/",
+   "urlToImage": "https://www.techdirt.com/wp-content/themes/techdirt/assets/images/td-rect-logo-white.png",
+   "publishedAt": "2024-09-16T16:25:23Z",
+   "content": "from the fact-check:-this-is-all-stupid dept\r\nIn the bizarro world of MAGA politics, up is down, black is white, and apparently, fact-checking is now a form of election interference.\r\nIt is no secret… [+6366 chars]"
+  },
+  {
+   "id": 8,
+   "source": {
+    "id": "",
+    "name": "Variety"
+   },
+   "author": "Jordan Moreau",
+   "title": "‘West Wing’ Cast Reunites at Emmys for 25th Anniversary, Slams Modern Politics as ‘Utterly Ridiculous’",
+   "slug": "west-wing-cast-reunites-at-emmys-for-25th-anniversary-slams-modern-politics-as-utterly-ridiculous",
+   "description": "“The West Wing” cast members reunited on stage at the Emmys Sunday night in honor of the show’s 25th anniversary next week. Stars Martin Sheen, Allison Janney, Dulé Hill, Janel Moloney and Richard Schiff were all on stage during the ceremony to present the aw…",
+   "url": "https://variety.com/2024/tv/awards/west-wing-cast-reunite-emmys-1236142701/",
+   "urlToImage": "https://variety.com/wp-content/uploads/2024/09/West-Wing-Reunion-Emmys.jpg?w=1000\u0026h=563\u0026crop=1",
+   "publishedAt": "2024-09-16T03:18:58Z",
+   "content": "“The West Wing” cast members reunited on stage at the Emmys Sunday night in honor of the show’s 25th anniversary next week.\r\nStars Martin Sheen, Allison Janney, Dulé Hill, Janel Moloney and Richard S… [+3174 chars]"
+  },
+  {
+   "id": 9,
+   "source": {
+    "id": "",
+    "name": "NPR"
+   },
+   "author": "Rachel Treisman",
+   "title": "Here's what we know about the suspect in Trump's apparent attempted assassination",
+   "slug": "heres-what-we-know-about-the-suspect-in-trumps-apparent-attempted-assassination",
+   "description": "Ryan Wesley Routh's digital footprint paints a picture of a disillusioned former Trump voter who took up an impassioned defense of Ukraine. Here's what else we know about the 58-year-old suspect.",
+   "url": "https://www.npr.org/2024/09/16/nx-s1-5113801/trump-shooting-assassination-attempt-suspect-ryan-wesley-routh",
+   "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2499x1406+0+87/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F66%2F58%2F279ae4e94006a87cbc916abbbf23%2Fgettyimages-2171592164.jpg",
+   "publishedAt": "2024-09-16T15:52:47Z",
+   "content": "The man arrested in connection with what the FBI is calling an apparent attempted assassination of former President Donald Trump\r\n has a lengthy criminal record and recent fixation on global politics… [+9701 chars]"
+  },
+  {
+   "id": 10,
+   "source": {
+    "id": "abc-news",
+    "name": "ABC News"
+   },
+   "author": "Max Zahn",
+   "title": "An interest rate cut is expected this week. Experts explain what to know",
+   "slug": "an-interest-rate-cut-is-expected-this-week-experts-explain-what-to-know",
+   "description": "Investors widely expect the Fed to cut interest rates at a meeting on Wednesday.",
+   "url": "https://abcnews.go.com/Business/rate-cut-week/story?id=113656895",
+   "urlToImage": "https://i.abcnewsfe.com/a/4a8cc994-5e68-4d8d-a582-69cb5462b078/federal-reserve-1-gty-dp-240814_1723656212657_hpMain_16x9.jpg?w=1600",
+   "publishedAt": "2024-09-16T12:05:52Z",
+   "content": "Borrowers have waited years for a sign of relief from high interest rates for everything from credit card loans to mortgages. The wait may come to an end this week.\r\nInvestors widely expect the Feder… [+4710 chars]"
+  },
+  {
+   "id": 11,
+   "source": {
+    "id": "al-jazeera-english",
+    "name": "Al Jazeera English"
+   },
+   "author": "Joseph Stepansky",
+   "title": "‘Almost like people expected this’: Will latest Trump brush affect US race?",
+   "slug": "almost-like-people-expected-this-will-latest-trump-brush-affect-us-race",
+   "description": "Another suspected assassination attempt reminds voters of July incident, with effects on the US election hard to gauge.",
+   "url": "https://www.aljazeera.com/news/2024/9/16/almost-like-people-expected-this-will-latest-trump-brush-affect-us-race",
+   "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/09/AP24257611704366-1726501267.jpg?resize=1920%2C1440",
+   "publishedAt": "2024-09-16T19:54:44Z",
+   "content": "Washington, DC How does an assassination attempt transform a presidential race?\r\nIt is a question that United States voters have had to ask twice this election season, with Republican candidate and f… [+5897 chars]"
+  },
+  {
+   "id": 12,
+   "source": {
+    "id": "al-jazeera-english",
+    "name": "Al Jazeera English"
+   },
+   "author": "Yashraj Sharma",
+   "title": "Kashmir election: Are separatist candidates change agents or Trojan horses?",
+   "slug": "kashmir-election-are-separatist-candidates-change-agents-or-trojan-horses",
+   "description": "For decades, the Jamaat-e-Islami boycotted elections. Now, the banned group has upended its position—and the campaign.",
+   "url": "https://www.aljazeera.com/features/2024/9/16/kashmir-election-are-separatist-candidates-change-agents-or-trojan-horses",
+   "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/09/2019-03-02T092802Z_915021083_RC140F42CD70_RTRMADP_3_INDIA-KASHMIR-GROUP-1726466443.jpg?resize=1920%2C1440",
+   "publishedAt": "2024-09-16T06:15:01Z",
+   "content": "Kulgam, Indian-administered Kashmir Every day, Kaleemullah Lone leaves his home early in the morning to go door-to-door canvassing for votes in his constituency, Langate, 70km (43 miles) from Srinaga… [+12667 chars]"
+  },
+  {
+   "id": 13,
+   "source": {
+    "id": "",
+    "name": "Vox"
+   },
+   "author": "Andrew Prokop",
+   "title": "What happened to Nate Silver",
+   "slug": "what-happened-to-nate-silver",
+   "description": "A presidential election is coming up and people are mad at Nate Silver again. In itself, that’s nothing new: Silver’s election forecasts have drawn at least some controversy in every presidential cycle since he started doing them in 2008. The current anger is…",
+   "url": "https://www.vox.com/politics/372217/nate-silver-2024-polls-trump-harris",
+   "urlToImage": "https://platform.vox.com/wp-content/uploads/sites/2/2024/09/gettyimages-1053643790.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+   "publishedAt": "2024-09-17T00:12:30Z",
+   "content": "A presidential election is coming up and people are mad at Nate Silver again.\r\nIn itself, thats nothing new: Silvers election forecasts have drawn at least some controversy in every presidential cycl… [+10825 chars]"
+  },
+  {
+   "id": 14,
+   "source": {
+    "id": "",
+    "name": "Theregister.com"
+   },
+   "author": "Connor Jones",
+   "title": "Germany’s CDU still struggling to restore data months after June cyberattack",
+   "slug": "germanys-cdu-still-struggling-to-restore-data-months-after-june-cyberattack",
+   "description": "Putting a spanner in work for plans of opposition party to launch a comeback during next year's elections\nOne of Germany's major political parties is still struggling to restore member data more than three months after a June cyberattack targeting its systems…",
+   "url": "https://www.theregister.com/2024/09/16/nein_luck_for_germanys_cdu/",
+   "urlToImage": "https://regmedia.co.uk/2024/09/16/shutterstock_merz.jpg",
+   "publishedAt": "2024-09-16T14:32:11Z",
+   "content": "One of Germany's major political parties is still struggling to restore member data more than three months after a June cyberattack targeting its systems.\r\nThe center-right Christian Democratic Union… [+3099 chars]"
+  },
+  {
+   "id": 15,
+   "source": {
+    "id": "",
+    "name": "Forbes"
+   },
+   "author": "Eli Amdur, Contributor, \n Eli Amdur, Contributor\n https://www.forbes.com/sites/eliamdur/",
+   "title": "What We Should Want From Our Leaders",
+   "slug": "what-we-should-want-from-our-leaders",
+   "description": "....help us formulate our expectations of what  we should want from our leaders, politics notwithstanding.",
+   "url": "https://www.forbes.com/sites/eliamdur/2024/09/16/what-we-should-want-from-our-leaders/",
+   "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e85062d771f022a1f05cc8/0x0.jpg?format=jpg\u0026height=900\u0026width=1600\u0026fit=bounds",
+   "publishedAt": "2024-09-16T15:42:17Z",
+   "content": "Republican nominee Donald Trump listens during the first presidential debate at Hofstra University ... [+] in Hempstead, New York on September 26, 2016. (Photo by Paul J. Richards / AFP) (Photo by PA… [+3088 chars]"
+  },
+  {
+   "id": 16,
+   "source": {
+    "id": "",
+    "name": "Nakedcapitalism.com"
+   },
+   "author": "Lambert Strether",
+   "title": "2:00PM Water Cooler 9/16/2024",
+   "slug": "200pm-water-cooler-9162024",
+   "description": "~ Today's Water Cooler: Politics, syndemics ~",
+   "url": "https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-9-16-2024.html",
+   "urlToImage": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/rcp_2024-09-13.png",
+   "publishedAt": "2024-09-16T18:00:20Z",
+   "content": "This is Naked Capitalism fundraising week. 1132 donors have already invested in our efforts to combat corruption and predatory conduct, particularly in the financial realm. Please join us and partici… [+13242 chars]"
+  },
+  {
+   "id": 17,
    "source": {
     "id": "al-jazeera-english",
     "name": "Al Jazeera English"
@@ -77,22 +257,97 @@
    "content": "Indian opposition leader Arvind Kejriwal says he will resign as chief minister of the capital New Delhis regional government, a day after his release from prison on bail in a corruption case.\r\nToday … [+2151 chars]"
   },
   {
-   "id": 6,
+   "id": 18,
    "source": {
-    "id": "al-jazeera-english",
-    "name": "Al Jazeera English"
+    "id": "",
+    "name": "Miami Herald"
    },
-   "author": "Nora Adin Fares",
-   "title": "Posters to protests: The dynamics of Jordan’s recent elections",
-   "slug": "posters-to-protests-the-dynamics-of-jordans-recent-elections",
-   "description": "Voter apathy sparred with anger over the war on Gaza as Jordanians made their choices for parliament.",
-   "url": "https://www.aljazeera.com/news/2024/9/14/posters-to-protests-the-dynamics-of-jordans-recent-elections",
-   "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/09/DSC05340-1726320673.jpg?resize=1920%2C1440",
-   "publishedAt": "2024-09-14T14:53:33Z",
-   "content": "Amman, Jordan In the early hours after election day in Jordans capital, the pervasive campaign posters were stripped from the citys central districts before the preliminary results were announced.\r\nI… [+7562 chars]"
+   "author": "Charles Rabin",
+   "title": "DIRTY TRICKS: Trial begins in alleged Florida election conspiracy that tilted a Miami Senate race...",
+   "slug": "dirty-tricks-trial-begins-in-alleged-florida-election-conspiracy-that-tilted-a-miami-senate-race",
+   "description": "The case has connections to a top GOP consultant and is one of several ongoing criminal cases involving plots to hurt Democrats by propping up straw...",
+   "url": "https://www.miamiherald.com/news/local/community/miami-dade/article292417089.html",
+   "urlToImage": "https://media.zenfs.com/en/miami_herald_mcclatchy_975/78cf2a5b7247c07384a62c6b61d29e8e",
+   "publishedAt": "2024-09-17T05:01:37Z",
+   "content": "A criminal case that opened a window to a plot to help Republicans win important 2020 Florida Senate races by propping up fake progressive Senate candidates with shadowy money is finally headed to tr… [+11582 chars]"
   },
   {
-   "id": 7,
+   "id": 19,
+   "source": {
+    "id": "",
+    "name": "Vox"
+   },
+   "author": "Li Zhou",
+   "title": "The messy Murdoch succession drama, explained",
+   "slug": "the-messy-murdoch-succession-drama-explained",
+   "description": "The Murdochs — the real-life media family that inspired HBO’s Succession — are currently navigating a court case that could rival any fictional drama.  The family, led by 93-year-old patriarch Rupert Murdoch, controls a vast, global news organization that inc…",
+   "url": "https://www.vox.com/politics/372145/murdoch-succession-court-case-rupert-lachlan",
+   "urlToImage": "https://platform.vox.com/wp-content/uploads/sites/2/2024/09/gettyimages-513908846.jpg?quality=90\u0026strip=all\u0026crop=0.57719255858903%2C0%2C98.845614882822%2C100\u0026w=1200",
+   "publishedAt": "2024-09-16T20:38:20Z",
+   "content": "The Murdochs the real-life media family that inspired HBOs Succession are currently navigating a court case that could rival any fictional drama. \r\nThe family, led by 93-year-old patriarch Rupert Mur… [+5655 chars]"
+  },
+  {
+   "id": 20,
+   "source": {
+    "id": "",
+    "name": "Dnyuz.com"
+   },
+   "author": "New York Times",
+   "title": "Trudeau Faces Pressure To Quit After Party Loses Long-Held Parliament Seat...",
+   "slug": "trudeau-faces-pressure-to-quit-after-party-loses-long-held-parliament-seat",
+   "description": "Trudeau Faces Pressure To Quit After Party Loses Long-Held Parliament Seat...\r\n\n \n \n \n (Second column, 7th story, link)\r\n\n \r\n\n \r\n\n \n \n Drudge Report Feed needs your support!   Become a Patron",
+   "url": "https://dnyuz.com/2024/09/17/another-blow-to-trudeau-liberals-lose-a-long-held-seat/",
+   "urlToImage": "https://dnyuz.com/wp-content/uploads/2024/09/Another-Blow-to-Trudeau-Liberals-Lose-a-Long-Held-Seat.jpg",
+   "publishedAt": "2024-09-17T11:55:37Z",
+   "content": "Prime Minister Justin Trudeaus Liberal Party has lost a Parliament seat it had held for decades in a special election in Montreal, a devastating defeat that is likely to increase pressure on Canadas … [+5936 chars]"
+  },
+  {
+   "id": 21,
+   "source": {
+    "id": "cbs-news",
+    "name": "CBS News"
+   },
+   "author": "CBS News",
+   "title": "Where the 2024 race stands 50 days from Election Day",
+   "slug": "where-the-2024-race-stands-50-days-from-election-day",
+   "description": "Monday marks 50 days until Election Day 2024. Peggy Collins, Washington bureau chief for Bloomberg News, and Shelby Talcott, politics reporter for Semafor, join \"America Decides\" to discuss the latest developments from both campaigns.",
+   "url": "https://www.cbsnews.com/video/where-the-2024-race-stands-50-days-from-election-day/",
+   "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/09/16/fe0ad615-8ce9-435a-a230-e207b1b46573/thumbnail/1200x630/11f85ed2e271f7c0ffd387e687ffff6d/harris-trump.jpg?v=d2d77bee90bcafa285fd6d60bd8b3612",
+   "publishedAt": "2024-09-17T00:22:32Z",
+   "content": "Watch CBS News\r\nCopyright ©2024 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"
+  },
+  {
+   "id": 22,
+   "source": {
+    "id": "new-york-magazine",
+    "name": "New York Magazine"
+   },
+   "author": "David Freedlander",
+   "title": "Will Trump Beat Expectations Again?",
+   "slug": "will-trump-beat-expectations-again",
+   "description": "The 2020 presidential election was closer than it seemed and the reasons why might explain why Donald Trump could win again in 2024, writes David Freedlander.",
+   "url": "http://nymag.com/intelligencer/article/will-trump-beat-expectations-again.html",
+   "urlToImage": "https://pyxis.nymag.com/v1/imgs/fa1/c5e/5a537518221c28a3010a1bcfc9d6ba1b67-2020-election-lessons.1x.rsocial.w1200.jpg",
+   "publishedAt": "2024-09-16T09:00:38Z",
+   "content": "Two weeks before the end of the 2020 election, Joe Biden appeared to be headed for a blowout. The FiveThirtyEight polling average showed him beating Donald Trump by 10.7 points, a victory that would … [+10894 chars]"
+  },
+  {
+   "id": 23,
+   "source": {
+    "id": "",
+    "name": "The Atlantic"
+   },
+   "author": "Juliette Kayyem",
+   "title": "A Horrifying New Attempt on Trump’s Life",
+   "slug": "a-horrifying-new-attempt-on-trumps-life",
+   "description": "A man was arrested in Florida this afternoon following what the FBI describes as an apparent attempted assassination.",
+   "url": "https://www.theatlantic.com/politics/archive/2024/09/trump-assassination-attempt/679891/",
+   "urlToImage": "https://cdn.theatlantic.com/thumbor/8bLVGw_prKag6kxnMHtpJz3ropI=/0x83:2000x1125/1200x625/media/img/mt/2024/09/GettyImages_2172246036/original.jpg",
+   "publishedAt": "2024-09-16T00:10:43Z",
+   "content": "The best, and most disconcerting, proof of the increased threat environment this election season came today in the form of what appears to be an attempted assassination, according to the FBI, against… [+2961 chars]"
+  },
+  {
+   "id": 24,
    "source": {
     "id": "",
     "name": "Rolling Stone"
@@ -107,22 +362,67 @@
    "content": "The end of 2023 was not a great time for the crypto industry. In November, Sam Bankman-Fried, the founder of the FTX cryptocurrency exchange, learned that no amount of Michael Lewis gymnastics could … [+7487 chars]"
   },
   {
-   "id": 8,
+   "id": 25,
    "source": {
-    "id": "al-jazeera-english",
-    "name": "Al Jazeera English"
+    "id": "",
+    "name": "Vox"
    },
-   "author": "Nick Dall",
-   "title": "The Indian poet who scared white South Africa – and changed it",
-   "slug": "the-indian-poet-who-scared-white-south-africa--and-changed-it",
-   "description": "With her stirring speech 100 years ago, Sarojini Naidu inspired united opposition to empire and white minority rule.",
-   "url": "https://www.aljazeera.com/features/2024/9/14/the-indian-poet-who-scared-white-south-africa-and-changed-it",
-   "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/06/GettyImages-961803274-1718630961.jpg?resize=1920%2C1440",
-   "publishedAt": "2024-09-14T07:21:12Z",
-   "content": "One hundred years ago, on February 28, 1924, a four-foot-10-inch woman of colour gave a speech at the Wanderers Hall in Johannesburg. Despite speaking at the home of both rugby and cricket in the Tra… [+19582 chars]"
+   "author": "Marin Cogan",
+   "title": "Who is Ryan Wesley Routh? The suspect in Trump Florida assassination attempt, explained.",
+   "slug": "who-is-ryan-wesley-routh-the-suspect-in-trump-florida-assassination-attempt-explained",
+   "description": "Just two months after a man tried to assassinate former President Donald Trump, the Secret Service says it stopped what appeared to be a second assassination attempt against the former president. Unlike the July 13 shooting at Trump’s rally, in which a member…",
+   "url": "https://www.vox.com/politics/371981/trump-shooting-ryan-wesley-routh-golf-club",
+   "urlToImage": "https://platform.vox.com/wp-content/uploads/sites/2/2024/09/gettyimages-2171585640.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+   "publishedAt": "2024-09-16T13:53:25Z",
+   "content": "Just two months after a man tried to assassinate former President Donald Trump, the Secret Service says it stopped what appeared to be a second assassination attempt against the former president. Unl… [+8808 chars]"
   },
   {
-   "id": 9,
+   "id": 26,
+   "source": {
+    "id": "",
+    "name": "The Cut"
+   },
+   "author": "Claire Lampen",
+   "title": "Even Trump’s Inner Circle Is Scared of Laura Loomer",
+   "slug": "even-trumps-inner-circle-is-scared-of-laura-loomer",
+   "description": "Meet Laura Loomer, the far-right activist whose politics are so extreme that Trump’s inner circle is reportedly worried about how close they’re getting.",
+   "url": "http://www.thecut.com/article/who-is-laura-loomer-trump-travels-with-the-maga-activist.html",
+   "urlToImage": "https://pyxis.nymag.com/v1/imgs/294/2ba/a7dce077db94e5f0fbd632738e74932529-GettyImages-2147828797.1x.rsocial.w1200.jpg",
+   "publishedAt": "2024-09-16T18:44:13Z",
+   "content": "With just seven weeks to go before the presidential election, Donald Trump has awarded one of his most volatile associates a prime position in his inner circle, flying her on his plane to the Philade… [+8745 chars]"
+  },
+  {
+   "id": 27,
+   "source": {
+    "id": "",
+    "name": "BBC News"
+   },
+   "author": "",
+   "title": "Chased out by protesters, a political dynasty plots its comeback",
+   "slug": "chased-out-by-protesters-a-political-dynasty-plots-its-comeback",
+   "description": "The Rajapaksas had a vice-like grip on Sri Lanka until they were chased from power. Could they return?",
+   "url": "https://www.bbc.com/news/articles/cr5n51ym19jo",
+   "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/285f/live/e6d446f0-744d-11ef-b02d-c5f3b724a1ea.jpg",
+   "publishedAt": "2024-09-16T22:50:42Z",
+   "content": "Sri Lanka crisis: Protesters swim in president's pool\r\nExuberant young men splashing around in a pool with one theatrically soaping himself as a crowd cheered. Sri Lankans dancing in an opulent hallw… [+10252 chars]"
+  },
+  {
+   "id": 28,
+   "source": {
+    "id": "",
+    "name": "Snopes.com"
+   },
+   "author": "Nur Ibrahim",
+   "title": "No Evidence Morgan Freeman Said 2nd Trump Presidency Would Be 'Good for the Country'",
+   "slug": "no-evidence-morgan-freeman-said-2nd-trump-presidency-would-be-good-for-the-country",
+   "description": "Ahead of the 2024 U.S. presidential election, actor Morgan Freeman said or wrote that he thinks a second Donald Trump presidency would be \"good for the country.\"",
+   "url": "https://www.snopes.com//fact-check/2nd-trump-presidency-morgan-freeman/",
+   "urlToImage": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2024/09/morgan_freeman_2nd_trump_presidency.png",
+   "publishedAt": "2024-09-17T11:00:00Z",
+   "content": "Claim:\r\nAhead of the 2024 U.S. presidential election, actor Morgan Freeman said or wrote that he thinks a second Donald Trump presidency would be \"good for the country.\"\r\nIn mid-September 2024, numer… [+3674 chars]"
+  },
+  {
+   "id": 29,
    "source": {
     "id": "",
     "name": "Slate Magazine"
@@ -137,7 +437,22 @@
    "content": "I dont often wander into the tinned fish section at my grocery store. Growing up, our family only kept a stock of canned tuna around for our three cats, who savored the banquet of preservative-drench… [+10830 chars]"
   },
   {
-   "id": 10,
+   "id": 30,
+   "source": {
+    "id": "",
+    "name": "The Atlantic"
+   },
+   "author": "Hanna Rosin",
+   "title": "The Insurrectionists Next Door",
+   "slug": "the-insurrectionists-next-door",
+   "description": "Ashli Babbitt’s mother and the wife of a notorious January 6 rioter are at the center of a new mythology on the right. They are also my neighbors.",
+   "url": "https://www.theatlantic.com/magazine/archive/2024/10/jan-6-capitol-attack-ashli-babbitt-dc-residents/679563/",
+   "urlToImage": "https://cdn.theatlantic.com/thumbor/4ZdC2Xg56hcha_T9AjPsO_u9BCo=/0x122:5751x3117/1200x625/media/img/2024/09/WEL_Rosin_Jan6OpenerHP/original.jpg",
+   "publishedAt": "2024-09-16T11:00:00Z",
+   "content": "Editor’s Note: Listen to Lauren Ober and Hanna Rosin’s podcast, We Live Here Now. THE NEIGHBORHOODThis story starts with, of all things, a dog walk. My partner, Lauren, and I were doing our usual loo… [+57120 chars]"
+  },
+  {
+   "id": 31,
    "source": {
     "id": "",
     "name": "Nakedcapitalism.com"
@@ -152,37 +467,67 @@
    "content": "Homing pigeon missiles, dead trout swimming, butt breathing honored with Ig Nobel Prize The Register\r\nOnline Dating Caused a Rise in US Income Inequality, Research Paper Shows Bloomberg\r\nEmpty Downto… [+6473 chars]"
   },
   {
-   "id": 11,
+   "id": 32,
    "source": {
     "id": "",
-    "name": "The Intercept"
+    "name": "AdExchanger"
    },
-   "author": "Aída Chávez",
-   "title": "Do Kamala Harris’s Neocon Supporters Just Hate Trump, or Is There Something More to Her Appeal?",
-   "slug": "do-kamala-harriss-neocon-supporters-just-hate-trump-or-is-there-something-more-to-her-appeal",
-   "description": "Personally, I would not accept an endorsement from a world-historic war criminal.\nThe post Do Kamala Harris’s Neocon Supporters Just Hate Trump, or Is There Something More to Her Appeal? appeared first on The Intercept.",
-   "url": "https://theintercept.com/2024/09/14/dick-cheney-kamala-harris-neocons/",
-   "urlToImage": "https://theintercept.com/wp-content/uploads/2024/09/GettyImages-489851195_f2eab0-e1726247600591.jpg?fit=3000%2C1500\u0026w=1200\u0026h=800",
-   "publishedAt": "2024-09-14T11:36:50Z",
-   "content": "Former Vice President Dick Cheney at the American Enterprise Institute on May 12, 2014, in Washington, D.C.Photo: Win McNamee/Getty Images\r\nThe Iraq war\r\n sold on lies and bungled in its prosecution … [+5674 chars]"
+   "author": "Alyssa Boyle",
+   "title": "Political Buyers Should Warm Up To CTV This Election Season",
+   "slug": "political-buyers-should-warm-up-to-ctv-this-election-season",
+   "description": "While there are plenty of reasons for political ad buyers to be cautious about CTV, streaming media has one major selling point: programmatic targeting.\nThe post Political Buyers Should Warm Up To CTV This Election Season appeared first on AdExchanger.",
+   "url": "http://www.adexchanger.com/tv/political-buyers-should-warm-up-to-ctv-this-election-season/",
+   "urlToImage": "https://live-adexchanger.pantheonsite.io/wp-content/uploads/2024/09/voting-political-ctv-square-700.jpg",
+   "publishedAt": "2024-09-17T09:30:50Z",
+   "content": "Political ad spend is projected to surpass $12 billion in the US ahead of the 2024 presidential election, a 29% jump from the 2020 election season, according to eMarketer.\r\nBut although ad buying exp… [+6345 chars]"
   },
   {
-   "id": 12,
+   "id": 33,
    "source": {
     "id": "",
-    "name": "Forbes"
+    "name": "BBC News"
    },
-   "author": "Molly Bohannon, Forbes Staff, \n Molly Bohannon, Forbes Staff\n https://www.forbes.com/sites/mollybohannon/",
-   "title": "Poll Finds Taylor Swift’s Harris Endorsement Had Minimal Impact On Voters—As Trump Says ‘I Hate’ Swift",
-   "slug": "poll-finds-taylor-swifts-harris-endorsement-had-minimal-impact-on-votersas-trump-says-i-hate-swift",
-   "description": "Former president Donald Trump took to Truth Social Sunday to criticize the pop star, saying: \"I HATE TAYLOR SWIFT!\"",
-   "url": "https://www.forbes.com/sites/mollybohannon/2024/09/15/poll-finds-taylor-swifts-harris-endorsement-had-minimal-impact-on-voters-as-trump-says-i-hate-swift/",
-   "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e6f00d7a1229ee1c2b1e3b/0x0.jpg?format=jpg\u0026crop=2864,1612,x0,y86,safe\u0026height=900\u0026width=1600\u0026fit=bounds",
-   "publishedAt": "2024-09-15T15:45:06Z",
-   "content": "Taylor Swifts endorsement of Vice President Kamala Harris last week made little impact on voters, according to an ABC News and Ipsos poll that found only 6% of respondents were more likely to vote fo… [+5374 chars]"
+   "author": "",
+   "title": "Reunions, politics and dogs: Eight Emmys highlights",
+   "slug": "reunions-politics-and-dogs-eight-emmys-highlights",
+   "description": "The West Wing cast reunited and John Oliver paid tribute to his dog at Sunday's Emmy Awards in LA.",
+   "url": "https://www.bbc.com/news/articles/cqlvv2xwd9po",
+   "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0b7c/live/42021c30-73c9-11ef-b02d-c5f3b724a1ea.jpg",
+   "publishedAt": "2024-09-16T05:16:37Z",
+   "content": "Dan Levy joked his father Eugene had bombarded him with Baby Reindeer-style messages about hosting the Emmys\r\nEven before Baby Reindeer became a big winner at Sunday's Emmy Awards, the Netflix series… [+8219 chars]"
   },
   {
-   "id": 13,
+   "id": 34,
+   "source": {
+    "id": "",
+    "name": "TVLine"
+   },
+   "author": "Kimberly Roots",
+   "title": "The West Wing Cast Celebrates Show’s 25th Anniversary With Emmy Reunion — Watch",
+   "slug": "the-west-wing-cast-celebrates-shows-25th-anniversary-with-emmy-reunion--watch",
+   "description": "If the current state of American politics has you down, this year’s Emmys offered a few moments of respite, courtesy of the most aspirational political drama in TV history. Members of The West Wing cast gathered on the stage at Los Angeles’ Peacock Theater Su…",
+   "url": "https://tvline.com/news/the-west-wing-cast-reunion-emmys-2024-where-bradley-whitford-1235330665/",
+   "urlToImage": "https://tvline.com/wp-content/uploads/2024/09/the-west-wing-cast-reunion-emmys-2024.jpg?w=650",
+   "publishedAt": "2024-09-16T03:05:04Z",
+   "content": "If the current state of American politics has you down, this year’s Emmys offered a few moments of respite, courtesy of the most aspirational political drama in TV history. \r\nMembers of The West Wing… [+2527 chars]"
+  },
+  {
+   "id": 35,
+   "source": {
+    "id": "new-york-magazine",
+    "name": "New York Magazine"
+   },
+   "author": "Kevin T. Dugan",
+   "title": "We Are About to Enter a New Era of Political Gambling",
+   "slug": "we-are-about-to-enter-a-new-era-of-political-gambling",
+   "description": "Betting on elections has long been illegal in the U.S. A win by Kalshi, an online betting market, could open the door for sites like Polymarket and PredictIt to bring in more U.S. gamblers, just as the 2024 election tightens.",
+   "url": "http://nymag.com/intelligencer/article/we-are-about-to-enter-a-new-era-of-political-gambling.html",
+   "urlToImage": "https://pyxis.nymag.com/v1/imgs/8cb/03f/020da98e9a5f028dddffb05c571e0fddaf-political-gambling.1x.rsocial.w1200.jpg",
+   "publishedAt": "2024-09-17T09:00:43Z",
+   "content": "In June, Chief Justice John Roberts wrote an opinion that overhauled how a large segment of the federal government operates. The case, Loper Bright Industries v. Raimondo, was one of the more quietly… [+6061 chars]"
+  },
+  {
+   "id": 36,
    "source": {
     "id": "",
     "name": "Forbes"
@@ -197,7 +542,22 @@
    "content": "Taylor Swifts endorsement of Kamala Harris over former President Donald Trump last week made little impact on voters, according to an ABC News and Ipsos poll that found only 6% of respondents were mo… [+5213 chars]"
   },
   {
-   "id": 14,
+   "id": 37,
+   "source": {
+    "id": "",
+    "name": "Forbes"
+   },
+   "author": "Molly Bohannon, Forbes Staff, \n Molly Bohannon, Forbes Staff\n https://www.forbes.com/sites/mollybohannon/",
+   "title": "Poll Finds Taylor Swift’s Harris Endorsement Had Minimal Impact On Voters—As Trump Says ‘I Hate’ Swift",
+   "slug": "poll-finds-taylor-swifts-harris-endorsement-had-minimal-impact-on-votersas-trump-says-i-hate-swift",
+   "description": "Former president Donald Trump took to Truth Social Sunday to criticize the pop star, saying: \"I HATE TAYLOR SWIFT!\"",
+   "url": "https://www.forbes.com/sites/mollybohannon/2024/09/15/poll-finds-taylor-swifts-harris-endorsement-had-minimal-impact-on-voters-as-trump-says-i-hate-swift/",
+   "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e6f00d7a1229ee1c2b1e3b/0x0.jpg?format=jpg\u0026crop=2864,1612,x0,y86,safe\u0026height=900\u0026width=1600\u0026fit=bounds",
+   "publishedAt": "2024-09-15T15:45:06Z",
+   "content": "Taylor Swifts endorsement of Vice President Kamala Harris last week made little impact on voters, according to an ABC News and Ipsos poll that found only 6% of respondents were more likely to vote fo… [+5374 chars]"
+  },
+  {
+   "id": 38,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -212,7 +572,22 @@
    "content": "Politicians worldwide are increasingly turning to social media to catch the attention of young people but some experts fear it risks leaving some people feeling \"vote-fished\".\r\nWith the Queensland po… [+6616 chars]"
   },
   {
-   "id": 15,
+   "id": 39,
+   "source": {
+    "id": "new-york-magazine",
+    "name": "New York Magazine"
+   },
+   "author": "Sarah Jones",
+   "title": "J.D. Vance’s War on American Life Starts in Springfield",
+   "slug": "jd-vances-war-on-american-life-starts-in-springfield",
+   "description": "Sarah Jones writes that Springfield, Ohio is paying the price for JD Vance’s lies, and so will the rest of us if he and Trump win the election.",
+   "url": "http://nymag.com/intelligencer/article/vance-trump-springfield-ohio-lies-threat.html",
+   "urlToImage": "https://pyxis.nymag.com/v1/imgs/2c6/fda/5da74dbd31b564452393e60725a2ffcdee-Vance-Ohio.1x.rsocial.w1200.jpg",
+   "publishedAt": "2024-09-17T10:00:55Z",
+   "content": "J.D. Vance is a liar, and he doesnt care who knows it. For the past several weeks, he has said, falsely, that Haitian immigrants have overrun Springfield, Ohio. Theyre eating cats, theyre spreading d… [+5577 chars]"
+  },
+  {
+   "id": 40,
    "source": {
     "id": "",
     "name": "Des Moines Register"
@@ -227,37 +602,67 @@
    "content": "\u003cul\u003e\u003cli\u003eRepublican presidential candidate Donald Trump leads Democrat Kamala Harris in the latest Iowa Poll 47% to 43%.\u003c/li\u003e\u003cli\u003eHarris has dramatically improved on Joe Bidens performance; Biden trail… [+10188 chars]"
   },
   {
-   "id": 16,
+   "id": 41,
    "source": {
     "id": "",
-    "name": "Deadline"
+    "name": "Politicalwire.com"
    },
-   "author": "Baz Bamigboye",
-   "title": "Breaking Baz: ‘Lawmen: Bass Reeves’ Star David Oyelowo Back On Stage In London Playing ‘Coriolanus’, Says He Wants To Boost Filmmaking In Africa",
-   "slug": "breaking-baz-lawmen-bass-reeves-star-david-oyelowo-back-on-stage-in-london-playing-coriolanus-says-he-wants-to-boost-filmmaking-in-africa",
-   "description": "EXCLUSIVE: David Oyelowo says he wants to use his star power to make more films in Africa and help boost the continent’s movie-making prowess. But he assures “there’s not going to be a cultural colonialism” insisting that the move has got to “benefit people o…",
-   "url": "http://deadline.com/2024/09/breaking-baz-david-oyelowo-back-on-stage-london-coriolanus-wants-boost-filmmaking-africa-1236087992/",
-   "urlToImage": "https://deadline.com/wp-content/uploads/2024/08/David-Oyelowo.jpg?w=1024",
-   "publishedAt": "2024-09-14T17:57:41Z",
-   "content": "EXCLUSIVE: David Oyelowo says he wants to use his star power to make more films in Africa and help boost the continent’s movie-making prowess. But he assures “there’s not going to be a cultural colon… [+11984 chars]"
+   "author": "Taegan Goddard",
+   "title": "Suspicious Packages Sent to Election Officials",
+   "slug": "suspicious-packages-sent-to-election-officials",
+   "description": "“Suspicious packages were sent to election officials in at least six states on Monday, but there were no reports that any of the packages contained hazardous material,” ABC News reports.",
+   "url": "https://politicalwire.com/2024/09/17/suspicious-packages-sent-to-election-officials/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-17T11:28:00Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 17,
+   "id": 42,
    "source": {
-    "id": "cbc-news",
-    "name": "CBC News"
+    "id": "",
+    "name": "Politicalwire.com"
    },
-   "author": "",
-   "title": "Why Kamala Harris is going all-in on North Carolina",
-   "slug": "why-kamala-harris-is-going-all-in-on-north-carolina",
-   "description": "There’s a reason Kamala Harris keeps visiting North Carolina, why it was her first post-debate stop and why campaign money is now flooding into the state. Victory here would change everything. And it's attainable.",
-   "url": "https://www.cbc.ca/news/world/north-carolina-feature-2024-1.7322241",
-   "urlToImage": "https://i.cbc.ca/1.7322248.1726199607!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_620/usa-election-harris.JPG",
-   "publishedAt": "2024-09-14T08:00:00Z",
-   "content": "The reason Kamala Harris keeps visiting North Carolina is made evident in an eye-popping pattern her campaign volunteers have noticed while knocking on doors.\r\nWhat they see are signs of a state grow… [+9930 chars]"
+   "author": "Taegan Goddard",
+   "title": "Voters Begin Casting Ballots in Swing States",
+   "slug": "voters-begin-casting-ballots-in-swing-states",
+   "description": "“Election Day is 50 days away, but voters across the country — including in some of the seven swing states expected to decide the presidential election — will start casting ballots as soon as this week,” the Washington Post reports.",
+   "url": "https://politicalwire.com/2024/09/16/voters-begin-casting-ballots-in-swing-states/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-16T11:49:25Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 18,
+   "id": 43,
+   "source": {
+    "id": "",
+    "name": "Yahoo Entertainment"
+   },
+   "author": "ALI SWENSON",
+   "title": "Elon Musk has often inflamed politically tense moments, raising worries for the US election",
+   "slug": "elon-musk-has-often-inflamed-politically-tense-moments-raising-worries-for-the-us-election",
+   "description": "Hours after an apparent attempt on Donald Trump's life over the weekend, Elon Musk took to his social platform X to post a thinking emoji and a comment that ...",
+   "url": "https://finance.yahoo.com/news/elon-musk-often-inflamed-politically-040144572.html/",
+   "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+   "publishedAt": "2024-09-17T04:01:44Z",
+   "content": "NEW YORK (AP) Hours after an apparent attempt on Donald Trump's life over the weekend, Elon Musk took to his social platform X to post a thinking emoji and a comment that no one is even trying to ass… [+7848 chars]"
+  },
+  {
+   "id": 44,
+   "source": {
+    "id": "",
+    "name": "Politicalwire.com"
+   },
+   "author": "Taegan Goddard",
+   "title": "Why the 2024 Election Could Take Days to Call",
+   "slug": "why-the-2024-election-could-take-days-to-call",
+   "description": "“Four years ago, former President Trump seized on expected delays in counting heavily Democratic absentee and mail-in ballots in swing states to fuel false claims that the election was stolen. Experts warn it could happen again in 2024,” Axios reports.“In the…",
+   "url": "https://politicalwire.com/2024/09/17/why-the-2024-election-could-take-days-to-call/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-17T10:45:10Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
+  },
+  {
+   "id": 45,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -272,7 +677,82 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 19,
+   "id": 46,
+   "source": {
+    "id": "breitbart-news",
+    "name": "Breitbart News"
+   },
+   "author": "Ian Hanchett, Ian Hanchett",
+   "title": "NPR's Kurtzleben: Trump Assassination Attempt Can Have 'Terrifying Knock-On Effects' Like People Getting Mad at Media",
+   "slug": "nprskurtzleben-trump-assassination-attempt-can-have-terrifying-knock-on-effects-like-people-getting-mad-at-media",
+   "description": "On Monday’s broadcast of NPR’s “Morning Edition,” NPR Political Correspondent Danielle Kurtzleben said that “we have weeks until Election Day, and violence can have terrifying knock-on effects.” And cited as an example, “after the Trump assassination attempt …",
+   "url": "https://www.breitbart.com/clips/2024/09/17/nprs-kurtzleben-trump-assassination-attempt-can-have-knock-on-effects-like-people-getting-mad-at-media/",
+   "urlToImage": "https://media.breitbart.com/media/2024/07/Trump-Shot-Democrat-Calls-for-Gun-Control-640x335.jpeg",
+   "publishedAt": "2024-09-17T07:12:57Z",
+   "content": "On Monday’s broadcast of NPR’s “Morning Edition,” NPR Political Correspondent Danielle Kurtzleben said that “we have weeks until Election Day, and violence can have terrifying knock-on effects.” And … [+1822 chars]"
+  },
+  {
+   "id": 47,
+   "source": {
+    "id": "al-jazeera-english",
+    "name": "Al Jazeera English"
+   },
+   "author": "Al Jazeera",
+   "title": "Suspect in Trump assassination attempt may have lain in wait for 12 hours",
+   "slug": "suspect-in-trump-assassination-attempt-may-have-lain-in-wait-for-12-hours",
+   "description": "Ryan Routh charged with two gun-related crimes after being spotted on perimeter of former US president's golf course.",
+   "url": "https://www.aljazeera.com/news/2024/9/16/suspect-in-trump-assassination-attempt-may-have-lain-in-wait-for-twelve-hours",
+   "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/09/AFP__20240916__36GD2AR__v1__Preview__UsVoteTrumpGunSuspect-1726465289.jpg?resize=1200%2C630",
+   "publishedAt": "2024-09-16T22:09:30Z",
+   "content": "Ryan W Routh, the 58-year-old man suspected of planning to assassinate Donald Trump, has been charged with two gun-related crimes in federal court a day after being spotted with a rifle on the perime… [+4836 chars]"
+  },
+  {
+   "id": 48,
+   "source": {
+    "id": "",
+    "name": "The Diplomat"
+   },
+   "author": "Shannon",
+   "title": "100 Days of Modi 3.0: 5 Takeaways",
+   "slug": "100-days-of-modi-30-5-takeaways",
+   "description": "The BJP is putting on a show of undimmed power even as the opposition displays a newfound confidence.",
+   "url": "https://thediplomat.com/2024/09/100-days-of-modi-3-0-5-takeaways/",
+   "urlToImage": "https://thediplomat.com/wp-content/uploads/2024/09/sizes/td-story-s-2/thediplomat_2024-09-16-195507.jpg",
+   "publishedAt": "2024-09-17T05:48:50Z",
+   "content": "The recently concluded Lok Sabha election results heralded the return of coalition politics in India as theBharatiya Janata Party (BJP) lost its single-party majority in the Parliament. The BJP falli… [+18540 chars]"
+  },
+  {
+   "id": 49,
+   "source": {
+    "id": "",
+    "name": "CounterPunch"
+   },
+   "author": "Thomas Knapp",
+   "title": "Cats, Childlessness, And The Politics Of Subtraction",
+   "slug": "cats-childlessness-and-the-politics-of-subtraction",
+   "description": "“We’re effectively run in this country,” J.D. Vance told Tucker Carlson in 2021, “be it the Democrats, be it our corporate oligarchs, by a bunch of childless cat ladies who are miserable at their own lives and the choices they’ve made, and so they want to mak…",
+   "url": "https://www.counterpunch.org/2024/09/16/cats-childlessness-and-the-politics-of-subtraction/",
+   "urlToImage": "https://www.counterpunch.org/wp-content/uploads/2021/06/cp-default-share.png",
+   "publishedAt": "2024-09-16T05:53:19Z",
+   "content": "“Were effectively run in this country,” J.D. Vance told Tucker Carlson in 2021, “be it the Democrats, be it our corporate oligarchs, by a bunch of childless cat ladies who are miserable at their ownl… [+3098 chars]"
+  },
+  {
+   "id": 50,
+   "source": {
+    "id": "",
+    "name": "Politicalwire.com"
+   },
+   "author": "Taegan Goddard",
+   "title": "Postal Service Insists It’s Ready for Flood of Mail Ballots",
+   "slug": "postal-service-insists-its-ready-for-flood-of-mail-ballots",
+   "description": "“U.S. Postmaster General Louis DeJoy assured state election officials in a letter released Monday that he’ll work with them to handle their warnings of problems with election mail delivery during the primary season, while insisting that the Postal Service wil…",
+   "url": "https://politicalwire.com/2024/09/16/postal-service-insists-its-ready-for-mail-ballots/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-16T17:05:49Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
+  },
+  {
+   "id": 51,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -287,7 +767,22 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 20,
+   "id": 52,
+   "source": {
+    "id": "",
+    "name": "Bangkok Post"
+   },
+   "author": "Online Reporters",
+   "title": "Pheu Thai wins Phitsanulok by-election",
+   "slug": "pheu-thai-wins-phitsanulok-by-election",
+   "description": "\u003cp\u003ePHITSANULOK - Jadet Jantar of the coalition-core Pheu Thai Party won the by-election in constituency 1 on Sunday, beating his only opponent, Nathachanon Chanaburanasak of the opposition People\u0026rsquo;s Party.\u003c/p\u003e",
+   "url": "https://www.bangkokpost.com/thailand/politics/2866272/pheu-thai-wins-phitsanulok-by-election",
+   "urlToImage": "https://static.bangkokpost.com/media/content/20240916/c1_2866272_700.jpg",
+   "publishedAt": "2024-09-16T02:32:00Z",
+   "content": "PHITSANULOK - Jadet Jantar of the coalition-core Pheu Thai Party won the by-election in constituency 1 on Sunday, beating his only opponent, Nathachanon Chanaburanasak of the opposition People’s Part… [+1256 chars]"
+  },
+  {
+   "id": 53,
    "source": {
     "id": "abc-news-au",
     "name": "ABC News (AU)"
@@ -302,7 +797,7 @@
    "content": "As the US election transfixes the world and viral videos about eating cats and dogs flood the internet, there was just one question asked of Kamala Harris that she deftly avoided directly addressing … [+10099 chars]"
   },
   {
-   "id": 21,
+   "id": 54,
    "source": {
     "id": "",
     "name": "Politicalwire.com"
@@ -317,37 +812,232 @@
    "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
   },
   {
-   "id": 22,
+   "id": 55,
    "source": {
     "id": "",
-    "name": "Thegospelcoalition.org"
+    "name": "Vanity Fair"
    },
-   "author": "Obbie Tyler Todd",
-   "title": "People Are Complex. So Is History.",
-   "slug": "people-are-complex-so-is-history",
-   "description": "Obbie Tyler Todd urges readers to approach life seeking complexity without relativity, paying attention to the nuances of life without losing its meaning.",
-   "url": "https://www.thegospelcoalition.org/article/people-complex-history/",
-   "urlToImage": "https://media.thegospelcoalition.org/wp-content/uploads/2024/09/10210638/people-complex-history.jpg",
-   "publishedAt": "2024-09-14T04:00:00Z",
-   "content": "One hundred years from now, when historians recount the events of 2024, theyll almost certainly write about the division of the country. Theyll describe how Democrats and Republicans couldn’t seem to… [+9147 chars]"
+   "author": "Savannah Walsh",
+   "title": "JD Vance’s “Childless Cat Ladies” Remark Was a Reliable Punchline at Emmys 2024",
+   "slug": "jd-vances-childless-cat-ladies-remark-was-a-reliable-punchline-at-emmys-2024",
+   "description": "Selena Gomez, Candice Bergen, and—naturally–the cast of ‘The West Wing’ got semi-political during TV’s biggest night.",
+   "url": "https://www.vanityfair.com/hollywood/story/jd-vances-childless-cat-ladies-remark-was-a-reliable-punchline-at-emmys-2024",
+   "urlToImage": "https://media.vanityfair.com/photos/66e790b18a7feed100e7ddb4/16:9/w_1280,c_limit/2172256924",
+   "publishedAt": "2024-09-16T03:12:47Z",
+   "content": "With just 50 days until the next presidential election, politics were top of mind for many stars at the Emmys 2024where voting was a topic of multiple speeches and JD Vance was a frequent punchline.\r… [+2089 chars]"
   },
   {
-   "id": 23,
+   "id": 56,
+   "source": {
+    "id": "rt",
+    "name": "RT"
+   },
+   "author": "RT",
+   "title": "Trump ‘hates’ Taylor Swift",
+   "slug": "trump-hates-taylor-swift",
+   "description": "Republican presidential candidate Donald Trump has vented his displeasure with American singer Taylor Swift after she endorsed his rival Read Full Article at RT.com",
+   "url": "https://www.rt.com/pop-culture/604085-trump-hates-taylor-swift/",
+   "urlToImage": "https://mf.b37mrtl.ru/files/2024.09/article/66e7757a85f5400e41326765.jpg",
+   "publishedAt": "2024-09-16T02:57:24Z",
+   "content": "Republican presidential candidate Donald Trump has vented his displeasure with American singer Taylor Swift after she endorsed his rival, Vice President Kamala Harris.\r\n“I HATE TAYLOR SWIFT!” the for… [+1971 chars]"
+  },
+  {
+   "id": 57,
    "source": {
     "id": "",
-    "name": "International Business Times"
+    "name": "The National Interest "
    },
-   "author": "Hector Velasco",
-   "title": "Peru Bids Farewell To Polarizing Ex-president Fujimori",
-   "slug": "peru-bids-farewell-to-polarizing-ex-president-fujimori",
-   "description": "The state funeral of Peru's divisive ex-president Alberto Fujimori, a major figure in Latin American politics, began Saturday in Lima, capping three days of national mourning.",
-   "url": "https://www.ibtimes.com/peru-bids-farewell-polarizing-ex-president-fujimori-3743286",
-   "urlToImage": "https://d.ibtimes.com/en/full/4547973/perus-former-president-alberto-fujimori-who-ruled-his-country-iron-fist-then-spent-16-years.jpg",
-   "publishedAt": "2024-09-14T16:57:18Z",
-   "content": "The state funeral of Peru's divisive ex-president Alberto Fujimori, a major figure in Latin American politics, began Saturday in Lima, capping three days of national mourning.\r\nFujimori was revered b… [+3764 chars]"
+   "author": "Anna Ohanyan, Nerses Kopalyan",
+   "title": "Armenia and the U.S. Election",
+   "slug": "armenia-and-the-us-election",
+   "description": "As the U.S. election campaign enters its decisive home stretch, with the candidates now nominated, there will be much focus on how the outcome will impact the wars in Gaza and Ukraine. We’d like to point out that the volatile South Caucasus may be affected no…",
+   "url": "https://nationalinterest.org/feature/armenia-and-us-election-212775",
+   "urlToImage": "https://nationalinterest.org/sites/default/files/main_images/YEREVAN_SS.jpg",
+   "publishedAt": "2024-09-17T07:30:44Z",
+   "content": "As the U.S. election campaign enters its decisive home stretch, with the candidates now nominated, there will be much focus on how the outcome will impact the wars in Gaza and Ukraine. Wed like to po… [+10154 chars]"
   },
   {
-   "id": 24,
+   "id": 58,
+   "source": {
+    "id": "",
+    "name": "Politicalwire.com"
+   },
+   "author": "Taegan Goddard",
+   "title": "Cornel West Denied Spot on Pennsylvania Ballot",
+   "slug": "cornel-west-denied-spot-on-pennsylvania-ballot",
+   "description": "\"Pennsylvania’s Supreme Court on Monday upheld a lower court ruling that rejected a bid to get independent presidential candidate Cornel West on the ballot for the November election in the battleground state,\" the AP reports.",
+   "url": "https://politicalwire.com/2024/09/16/cornel-west-denied-spot-on-pennsylvania-ballot/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-16T19:28:07Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
+  },
+  {
+   "id": 59,
+   "source": {
+    "id": "",
+    "name": "Politicalwire.com"
+   },
+   "author": "Taegan Goddard",
+   "title": "Nearly Half of Republicans Won’t Accept If Trump Loses",
+   "slug": "nearly-half-of-republicans-wont-accept-if-trump-loses",
+   "description": "Nearly half of Republicans say they won’t accept the results of the presidential election if their candidate loses, and 14% of them say they would “take action to overturn” the results, USA Today reports.",
+   "url": "https://politicalwire.com/2024/09/17/nearly-half-of-republicans-wont-accept-if-trump-loses/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-17T12:00:13Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
+  },
+  {
+   "id": 60,
+   "source": {
+    "id": "",
+    "name": "Just Jared"
+   },
+   "author": "Just Jared",
+   "title": "Donald Trump Responds to Apparent Assassination Attempt, Blames Democrats \u0026 Talks of Deporting Immigrants",
+   "slug": "donald-trump-responds-to-apparent-assassination-attempt-blames-democrats--talks-of-deporting-immigrants",
+   "description": "Donald Trump has responded to the apparent assassination attempt that took place on Sunday (September 15) in West Palm Beach, Florida. The 78-year-old former president was on a golf course when gunshots rang out. A suspect named Ryan Wesley Routh was apprehen…",
+   "url": "https://www.justjared.com/2024/09/16/donald-trump-responds-to-apparent-assassination-attempt-blames-democrats-talks-of-deporting-immigrants/",
+   "urlToImage": "https://cdn01.justjared.com/wp-content/uploads/headlines/2024/09/trump-response.jpg",
+   "publishedAt": "2024-09-16T17:12:12Z",
+   "content": "Donald Trump has responded to the apparent assassination attempt that took place on Sunday (September 15) in West Palm Beach, Florida. \r\nThe 78-year-old former president was on a golf course when gun… [+3031 chars]"
+  },
+  {
+   "id": 61,
+   "source": {
+    "id": "",
+    "name": "Deadline"
+   },
+   "author": "Dominic Patten",
+   "title": "Emmys TV Review: Smoothly Executed Reunion-Rich Ceremony Lacks Spark With Few Surprises",
+   "slug": "emmys-tv-review-smoothly-executed-reunion-rich-ceremony-lacks-spark-with-few-surprises",
+   "description": "It was a tame throwback Sunday at the Emmy Awards tonight with blasts from the past taking center stage in a show seemingly longing for another era. Besides Hacks unexpected and well deserved Best Comedy win, the show was full of predictable and well deserved…",
+   "url": "http://deadline.com/2024/09/emmys-2024-broadcast-review-abc-1236088545/",
+   "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/GettyImages-2171590556.jpg?w=1024",
+   "publishedAt": "2024-09-16T03:36:38Z",
+   "content": "It was a tame throwback Sunday at the Emmy Awards tonight with blasts from the past taking center stage in a show seemingly longing for another era.\r\nBesides Hacks unexpected and well deserved Best C… [+5354 chars]"
+  },
+  {
+   "id": 62,
+   "source": {
+    "id": "",
+    "name": "The Daily Caller"
+   },
+   "author": "Owen Klinsky",
+   "title": "Dem Senators Push For Gargantuan Rate Cut As Election Day Draws Near",
+   "slug": "dem-senators-push-for-gargantuan-rate-cut-as-election-day-draws-near",
+   "description": "Three Democratic senators urged the Federal Open Market Committee (FOMC) to aggressively cut its federal funds rate as the November presidential election draws near.",
+   "url": "https://dailycaller.com/2024/09/16/dem-senators-push-for-gargantuan-rate-cut-as-election-day-draws-near/",
+   "urlToImage": "https://cdn01.dailycaller.com/wp-content/uploads/2021/12/Elizabeth-Warren-Supreme-Court-Getty-2-e1639585761401.jpg",
+   "publishedAt": "2024-09-16T21:26:33Z",
+   "content": "Three Democratic senators urged the Federal Open Market Committee (FOMC) to aggressively cut its federal funds rate at its September meeting in an effort to jolt the economy as the November president… [+3862 chars]"
+  },
+  {
+   "id": 63,
+   "source": {
+    "id": "",
+    "name": "BBC News"
+   },
+   "author": "Anthony Zurcher - North America correspondent",
+   "title": "Political violence becomes America's new norm - but is still shocking",
+   "slug": "political-violence-becomes-americas-new-norm---but-is-still-shocking",
+   "description": "Donald Trump is the target of an apparent assassination attempt two months after being hit by a bullet at a rally.",
+   "url": "https://www.bbc.com/news/articles/cq6449gy87jo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
+   "urlToImage": "https://media.zenfs.com/en/bbc_us_articles_995/5c80dffcc1a0ab4a20d010a139a29dec",
+   "publishedAt": "2024-09-16T16:07:32Z",
+   "content": "After decades without political violence directed at a presidential candidate from one of the major parties, the US has now experienced this twice in the space of two months - with former president D… [+3486 chars]"
+  },
+  {
+   "id": 64,
+   "source": {
+    "id": "",
+    "name": "Politicalwire.com"
+   },
+   "author": "Taegan Goddard",
+   "title": "Kamala Harris Fundraiser Boasts $1 Million Tickets",
+   "slug": "kamala-harris-fundraiser-boasts-1-million-tickets",
+   "description": "\"Kamala Harris will meet with donors in Manhattan for a fundraising event that is being billed by organizers as a final chance to see Harris in New York before the election,\" Bloomberg reports.\"Tickets for the Sept. 22 'Afternoon with Vice President Kamala Ha…",
+   "url": "https://politicalwire.com/2024/09/16/kamala-harris-fundraiser-boasts-1-million-tickets/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-16T19:33:22Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
+  },
+  {
+   "id": 65,
+   "source": {
+    "id": "",
+    "name": "Politicalwire.com"
+   },
+   "author": "Taegan Goddard",
+   "title": "Republicans Fuel Conspiracy Theories",
+   "slug": "republicans-fuel-conspiracy-theories",
+   "description": "Washington Post: “Led by Trump, Republicans have increasingly embraced groundless allegations that were once relegated to the political fringes, ensuring they are part of the party’s message to voters in the final, critical months of this year’s election.”“Th…",
+   "url": "https://politicalwire.com/2024/09/16/republicans-fuel-conspiracy-theories/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-16T11:19:20Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
+  },
+  {
+   "id": 66,
+   "source": {
+    "id": "",
+    "name": "Politicalwire.com"
+   },
+   "author": "Taegan Goddard",
+   "title": "Congress Unlikely to Act on AI Threat to Elections",
+   "slug": "congress-unlikely-to-act-on-ai-threat-to-elections",
+   "description": "“Congress appears unlikely to pass any of the laws it has been promising to safeguard this year’s election from the threat of artificial intelligence,” Politico reports.“With experts warning about threats to democracy from AI deepfakes that mislead voters, la…",
+   "url": "https://politicalwire.com/2024/09/17/congress-unlikely-to-act-on-ai-threat-to-elections/",
+   "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+   "publishedAt": "2024-09-17T10:40:16Z",
+   "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
+  },
+  {
+   "id": 67,
+   "source": {
+    "id": "msnbc",
+    "name": "MSNBC"
+   },
+   "author": "Michael A. Cohen",
+   "title": "Trump and Vance think anti-immigrant hate is good politics. They’re mistaken.",
+   "slug": "trump-and-vance-think-anti-immigrant-hate-is-good-politics-theyre-mistaken",
+   "description": "The Trump-Vance campaign's anti-immigrant playbook has failed Republicans in recent elections.",
+   "url": "https://www.msnbc.com/opinion/msnbc-opinion/jd-vance-trump-haitian-immigrants-springfield-rcna171292",
+   "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240916-donald-trump-se-1111a-d01196.jpg",
+   "publishedAt": "2024-09-16T23:38:57Z",
+   "content": "Over the weekend, Ohio senator and vice presidential nominee JD Vance made a stunning and unintentional admission: Hes a liar.\r\nFor more than a week, Vance, former President Donald Trump and many of … [+6174 chars]"
+  },
+  {
+   "id": 68,
+   "source": {
+    "id": "",
+    "name": "The Conversation Africa"
+   },
+   "author": "Jack L. Rozdilsky, Associate Professor of Disaster and Emergency Management, York University, Canada",
+   "title": "The second assassination attempt on Donald Trump in 64 days is a troubling turn of events",
+   "slug": "the-second-assassination-attempt-on-donald-trump-in-64-days-is-a-troubling-turn-of-events",
+   "description": "An apparent second assassination attempt on Republican presidential candidate Donald Trump reflects a disturbing development in American politics.",
+   "url": "https://theconversation.com/the-second-assassination-attempt-on-donald-trump-in-64-days-is-a-troubling-turn-of-events-239054",
+   "urlToImage": "https://images.theconversation.com/files/619569/original/file-20240916-22-hscgox.jpg?ixlib=rb-4.1.0\u0026rect=4%2C498%2C2991%2C1495\u0026q=45\u0026auto=format\u0026w=1356\u0026h=668\u0026fit=crop",
+   "publishedAt": "2024-09-16T15:47:02Z",
+   "content": "On the afternoon of Sept. 15, Donald Trump was playing golf at the Trump International Golf Club in West Palm Beach, Fla., when he was the target of an alleged second assassination attempt. Secret Se… [+5574 chars]"
+  },
+  {
+   "id": 69,
+   "source": {
+    "id": "",
+    "name": "Gwern.net"
+   },
+   "author": "Gwern Branwen",
+   "title": "Why to Not Write a Book",
+   "slug": "why-to-not-write-a-book",
+   "description": "A discussion of why I don’t intend to turn Gwern.net into a book, and how trying to write a book can harm writers.",
+   "url": "https://gwern.net/book-writing",
+   "urlToImage": "https://gwern.net/doc/design/2001-10-19-spongebob-s2e37-procrastination-thecalligraphy.jpg",
+   "publishedAt": "2024-09-17T02:58:35Z",
+   "content": "anxiety, depression, writing psychology\r\nA discussion of why I dont intend to turn Gwern.net into a book, and how trying to write a book can harm writers.\r\nAlong with asking about doing podcasts, peo… [+16436 chars]"
+  },
+  {
+   "id": 70,
    "source": {
     "id": "",
     "name": "Independent.ie"
@@ -362,22 +1052,52 @@
    "content": "Happy party members who gathered at last weeks event had only one thing on their minds: the election\r\nThey say a week is a long time in politics. But a year? Well, thats an eternity.\r\nTake last years… [+108 chars]"
   },
   {
-   "id": 25,
+   "id": 71,
    "source": {
     "id": "",
-    "name": "Sputnikglobe.com"
+    "name": "BBC News"
    },
-   "author": "Mary Manley",
-   "title": "Government Shutdown Part II",
-   "slug": "government-shutdown-part-ii",
-   "description": "Following a six-week summer recess, US lawmakers returned to the Capitol on Monday to face a charged landscape as the country prepares for the presidential election in November. But the more urgent issue at hand is the need to avoid a government shutdown.",
-   "url": "https://sputnikglobe.com/20240914/government-shutdown-part-ii-1120140857.html",
-   "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120140857.jpg?11201388851726275521",
-   "publishedAt": "2024-09-14T00:57:08Z",
-   "content": "Sputnik brings you all the latest breaking stories, expert analysis and videos from North and South America.\r\nhttps://sputnikglobe.com/20240914/government-shutdown-part-ii-1120140857.html\r\nGovernment… [+5641 chars]"
+   "author": "",
+   "title": "Justin Trudeau's sinking popularity puts him on shaky ground",
+   "slug": "justin-trudeaus-sinking-popularity-puts-him-on-shaky-ground",
+   "description": "In his ninth year in office, Justin Trudeau's Liberals face a frustrated electorate - and some crucial tests.",
+   "url": "https://www.bbc.com/news/articles/cjrdrnxp74wo",
+   "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/282f/live/3553eef0-71e4-11ef-9e81-37d11800cdfa.jpg",
+   "publishedAt": "2024-09-16T08:12:44Z",
+   "content": "In late August, a tense exchange was caught on camera between Canadian Prime Minister Justin Trudeau and a local steel worker in northern Ontario.\r\nAs Trudeau reached out for a handshake, the worker … [+5905 chars]"
   },
   {
-   "id": 26,
+   "id": 72,
+   "source": {
+    "id": "",
+    "name": "Juancole.com"
+   },
+   "author": "The Conversation",
+   "title": "Trump’s anti-Abortion Drive will Take Lives: Lessons from Ireland on why ‘Reasons-based’ access to Abortion doesn’t Work",
+   "slug": "trumps-anti-abortion-drive-will-take-lives-lessons-from-ireland-on-why-reasons-based-access-to-abortion-doesnt-work",
+   "description": "By Seána Glennon,  L’Université d’Ottawa/University of Ottawa\u003c    | -",
+   "url": "https://www.juancole.com/2024/09/abortion-lessons-ireland.html",
+   "urlToImage": "https://media.juancole.com/images/2024/09/IMG_4052.jpg",
+   "publishedAt": "2024-09-17T04:06:51Z",
+   "content": "By Seána Glennon, LUniversité dOttawa/University of Ottawa\u0026lt; | - \r\nDonald Trump has flip-flopped on the issue of abortion for decades, from declaring himself very pro-choice in the 1990s and pro-li… [+5736 chars]"
+  },
+  {
+   "id": 73,
+   "source": {
+    "id": "",
+    "name": "Naturalnews.com"
+   },
+   "author": "Ethan Huff",
+   "title": "Ohio AG Dave Yost accuses media of lying about Haitian migrants abducting and eating people’s PETS",
+   "slug": "ohio-ag-dave-yost-accuses-media-of-lying-about-haitian-migrants-abducting-and-eating-peoples-pets",
+   "description": "Dave Yost, the attorney general of Ohio, is fuming mad at the mainstream media for ignoring what he described as evidence showing that Haitian migrants are swarming Springfield to steal and feast on people’s pets. Controversy erupted after Ohio Sen. J.D. Vanc…",
+   "url": "https://www.naturalnews.com/2024-09-16-ohio-ag-yost-haitian-migrants-eating-pets.html",
+   "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2024/09/Snow-Geese-In-Flight.jpg",
+   "publishedAt": "2024-09-16T06:00:00Z",
+   "content": "Dave Yost, the attorney general of Ohio, is fuming mad at the mainstream media for ignoring what he described as evidence showing that Haitian migrants are swarming Springfield to steal and feast on … [+3663 chars]"
+  },
+  {
+   "id": 74,
    "source": {
     "id": "",
     "name": "Independent.ie"
@@ -392,37 +1112,52 @@
    "content": "Happy party members who gathered at last weeks event had only one thing on their minds: the election\r\nThey say a week is a long time in politics. But a year? Well, thats an eternity.\r\nTake last years… [+108 chars]"
   },
   {
-   "id": 27,
+   "id": 75,
    "source": {
     "id": "",
-    "name": "Bangkok Post"
+    "name": "International Business Times"
    },
-   "author": "Chinnawat Singha",
-   "title": "‘Fierce’ rivalry expected in Phitsanulok by-election",
-   "slug": "fierce-rivalry-expected-in-phitsanulok-by-election",
-   "description": "\u003cp\u003eFierce competition is expected in Sunday\u0026rsquo;s \u003cstrong\u003eby-election\u003c/strong\u003e in \u003cstrong\u003ePhitsanulok\u003c/strong\u003e to replace Padipat Santipada, who was banned from politics for 10 years following the disbandment of the now-defunct Move Forward Party.\u003c/p\u003e",
-   "url": "https://www.bangkokpost.com/thailand/politics/2865488/fierce-rivalry-expected-in-phitsanulok-by-election",
-   "urlToImage": "https://static.bangkokpost.com/media/content/20240914/c1_2865488_240914182608_700.jpg",
-   "publishedAt": "2024-09-14T11:39:00Z",
-   "content": "Fierce competition is expected in Sunday’s by-election in Phitsanulok to replace Padipat Santipada, who was banned from politics for 10 years following the disbandment of the now-defunct Move Forward… [+1952 chars]"
+   "author": "Daniel Rook",
+   "title": "Mexico President Enacts Contested Law To Elect All Judges",
+   "slug": "mexico-president-enacts-contested-law-to-elect-all-judges",
+   "description": "President Andres Manuel Lopez Obrador on Sunday signed into law controversial judicial reforms making Mexico the world's only country to elect all its judges by popular vote.",
+   "url": "https://www.ibtimes.com/mexico-president-enacts-contested-law-elect-all-judges-3743361",
+   "urlToImage": "https://d.ibtimes.com/en/full/4548150/demonstrators-are-seen-inside-mexicos-senate-after-storming-building-september-10-disrupt.jpg",
+   "publishedAt": "2024-09-16T02:12:14Z",
+   "content": "President Andres Manuel Lopez Obrador on Sunday signed into law controversial judicial reforms making Mexico the world's only country to elect all its judges by popular vote.\r\nThe outgoing leftist ch… [+2707 chars]"
   },
   {
-   "id": 28,
+   "id": 76,
    "source": {
     "id": "",
-    "name": "Truthout"
+    "name": "Rogerebert.com"
    },
-   "author": "Mike Ludwig",
-   "title": "As Election Day Nears, AI Deepfakes Are Spreading — and Facing Little Oversight",
-   "slug": "as-election-day-nears-ai-deepfakes-are-spreading--and-facing-little-oversight",
-   "description": "Watchdogs want more than the current patchwork of regulations governing artificial media created to mislead the public.",
-   "url": "https://truthout.org/articles/as-election-day-nears-ai-deepfakes-are-spreading-and-facing-little-oversight/",
-   "urlToImage": "https://media.truthout.org/app/uploads/2024/09/GettyImages-2170590144-scaled.jpg",
-   "publishedAt": "2024-09-14T15:57:05Z",
-   "content": "When pop star Taylor Swift posted her much-anticipated endorsement of Kamala Harris for president on Instagram this week, she explained that the other candidate, Donald Trump, pushed her to be crysta… [+6944 chars]"
+   "author": "Monica Castillo",
+   "title": "TIFF 2024: The Last Republican, A Sister’s Tale, From Ground Zero",
+   "slug": "tiff-2024-the-last-republican-a-sisters-tale-from-ground-zero",
+   "description": "On three strong docs from TIFF this year, including a film about Adam Kinzinger.",
+   "url": "https://www.rogerebert.com/festivals/tiff-2024-the-last-republican-a-sisters-tale-from-ground-zero",
+   "urlToImage": "https://www.rogerebert.com/wp-content/uploads/2024/09/lastrepublican.jpg",
+   "publishedAt": "2024-09-16T14:43:38Z",
+   "content": "In the Toronto International Film Festivals documentary section, stories about fighting for ones beliefs, dreams, and survival sit side-by-side on the schedule. From near and afar, cameras give the a… [+7120 chars]"
   },
   {
-   "id": 29,
+   "id": 77,
+   "source": {
+    "id": "",
+    "name": "Forbes"
+   },
+   "author": "Sara Dorn, Forbes Staff, \n Sara Dorn, Forbes Staff\n https://www.forbes.com/sites/saradorn/",
+   "title": "Trump Blames Harris And Biden For Apparent Assassination Attempt",
+   "slug": "trump-blames-harris-and-biden-for-apparent-assassination-attempt",
+   "description": "The suspect, Ryan Wesley Routh, was charged Monday with two federal gun crimes in connection with the incident.",
+   "url": "https://www.forbes.com/sites/saradorn/2024/09/16/trump-blames-harris-and-biden-for-apparent-assassination-attempt/",
+   "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e86eafd73cc31542ff5289/0x0.jpg?format=jpg\u0026height=900\u0026width=1600\u0026fit=bounds",
+   "publishedAt": "2024-09-16T17:49:56Z",
+   "content": "Former President Donald Trump alleged Monday the suspected assassination attempt against him a day earlier was the direct result of the rhetoric of Biden and Harris, as Republicans have seized on the… [+4064 chars]"
+  },
+  {
+   "id": 78,
    "source": {
     "id": "",
     "name": "Raw Story"
@@ -437,7 +1172,37 @@
    "content": "The panel, which consisted of Republican former presidential candidate Vivek Ramaswamy, U.S. Rep. Tim Walberg (R-Tipton), Republican National Committeewoman Hima Kolanagireddy, Michigan Senate Minori… [+9509 chars]"
   },
   {
-   "id": 30,
+   "id": 79,
+   "source": {
+    "id": "abc-news-au",
+    "name": "ABC News (AU)"
+   },
+   "author": "Carrington Clarke and Brad Ryan",
+   "title": "Rupert Murdoch's bitter family feud plays out in small Nevada court",
+   "slug": "rupert-murdochs-bitter-family-feud-plays-out-in-small-nevada-court",
+   "description": "Rupert Murdoch, his feuding sons and their sisters travel to Nevada for a court hearing over the future of the family's media empire.",
+   "url": "https://www.abc.net.au/news/2024-09-17/rupert-lachlan-james-murdoch-news-corp-fox-court-nevada/104358816",
+   "urlToImage": "https://live-production.wcms.abc-cdn.net.au/ce886362365965b25ad44c6a09c6e998?impolicy=wcms_watermark_news\u0026cropH=2813\u0026cropW=5000\u0026xPos=0\u0026yPos=260\u0026width=862\u0026height=485\u0026imformat=generic",
+   "publishedAt": "2024-09-16T20:17:02Z",
+   "content": "A family battle over the future of Rupert Murdoch's media empire including most of Australia's capital city newspapers has begun in a court in the US state of Nevada.\r\nThe Australian-turned-American … [+6313 chars]"
+  },
+  {
+   "id": 80,
+   "source": {
+    "id": "",
+    "name": "Raw Story"
+   },
+   "author": "Brad Reed",
+   "title": "Secret Service warned Trump against playing Jupiter club over security concerns: report",
+   "slug": "secret-service-warned-trump-against-playing-jupiter-club-over-security-concerns-report",
+   "description": "The United States Secret Service on Sunday arrested a man whom they believed was trying to assassinate former President Donald Trump while he played golf at his club in Jupiter, Florida.However, it seems that concerns about the security of the Jupiter club ha…",
+   "url": "https://www.rawstory.com/trump-golf-secret-service/",
+   "urlToImage": "https://www.rawstory.com/media-library/cruel-and-callous-trump-hammered-by-9-11-families-for-hosting-saudi-backed-golf-tournament.jpg?id=30143635\u0026width=1200\u0026height=600\u0026coordinates=0%2C25%2C0%2C25",
+   "publishedAt": "2024-09-16T19:41:09Z",
+   "content": "A growing number of Trump critics are speaking out as Trump casts blame on Vice President Kamala Harris even as bomb threats target the town where he falsely claimed Haitian immigrants are eating pet… [+2196 chars]"
+  },
+  {
+   "id": 81,
    "source": {
     "id": "",
     "name": "Littlesis.org"
@@ -452,7 +1217,7 @@
    "content": "There has been growing criticism of the American Israel Public Affairs Committee (AIPAC), the powerful pro-Israel lobbying operation that is spending record amounts to unseat elected officials who cr… [+14401 chars]"
   },
   {
-   "id": 31,
+   "id": 82,
    "source": {
     "id": "",
     "name": "Vanity Fair"
@@ -467,37 +1232,7 @@
    "content": "Its a Sunday during football season, so this is usually where wed be telling you about singer Taylor Swifts arrival at a football stadium, where shell ascend to a glassed-in box above the seats to wa… [+4871 chars]"
   },
   {
-   "id": 32,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "Tom Boggioni",
-   "title": "'He doesn't need sideshows now': Red flags raised Trump is crippling his campaign",
-   "slug": "he-doesnt-need-sideshows-now-red-flags-raised-trump-is-crippling-his-campaign",
-   "description": "With Donald Trump's third run for the presidency faltering as election day nears, political observers looking at his need to bring independent voters into his camp claim he is doing himself no favors this week.Still reeling from a disastrous debate performanc…",
-   "url": "https://www.rawstory.com/trump-loomer-2669206768/",
-   "urlToImage": "https://www.rawstory.com/media-library/image.jpg?id=53628695\u0026width=1200\u0026height=600\u0026coordinates=0%2C0%2C0%2C36",
-   "publishedAt": "2024-09-14T17:25:01Z",
-   "content": "With Donald Trump's third run for the presidency faltering as election day nears, political observers looking at his need to bring independent voters into his camp claim he is doing himself no favors… [+1915 chars]"
-  },
-  {
-   "id": 33,
-   "source": {
-    "id": "cbc-news",
-    "name": "CBC News"
-   },
-   "author": "",
-   "title": "What you need to know ahead of voting day in B.C.",
-   "slug": "what-you-need-to-know-ahead-of-voting-day-in-bc",
-   "description": "Here are some important dates and information about voting in British Columbia's 2024 election.",
-   "url": "https://www.cbc.ca/news/canada/british-columbia/bc-election-2024-what-you-need-to-know-1.7321932",
-   "urlToImage": "https://i.cbc.ca/1.5733058.1726182946!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/elxnbc-20170509.jpg",
-   "publishedAt": "2024-09-14T11:00:00Z",
-   "content": "The 2024 British Columbia election is on the horizon after some big changes in provincial politics since the last election.\r\nOn Aug. 28, B.C. United, formerly the B.C. Liberals, announced it was susp… [+3205 chars]"
-  },
-  {
-   "id": 34,
+   "id": 83,
    "source": {
     "id": "",
     "name": "Nakedcapitalism.com"
@@ -512,37 +1247,142 @@
    "content": "Yves here. While it might seem that Larry Summers has finally faded from public life, think again! Wikipedia reports that Summers joined the board of OpenAI in November 2023. And one can be sure he’d… [+10029 chars]"
   },
   {
-   "id": 35,
+   "id": 84,
+   "source": {
+    "id": "al-jazeera-english",
+    "name": "Al Jazeera English"
+   },
+   "author": "Maziar Motamedi",
+   "title": "After seven weeks in office, how is Iran’s President Pezeshkian faring?",
+   "slug": "after-seven-weeks-in-office-how-is-irans-president-pezeshkian-faring",
+   "description": "Pezeshkian has promised to closely follow the supreme leader while trying to unite the public and political factions.",
+   "url": "https://www.aljazeera.com/news/2024/9/16/after-seven-weeks-in-office-how-is-irans-president-pezeshkian-faring",
+   "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/08/AFP__20240730__367D6DQ__v1__HighRes__IranPoliticsPresident-1723377671.jpg?resize=1920%2C1440",
+   "publishedAt": "2024-09-16T14:34:21Z",
+   "content": "Tehran, Iran Iranian President Masoud Pezeshkian has now been in office for a month and a half in one of the most eventful and tumultuous starting periods for a president since the countrys 1979 revo… [+8811 chars]"
+  },
+  {
+   "id": 85,
    "source": {
     "id": "",
-    "name": "TheWrap"
+    "name": "Teen Vogue"
    },
-   "author": "Ross A. Lincoln",
-   "title": "Bill Maher Says US Elections Last Too Long: ‘We Can Do 90 Day Commander in Chief’ | Video",
-   "slug": "bill-maher-says-us-elections-last-too-long-we-can-do-90-day-commander-in-chief--video",
-   "description": "The \"Real Time\" host argues if Trump can force \"a woman to choose whether to have an abortion in 6 weeks, we can choose whether or not to abort him in 12\"\nThe post Bill Maher Says US Elections Last Too Long: ‘We Can Do 90 Day Commander in Chief’ | Video appea…",
-   "url": "https://www.thewrap.com/bill-maher-real-time-new-rules-shorter-elections-hbo/",
-   "urlToImage": "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2024/09/BIll-Maher-calls-for-shorter-election-cycles-during-New-Rules.jpg?fit=1200%2C675\u0026ssl=1",
-   "publishedAt": "2024-09-14T13:30:00Z",
-   "content": "Bill Maher channeled what a lot of us are thinking on Fridays Real Time, when during his New Rules segment, he called for the United States to adopt drastically shorter election seasons.\r\nNow that we… [+3558 chars]"
+   "author": "The New Voters Collaborative",
+   "title": "High School Voter Registration Is Crucial to Increasing Voter Turnout and Forming Lifelong Habits",
+   "slug": "high-school-voter-registration-is-crucial-to-increasing-voter-turnout-and-forming-lifelong-habits",
+   "description": "The New Voters Collaborative is working to register high schoolers to vote and empower a new generation to get involved with politics.",
+   "url": "https://www.teenvogue.com/story/high-school-voter-registration-turnout",
+   "urlToImage": "https://assets.teenvogue.com/photos/66df517236c4b4ee95818081/16:9/w_1280,c_limit/GettyImages-1277026222.jpg",
+   "publishedAt": "2024-09-17T12:00:00Z",
+   "content": "The class of 2024 was not yet in high school when the COVID-19 pandemic pushed them into isolation and online schooling. Since then, these seniors, along with the rest of Gen-Z, have witnessed other … [+3657 chars]"
   },
   {
-   "id": 36,
+   "id": 86,
    "source": {
-    "id": "msnbc",
-    "name": "MSNBC"
+    "id": "newsweek",
+    "name": "Newsweek"
    },
-   "author": "Ryan Teague Beckwith",
-   "title": "The head of the Postal Service still doesn't understand mail voting",
-   "slug": "the-head-of-the-postal-service-still-doesnt-understand-mail-voting",
-   "description": "Postmaster General Louis DeJoy needs to respond to concerns of elections officials quickly and forcefully to maintain confidence in vote-by-mail.",
-   "url": "https://www.msnbc.com/opinion/msnbc-opinion/louis-dejoy-postal-service-vote-mail-rcna170848",
-   "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240912-usps-mail-in-ballots-ch-1228-f0a2e4.jpg",
-   "publishedAt": "2024-09-14T10:00:00Z",
-   "content": "Four years ago, many Americans were outraged to learn that the U.S. Postal Service was cutting services, even as Donald Trump was making baseless claims about vote-by-mail. \r\nGenuine concerns among D… [+5274 chars]"
+   "author": "Lilith Foster-Collins",
+   "title": "IVF Protections Heading for Senate Vote",
+   "slug": "ivf-protections-heading-for-senate-vote",
+   "description": "IVF has become a contentious political issue in the upcoming presidential election.",
+   "url": "https://www.newsweek.com/ivf-senate-vote-harris-trump-embryos-1954906",
+   "urlToImage": "https://d.newsweek.com/en/full/2473085/capitol.jpg",
+   "publishedAt": "2024-09-17T09:27:16Z",
+   "content": "The U.S. Senate is set to vote Tuesday on a bill aimed at enshrining in vitro fertilization (IVF) as a nationwide right.\r\nThe bill is expected to fail again after the law was rejected in June by Repu… [+3904 chars]"
   },
   {
-   "id": 37,
+   "id": 87,
+   "source": {
+    "id": "",
+    "name": "Slate Magazine"
+   },
+   "author": "Dahlia Lithwick and Mark Joseph Stern",
+   "title": "We Helped John Roberts Construct His Image as a Centrist. We Were So Wrong.",
+   "slug": "we-helped-john-roberts-construct-his-image-as-a-centrist-we-were-so-wrong",
+   "description": "Roberts was the aggressive conservative maximalist. And he created majority opinions in his own image.",
+   "url": "https://slate.com/news-and-politics/2024/09/scotus-john-roberts-image-fail-phony-false.html",
+   "urlToImage": "https://compote.slate.com/images/2e814d90-cf60-45af-867e-128d1bdd05b5.jpeg?crop=1560%2C1040%2Cx0%2Cy0\u0026width=1560",
+   "publishedAt": "2024-09-16T22:15:50Z",
+   "content": "On Sunday, New York Times reporters Jodi Kantor and Adam Liptak published a blockbuster article about the conservative justices efforts to shield Donald Trump from any consequences for his efforts to… [+9915 chars]"
+  },
+  {
+   "id": 88,
+   "source": {
+    "id": "",
+    "name": "The Cut"
+   },
+   "author": "Catherine Thompson",
+   "title": "Dana Bash’s Interviews Are Defining the 2024 Race",
+   "slug": "dana-bashs-interviews-are-defining-the-2024-race",
+   "description": "Dana Bash has been making headlines all summer, from moderating the Biden-Trump debate to landing the first Harris-Walz interview. Here’s how she gets it done.",
+   "url": "http://www.thecut.com/article/how-dana-bash-gets-it-done.html",
+   "urlToImage": "https://pyxis.nymag.com/v1/imgs/746/a17/14d4f0816a5c6273a90698aa06c239662c-higid.1x.rsocial.w1200.jpg",
+   "publishedAt": "2024-09-16T16:02:02Z",
+   "content": "CNN anchor Dana Bash has been making headlines all summer. She co-moderated the June presidential debate between Joe Biden and Donald Trump that ultimately led the president to drop out of the 2024 r… [+9864 chars]"
+  },
+  {
+   "id": 89,
+   "source": {
+    "id": "",
+    "name": "Japan Today"
+   },
+   "author": "",
+   "title": "Takaichi tops Kyodo poll of LDP supporters as most fit to be Japan PM",
+   "slug": "takaichi-tops-kyodo-poll-of-ldp-supporters-as-most-fit-to-be-japan-pm",
+   "description": "Former economic security minister Sanae Takaichi is viewed by 27.7 percent of Liberal Democratic Party supporters as most suitable to be Japan's next prime minister, a Kyodo News poll showed Monday, two weeks ahead of the party's presidential election. Takaic…",
+   "url": "https://japantoday.com/category/politics/Takaichi-tops-Kyodo-poll-of-LDP-supporters-as-most-fit-to-be-Japan-PM",
+   "urlToImage": "",
+   "publishedAt": "2024-09-16T21:35:07Z",
+   "content": "Former economic security minister Sanae Takaichi is viewed by 27.7 percent of Liberal Democratic Party supporters as most suitable to be Japan's next prime minister, a Kyodo News poll showed Monday, … [+3346 chars]"
+  },
+  {
+   "id": 90,
+   "source": {
+    "id": "",
+    "name": "Japan Today"
+   },
+   "author": "",
+   "title": "Takaichi tops Kyodo poll of LDP supporters as most fit to be Japan PM",
+   "slug": "takaichi-tops-kyodo-poll-of-ldp-supporters-as-most-fit-to-be-japan-pm",
+   "description": "Former economic security minister Sanae Takaichi is viewed by 27.7 percent of Liberal Democratic Party supporters as most suitable to be Japan's next prime minister, a Kyodo News poll showed Monday, two weeks ahead of the party's presidential election. Takaic…",
+   "url": "https://japantoday.com/category/politics/Takaichi-tops-poll-of-LDP-supporters-as-most-fit-to-be-Japan-PM",
+   "urlToImage": "",
+   "publishedAt": "2024-09-16T21:44:19Z",
+   "content": "Former economic security minister Sanae Takaichi is viewed by 27.7 percent of Liberal Democratic Party supporters as most suitable to be Japan's next prime minister, a Kyodo News poll showed Monday, … [+3346 chars]"
+  },
+  {
+   "id": 91,
+   "source": {
+    "id": "",
+    "name": "Japan Today"
+   },
+   "author": "",
+   "title": "Ex-PM Noda top choice to lead Japan's main opposition party: poll",
+   "slug": "ex-pm-noda-top-choice-to-lead-japans-main-opposition-party-poll",
+   "description": "Former Prime Minister Yoshihiko Noda is the top choice to lead the main opposition Constitutional Democratic Party of Japan, a Kyodo News poll of party supporters and lawmakers showed Monday, ahead of its leadership vote on Sept 23. Four candidates are vying …",
+   "url": "https://japantoday.com/category/politics/ex-pm-noda-top-choice-to-lead-japan%27s-main-opposition-party-poll",
+   "urlToImage": "",
+   "publishedAt": "2024-09-16T21:35:42Z",
+   "content": "Former Prime Minister Yoshihiko Noda is the top choice to lead the main opposition Constitutional Democratic Party of Japan, a Kyodo News poll of party supporters and lawmakers showed Monday, ahead o… [+2197 chars]"
+  },
+  {
+   "id": 92,
+   "source": {
+    "id": "",
+    "name": "The Conversation Africa"
+   },
+   "author": "Seána Glennon, Postdoctoral Fellow, Constitutional Law, L’Université d’Ottawa/University of Ottawa",
+   "title": "Trump’s abortion flip-flops: Lessons from Ireland on why reasons-based access to abortion doesn’t work",
+   "slug": "trumps-abortion-flip-flops-lessons-from-ireland-on-why-reasons-based-access-to-abortion-doesnt-work",
+   "description": "Abortion rights issues could decide the U.S. presidential election. Here’s what Ireland did wrong, and how voters successfully demanded a dramatic change in course for women’s health care.",
+   "url": "https://theconversation.com/trumps-abortion-flip-flops-lessons-from-ireland-on-why-reasons-based-access-to-abortion-doesnt-work-238934",
+   "urlToImage": "https://images.theconversation.com/files/619410/original/file-20240915-16-631kf9.jpg?ixlib=rb-4.1.0\u0026rect=49%2C742%2C5513%2C2756\u0026q=45\u0026auto=format\u0026w=1356\u0026h=668\u0026fit=crop",
+   "publishedAt": "2024-09-16T14:17:00Z",
+   "content": "Donald Trump has flip-flopped on the issue of abortion for decades, from declaring himself very pro-choice in the 1990s and pro-life in 2011 to hinting this year that hed support a national abortion … [+6025 chars]"
+  },
+  {
+   "id": 93,
    "source": {
     "id": "new-york-magazine",
     "name": "New York Magazine"
@@ -555,816 +1395,6 @@
    "urlToImage": "https://pyxis.nymag.com/v1/imgs/279/ed9/b37fa38ac3016994f563e787ed0e9c7077-donald-trump-lv.1x.rsocial.w1200.jpg",
    "publishedAt": "2024-09-15T17:18:20Z",
    "content": "Its been very clear for a very long time that Donald Trump has some complicated feelings about Taylor Swift. On one hand, the former president has quite obviously and openly pined for the pop megasta… [+2783 chars]"
-  },
-  {
-   "id": 38,
-   "source": {
-    "id": "",
-    "name": "Forbes"
-   },
-   "author": "Mary Whitfill Roeloffs, Forbes Staff, \n Mary Whitfill Roeloffs, Forbes Staff\n https://www.forbes.com/sites/maryroeloffs/",
-   "title": "Trump Mistakenly Calls Singer Nicky Jam A Woman—‘She’s Hot!’—In Latest Celebrity Endorsement For President (Full List)",
-   "slug": "trump-mistakenly-calls-singer-nicky-jam-a-womanshes-hotin-latest-celebrity-endorsement-for-president-full-list",
-   "description": "Taylor Swift endorsed Harris late Tuesday, and celebrities like Martha Stewart, Aubrey Plaza, Mel Brooks and Stevie Nicks have done the same since.",
-   "url": "https://www.forbes.com/sites/maryroeloffs/2024/09/14/trump-mistakenly-calls-singer-nicky-jam-a-woman-shes-hot-after-endorsement-here-are-his-and-harriss-celebrity-endorsements/",
-   "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e47bc8ae4e780c85a0be2e/0x0.jpg?format=jpg\u0026crop=2783,1566,x0,y62,safe\u0026height=900\u0026width=1600\u0026fit=bounds",
-   "publishedAt": "2024-09-14T19:10:06Z",
-   "content": "Celebrity voices have entered the 2024 presidential race in a variety of ways in recent weeks, and some of the biggest names in politics and in Hollywood have lent their voices to a particular candid… [+8525 chars]"
-  },
-  {
-   "id": 39,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "Anna Liz Nichols, Michigan Advance",
-   "title": "Tim Walz warns that Trump-Vance shouldn't 'mess with cat people'",
-   "slug": "tim-walz-warns-that-trump-vance-shouldnt-mess-with-cat-people",
-   "description": "Members of the university community regale statewide change enacted because students mobilized after the school shooting on campus last year\n\nMinnesota Gov. Tim Walz on Friday joined Michigan State University students in East Lansing to drum up excitement for…",
-   "url": "https://www.rawstory.com/tim-walz-cat-people/",
-   "urlToImage": "https://www.rawstory.com/media-library/tim-walz.png?id=53128962\u0026width=1200\u0026height=600\u0026coordinates=0%2C25%2C0%2C25",
-   "publishedAt": "2024-09-15T13:18:59Z",
-   "content": "Republicans on three local canvass boards voted against certifying the June primary results, according to the secretary of states office. It is a tiny percentage of the 64 three-member boards in each… [+8215 chars]"
-  },
-  {
-   "id": 40,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "Agence France-Presse",
-   "title": "Fed expected to announce its first interest rate cut since 2020",
-   "slug": "fed-expected-to-announce-its-first-interest-rate-cut-since-2020",
-   "description": "Washington (AFP) – The Federal Reserve is gearing up to announce its first interest rate cut for more than four years on Wednesday, with policymakers expected to debate how big a move to make less than two months before the US presidential election.Senior off…",
-   "url": "https://www.rawstory.com/fed-expected-to-announce-its-first-interest-rate-cut-since-2020/",
-   "urlToImage": "https://www.rawstory.com/media-library/us-economic-suffering-may-rise-without-stimulus-fed-minutes.jpg?id=24821504\u0026width=1200\u0026height=600\u0026coordinates=0%2C52%2C0%2C53",
-   "publishedAt": "2024-09-15T14:32:26Z",
-   "content": "The panel, which consisted of Republican former presidential candidate Vivek Ramaswamy, U.S. Rep. Tim Walberg (R-Tipton), Republican National Committeewoman Hima Kolanagireddy, Michigan Senate Minori… [+9509 chars]"
-  },
-  {
-   "id": 41,
-   "source": {
-    "id": "",
-    "name": "BBC News"
-   },
-   "author": "",
-   "title": "Chris Mason: Smiling Lib Dems plan to make the most of election success",
-   "slug": "chris-mason-smiling-lib-dems-plan-to-make-the-most-of-election-success",
-   "description": "The party will be focusing on a message of hope, and the health service, as they gather for their conference, Chris Mason explains.",
-   "url": "https://www.bbc.com/news/articles/ce3z155x2r7o",
-   "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b906/live/13a7fa80-7284-11ef-8c1a-df523ba43a9a.jpg",
-   "publishedAt": "2024-09-14T11:04:59Z",
-   "content": "Sir Ed Davey celebrated with supporters on election night as the party won a record number of MPs\r\nLiberal Democrat smiles will be so broad in the next few days they will stretch from the end of Brig… [+4422 chars]"
-  },
-  {
-   "id": 42,
-   "source": {
-    "id": "",
-    "name": "Bitcoinist"
-   },
-   "author": "Christian Encila",
-   "title": "Crypto Beef Up 2024 US Elections With $190 Million In Donations",
-   "slug": "crypto-beef-up-2024-us-elections-with-190-million-in-donations",
-   "description": "In the run-up to the 2024 US election, crypto donations have already amassed $190 million. Such a huge amount reflects how strongly interdependent the crypto industry has become with the world of politics. Related Reading: Trump Drops Major Clue On Crypto Pro…",
-   "url": "https://bitcoinist.com/crypto-beef-up-2024-us-elections-with-190-million-in-donations/",
-   "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/09/a_ea21bd.jpg",
-   "publishedAt": "2024-09-15T18:00:19Z",
-   "content": "In the run-up to the 2024 US election, crypto donations have already amassed $190 million. Such a huge amount reflects how strongly interdependent the crypto industry has become with the world of pol… [+3267 chars]"
-  },
-  {
-   "id": 43,
-   "source": {
-    "id": "abc-news-au",
-    "name": "ABC News (AU)"
-   },
-   "author": "Tony Ibrahim",
-   "title": "City of Sydney Lord Mayor Clover Moore claims victory in 'difficult' NSW council election",
-   "slug": "city-of-sydney-lord-mayor-clover-moore-claims-victory-in-difficult-nsw-council-election",
-   "description": "Clover Moore says she is set to serve a record sixth term as lord mayor after claiming victory in the local government elections as counting continues.",
-   "url": "https://www.abc.net.au/news/2024-09-15/nsw-council-election-clover-moore-claims-victory-city-of-sydney/104349252",
-   "urlToImage": "https://live-production.wcms.abc-cdn.net.au/aa4911ec2662ef84d09d3a3bf77903cd?impolicy=wcms_watermark_news\u0026cropH=2813\u0026cropW=5000\u0026xPos=0\u0026yPos=158\u0026width=862\u0026height=485\u0026imformat=generic",
-   "publishedAt": "2024-09-14T21:52:02Z",
-   "content": "Sydney's longtime mayor Clover Moore says she expects to be returned to serve a record sixth term after claiming victory in the local government elections.\r\nMs Moore, who has been City of Sydney lord… [+2754 chars]"
-  },
-  {
-   "id": 44,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "David Edwards",
-   "title": "'Why am I even doing this?': Vance melts down after CNN presses him on Ohio bomb threats",
-   "slug": "why-am-i-even-doing-this-vance-melts-down-after-cnn-presses-him-on-ohio-bomb-threats",
-   "description": "Republican vice presidential candidate J.D. Vance lashed out at CNN host Dana Bash after she told him there had been bomb threats in Springfield, Ohio, following his suggestion that Haitians were eating pets in the town.\n\nIn a Sunday interview on CNN's State …",
-   "url": "https://www.rawstory.com/jd-vance-cnn-bomb-threats/",
-   "urlToImage": "https://www.rawstory.com/media-library/dana-bash-and-j-d-vance.jpg?id=53629142\u0026width=1200\u0026height=600\u0026coordinates=0%2C0%2C0%2C80",
-   "publishedAt": "2024-09-15T14:13:14Z",
-   "content": "The panel, which consisted of Republican former presidential candidate Vivek Ramaswamy, U.S. Rep. Tim Walberg (R-Tipton), Republican National Committeewoman Hima Kolanagireddy, Michigan Senate Minori… [+9509 chars]"
-  },
-  {
-   "id": 45,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "Kyle Davidson, Michigan Advance",
-   "title": "Trump allies bash Harris with  conspiracy theories at Michigan town hall",
-   "slug": "trump-allies-bash-harris-with-conspiracy-theories-at-michigan-town-hall",
-   "description": "While allies of former President Donald Trump gathered in Farmington Hills on Friday for a town hall as part of Trump’s “Agenda 47 Policy Tour,” policy discussions remained scant, as members of the panel played up conspiracies pushed by the former president i…",
-   "url": "https://www.rawstory.com/trump-allies-bash-harris-with-conspiracy-theories-at-michigan-town-hall/",
-   "urlToImage": "https://www.rawstory.com/media-library/image.jpg?id=36731395\u0026width=1200\u0026height=600\u0026coordinates=0%2C444%2C0%2C445",
-   "publishedAt": "2024-09-15T14:22:37Z",
-   "content": "While allies of former President Donald Trump gathered in Farmington Hills on Friday for a town hall as part of Trumps Agenda 47 Policy Tour, policy discussions remained scant, as members of the pane… [+9802 chars]"
-  },
-  {
-   "id": 46,
-   "source": {
-    "id": "cbc-news",
-    "name": "CBC News"
-   },
-   "author": "",
-   "title": "B.C. MLAs work across party lines to expand defibrillator access",
-   "slug": "bc-mlas-work-across-party-lines-to-expand-defibrillator-access",
-   "description": "B.C. United MLA Shirley Bond and Health Minister Adrian Dix of the B.C. NDP say though they have often fiercely debated each other, they respect each other's willingness to work for British Columbians.",
-   "url": "https://www.cbc.ca/news/canada/british-columbia/defibrillator-access-in-b-c-expanded-bond-dix-1.7323519",
-   "urlToImage": "https://i.cbc.ca/1.7323603.1726275986!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/bond-dix.jpg",
-   "publishedAt": "2024-09-14T02:14:30Z",
-   "content": "Just as British Columbia is heading into a potentially polarizing election, two MLAs from opposing parties held a joint press conference Friday focused on the need to work across party lines.\r\nHealth… [+3126 chars]"
-  },
-  {
-   "id": 47,
-   "source": {
-    "id": "newsweek",
-    "name": "Newsweek"
-   },
-   "author": "Natalie Venegas",
-   "title": "Donald Trump Says He Hates Taylor Swift",
-   "slug": "donald-trump-says-he-hates-taylor-swift",
-   "description": "Following Swift's endorsement of Vice President Kamala Harris amid this year's election, Trump wrote on social media that he hates the singer.",
-   "url": "https://www.newsweek.com/donald-trump-says-he-hates-taylor-swift-1954105",
-   "urlToImage": "https://d.newsweek.com/en/full/2471699/donald-trump-taylor-swift.jpg",
-   "publishedAt": "2024-09-15T17:56:46Z",
-   "content": "Less than a week after Taylor Swift's endorsement of Vice President Kamala Harris for president, Donald Trump wrote in a social media post on Sunday that he hates the singer.\r\nIn a Sunday post on Tru… [+5729 chars]"
-  },
-  {
-   "id": 48,
-   "source": {
-    "id": "newsweek",
-    "name": "Newsweek"
-   },
-   "author": "James Bickerton",
-   "title": "Donald Trump Had a Tough Week, and Not Just Because of the Debate",
-   "slug": "donald-trump-had-a-tough-week-and-not-just-because-of-the-debate",
-   "description": "One political scientist told Newsweek it's been \"a terrible week for Donald Trump.\"",
-   "url": "https://www.newsweek.com/donald-trump-had-tough-week-not-just-because-debate-1953820",
-   "urlToImage": "https://d.newsweek.com/en/full/2470971/trumps-tough-week.jpg",
-   "publishedAt": "2024-09-15T08:00:01Z",
-   "content": "Donald Trump has just had a \"week to forget\" that \"may have caused irreparable damage to his campaign,\" according to one prominent political scientist. The past seven days have seen Kamala Harris re-… [+6272 chars]"
-  },
-  {
-   "id": 49,
-   "source": {
-    "id": "",
-    "name": "Fast Company"
-   },
-   "author": "The Conversation",
-   "title": "Taylor Swift’s endorsement, inclusive bangers, and more: Why music is key in this election",
-   "slug": "taylor-swifts-endorsement-inclusive-bangers-and-more-why-music-is-key-in-thiselection",
-   "description": "Music generates passion and emotion, so it’s little surprise that popular tunes have been featured in presidential contests since the days of George Washington and Thomas Jefferson.\n\n\n\nBut as a scholar of music’s role in American politics and patriotism, I’ve…",
-   "url": "https://www.fastcompany.com/91189736/2024-presidential-election-harris-trump-music-taylor-swift-endorsement",
-   "urlToImage": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024,h_1024/wp-cms-2/2024/09/p-1-91189736-taylor-swift-endorsement.jpg",
-   "publishedAt": "2024-09-14T09:30:00Z",
-   "content": "Music generates passion and emotion, so its little surprise that popular tunes have been featured in presidential contests since the days of George Washington and Thomas Jefferson.\r\nBut as a scholar … [+6865 chars]"
-  },
-  {
-   "id": 50,
-   "source": {
-    "id": "",
-    "name": "Legalinsurrection.com"
-   },
-   "author": "Mike LaChance",
-   "title": "Tim Walz Wants You to Have “Hard Conversations” With People at the Grocery Store",
-   "slug": "tim-walz-wants-you-to-have-hard-conversations-with-people-at-the-grocery-store",
-   "description": "\"This thing's going to be a battle for the next 52 days\"\nThe post Tim Walz Wants You to Have “Hard Conversations” With People at the Grocery Store first appeared on Le·gal In·sur·rec·tion.",
-   "url": "https://legalinsurrection.com/2024/09/tim-walz-wants-you-to-have-hard-conversations-with-people-at-the-grocery-store/",
-   "urlToImage": "https://legalinsurrection.com/wp-content/uploads/2024/09/Tim-Walz-in-Wisconsin.jpg",
-   "publishedAt": "2024-09-15T14:00:43Z",
-   "content": "Kamala’s running mate Tim Walz was campaigning in Wisconsin this weekend when he told a crowd that the race is going to be a battle in which you speak to people in the grocery store and ask them if t… [+3590 chars]"
-  },
-  {
-   "id": 51,
-   "source": {
-    "id": "",
-    "name": "Dianeravitch.net"
-   },
-   "author": "dianeravitch",
-   "title": "Trump ❤️ Laura Loomer",
-   "slug": "trump--laura-loomer",
-   "description": "Trump’s weird attachment to far-right provocateur Laura Loomer is causing rifts among Republicans. Trump brought her to the 9/11 memorial event, even though she has posted conspiracy theories about what happened that day. Loomer likes to be shocking. She boas…",
-   "url": "https://dianeravitch.net/2024/09/14/trump-%e2%9d%a4%ef%b8%8f-laura-loomer/",
-   "urlToImage": "https://dianeravitch.net/wp-content/uploads/2017/12/diane.jpg?w=200",
-   "publishedAt": "2024-09-14T13:00:00Z",
-   "content": "Trump’s weird attachment to far-right provocateur Laura Loomer is causing rifts among Republicans. Trump brought her to the 9/11 memorial event, even though she has posted conspiracy theories about w… [+7520 chars]"
-  },
-  {
-   "id": 52,
-   "source": {
-    "id": "",
-    "name": "Sky.com"
-   },
-   "author": "",
-   "title": "Springfield woman who started US election pet-eating claims says she is 'not racist'",
-   "slug": "springfield-woman-who-started-us-election-pet-eating-claims-says-she-is-not-racist",
-   "description": "A woman who wrote a Facebook post about Haitian immigrants eating local pets has said she is now filled with regret after it spiralled into a national frenzy.",
-   "url": "https://news.sky.com/story/us-election-springfield-woman-who-started-pet-eating-claims-says-she-is-not-racist-13214409",
-   "urlToImage": "https://e3.365dm.com/24/09/1600x900/skynews-springfield-ohio-stone_6683543.jpg?20240913032035",
-   "publishedAt": "2024-09-14T09:15:00Z",
-   "content": "A woman who wrote a Facebook post about Haitian immigrants eating local pets has said she is now filled with regret after it spiralled into a national frenzy.\r\nErika Lee, a resident of Springfield, O… [+3259 chars]"
-  },
-  {
-   "id": 53,
-   "source": {
-    "id": "abc-news-au",
-    "name": "ABC News (AU)"
-   },
-   "author": "Nick  Bryant",
-   "title": "America can't escape the shadow of its history",
-   "slug": "america-cant-escape-the-shadow-of-its-history",
-   "description": "Of all the schisms that cleave contemporary America, few are more stark than the divide between those who consider themselves to be victims of US history and those who fear they will be casualties of its future.",
-   "url": "https://www.abc.net.au/news/2024-09-15/us-election-america-cant-escape-its-history/104305618",
-   "urlToImage": "https://live-production.wcms.abc-cdn.net.au/8da183e135dba6e3b3328cfa2412d214?impolicy=wcms_watermark_news\u0026cropH=1031\u0026cropW=1832\u0026xPos=151\u0026yPos=84\u0026width=862\u0026height=485\u0026imformat=generic",
-   "publishedAt": "2024-09-14T19:00:00Z",
-   "content": "Two different versions of the US are on the table, but both of them are captive to the past.\r\nOf all the schisms which cleave contemporary America, few are more stark than the divide between those wh… [+19854 chars]"
-  },
-  {
-   "id": 54,
-   "source": {
-    "id": "",
-    "name": "BBC News"
-   },
-   "author": "",
-   "title": "Davey hails London’s ‘double strength’ Lib Dems",
-   "slug": "davey-hails-londons-double-strength-lib-dems",
-   "description": "Lib Dem leader Sir Ed Davey on the party's election success in London ahead of the party's conference.",
-   "url": "https://www.bbc.com/news/articles/cx2n7ql9e30o",
-   "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/e59d/live/f2e25b30-6fb1-11ef-afaa-935528874eb7.jpg",
-   "publishedAt": "2024-09-14T07:05:24Z",
-   "content": "Sir Ed Davey celebrates his party's result in the general election \r\nThe Liberal Democrats are heading into their party conference in a celebratory mood.\r\nJuly's general election result saw them win … [+3653 chars]"
-  },
-  {
-   "id": 55,
-   "source": {
-    "id": "new-york-magazine",
-    "name": "New York Magazine"
-   },
-   "author": "Zak Cheney-Rice",
-   "title": "The Next January 6 Could Happen in Places Like Springfield, Ohio",
-   "slug": "the-next-january-6-could-happen-in-places-like-springfield-ohio",
-   "description": "Donald Trump’s debate rant about Haitian migrants kidnapping and eating pets has sent Springfield, a small Ohio city, into a tailspin, leading to bomb threats and evacuations. It shows the fanatical devotion he still commands among his fans.",
-   "url": "http://nymag.com/intelligencer/article/the-next-january-6-could-happen-in-places-like-springfield.html",
-   "urlToImage": "https://pyxis.nymag.com/v1/imgs/4b1/e21/0322fe8e17132ef1fe532b9f488a469cc0-trump-debate-migrants.1x.rsocial.w1200.jpg",
-   "publishedAt": "2024-09-14T10:00:31Z",
-   "content": "At Tuesdays presidential debate, Donald Trump launched into a rant about Haitian immigrants kidnapping and eating pets in Springfield, Ohio. Theyre eating the dogs! he bellowed. The people that came … [+6443 chars]"
-  },
-  {
-   "id": 56,
-   "source": {
-    "id": "new-york-magazine",
-    "name": "New York Magazine"
-   },
-   "author": "Margaret Hartmann",
-   "title": "Melania Trump’s Mysterious and Kooky Book-Promo Videos",
-   "slug": "melania-trumps-mysterious-and-kooky-book-promo-videos",
-   "description": "Melania Trump keeps dropping mysterious and kooky book-promo videos. We’re rating all of the former First Lady’s bizarre, conspiracy-theory-laced ads for her memoir, ‘Melania,’ from ‘bland’ to “what is she thinking?”",
-   "url": "http://nymag.com/intelligencer/article/melania-trump-book-promo-videos-rating.html",
-   "urlToImage": "https://pyxis.nymag.com/v1/imgs/99e/3e8/aa80e83b7884cc692745a8eff668ca8dfd-melania-video.1x.rsocial.w1200.jpg",
-   "publishedAt": "2024-09-15T10:00:10Z",
-   "content": "When youre a celebrity promoting a book, there are a few basic things you need to accomplish. You want to make it clear what kind of book it is, tease some of the content, and clearly state the relea… [+6186 chars]"
-  },
-  {
-   "id": 57,
-   "source": {
-    "id": "msnbc",
-    "name": "MSNBC"
-   },
-   "author": "Jen Psaki",
-   "title": "This may have been Kamala Harris' most important debate answer",
-   "slug": "this-may-have-been-kamala-harris-most-important-debate-answer",
-   "description": "Vice President Kamala Harris wiped the floor with Donald Trump at Tuesday night's debate. But the most important answer may have been on abortion.",
-   "url": "https://www.msnbc.com/inside-with-jen-psaki/kamala-harris-trump-debate-answer-abortion-rcna171078",
-   "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240913-kamala-harris-wm-404p-66ea4c.jpg",
-   "publishedAt": "2024-09-14T10:00:00Z",
-   "content": "How Harris can use her debate momentum\r\nVice President Kamala Harris wiped the floor with former President Donald Trump at Tuesday night's debate. It started with her aggressive pursuit of a handshak… [+3960 chars]"
-  },
-  {
-   "id": 58,
-   "source": {
-    "id": "",
-    "name": "Mediaite"
-   },
-   "author": "Kathryn Wilkens",
-   "title": "’He’s Not The Same’: MSNBC’s Ari Melber Breaks Down the Trump-Harris Debate and How He Plans to Cover The 2024 Election",
-   "slug": "hes-not-the-same-msnbcs-ari-melber-breaks-down-the-trump-harris-debate-and-how-he-plans-to-cover-the-2024-election",
-   "description": "Mediaite editor in chief Aidan McLaughlin sits down with MSNBC host Ari Melber to beak down the bombshell debate between Kamala Harris and Donald Trump.\nThe post ’He’s Not The Same’: MSNBC’s Ari Melber Breaks Down the Trump-Harris Debate and How He Plans to C…",
-   "url": "https://www.mediaite.com/podcasts/hes-not-the-same-msnbcs-ari-melber-breaks-down-the-trump-harris-debate-and-how-he-plans-to-cover-the-2024-election/",
-   "urlToImage": "https://www.mediaite.com/wp-content/uploads/2024/09/Ari-Melber-Mediaite-Press-Club-Aidan-McLaughlin-9-24.jpg",
-   "publishedAt": "2024-09-14T16:18:52Z",
-   "content": "“He’s not the same as he was in 2016,” said Ari Melber, host of The Beat on MSNBC and the network’s chief legal analyst. He was speaking of Donald Trump, having watched his 90-minute debate with Kama… [+40253 chars]"
-  },
-  {
-   "id": 59,
-   "source": {
-    "id": "cbc-news",
-    "name": "CBC News"
-   },
-   "author": "",
-   "title": "B.C. Conservatives promise to end stumpage fees, review fire management if elected",
-   "slug": "bc-conservatives-promise-to-end-stumpage-fees-review-fire-management-if-elected",
-   "description": "Conservative Leader John Rustad announced his plan for the sector a week before the official launch of the provincial election campaign, saying a Conservative government would do away with stumpage fees paid when timber is harvested and instead put a tax on t…",
-   "url": "https://www.cbc.ca/news/canada/british-columbia/bc-conservatives-forestry-platform-1.7324073",
-   "urlToImage": "https://i.cbc.ca/1.7324078.1726420566!/cumulusImage/httpImage/image.jpg_gen/derivatives/16x9_620/john-rustad.jpg",
-   "publishedAt": "2024-09-15T17:26:08Z",
-   "content": "B.C. Conservatives are promising changes they say will bring more stability to the province's struggling forest industry as they released their forestry platform on Saturday.\r\nLeader John Rustad anno… [+3758 chars]"
-  },
-  {
-   "id": 60,
-   "source": {
-    "id": "",
-    "name": "Wonkette.com"
-   },
-   "author": "Gary Legum",
-   "title": "Elon Musk's Secret Campaign Against Progressive Austin Prosecutor Melted Like One Of His Trucks In The Rain",
-   "slug": "elon-musks-secret-campaign-against-progressive-austin-prosecutor-melted-like-one-of-his-trucks-in-the-rain",
-   "description": "He is bad at everything, even dark-money campaigns.",
-   "url": "https://www.wonkette.com/p/elon-musks-secret-campaign-against",
-   "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F51bfdabc-1481-4e3c-9643-e66bb16462b6_639x855.avif",
-   "publishedAt": "2024-09-14T15:01:34Z",
-   "content": "One of the more entertaining developments of the last couple of decades of American politics and by entertaining, we mean in the same way we would be entertained by someone repeatedly slamming a car … [+4933 chars]"
-  },
-  {
-   "id": 61,
-   "source": {
-    "id": "",
-    "name": "NPR"
-   },
-   "author": "Jaclyn Diaz",
-   "title": "George Washington established the presidency. How much of it would he recognize now?",
-   "slug": "george-washington-established-the-presidency-how-much-of-it-would-he-recognize-now",
-   "description": "The presidential office was first envisioned to be more like a clerk's job, and in its earliest incarnation, it was almost unseemly to be perceived as campaigning for the office, historians tell NPR.",
-   "url": "https://www.npr.org/2024/09/13/nx-s1-5020688/george-washington-campaign-presidency-white-house-america",
-   "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3942x2217+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2Fa2%2F4c39c3324ebcb475627ece5bd3fd%2Fgettyimages-1053525636.jpg",
-   "publishedAt": "2024-09-14T12:00:00Z",
-   "content": "The U.S. president may be referred to as the most powerful person in the world now, but that wasn't what the Founding Fathers intended.\r\nIn fact, when the United States was born, they didn't really h… [+8763 chars]"
-  },
-  {
-   "id": 62,
-   "source": {
-    "id": "",
-    "name": "The Punch"
-   },
-   "author": "Agency Report",
-   "title": "Edo, Ondo poll: Anyaoku tasks INEC on credible elections",
-   "slug": "edo-ondo-poll-anyaoku-tasks-inec-on-credible-elections",
-   "description": "A former Secretary-General of the Commonwealth, Chief Emeka Anyaoku, has urged the Federal Government and the relevant institutions to ensure that the forthcoming Edo and Ondo Governorship elections are free and fair. Anyaoku made the call in an interview wit…",
-   "url": "https://punchng.com/edo-ondo-poll-anyaoku-tasks-inec-on-credible-elections/",
-   "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2024/09/15151518/Emeka-Anyaoku.jpg",
-   "publishedAt": "2024-09-15T14:24:55Z",
-   "content": "A former Secretary-General of the Commonwealth, Chief Emeka Anyaoku, has urged the Federal Government and the relevant institutions to ensure that the forthcoming Edo and Ondo Governorship elections … [+2498 chars]"
-  },
-  {
-   "id": 63,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "Michael Achterling, North Dakota Monitor",
-   "title": "BadAss Grandmas want you to get involved for democracy",
-   "slug": "badass-grandmas-want-you-to-get-involved-for-democracy",
-   "description": "An effort that started with four North Dakota women pushing for a state ethics commission has evolved into a larger movement to promote democracy.\n\nThe BadAss Grandmas for Democracy is a nonpartisan, grassroots group that aims to get people more involved in p…",
-   "url": "https://www.rawstory.com/badass-grandmas/",
-   "urlToImage": "https://www.rawstory.com/media-library/image.jpg?id=53629139\u0026width=1200\u0026height=600\u0026coordinates=0%2C3%2C0%2C340",
-   "publishedAt": "2024-09-15T13:59:50Z",
-   "content": "Some of the candidates arent replying to inquiries at all, while others have refused and said they think the League is partisan, according to LWV Louisville leaders.\r\nThe League says that out of cont… [+8810 chars]"
-  },
-  {
-   "id": 64,
-   "source": {
-    "id": "",
-    "name": "Sky.com"
-   },
-   "author": "Alix Culbertson",
-   "title": "NHS 'can't withstand' Labour reforms without more cash, Sir Ed Davey says",
-   "slug": "nhs-cant-withstand-labour-reforms-without-more-cash-sir-ed-davey-says",
-   "description": "Sir Ed Davey has said the NHS \"cannot withstand\" Labour reforms without more funding.",
-   "url": "https://news.sky.com/story/nhs-cant-withstand-labour-reforms-without-more-cash-lib-dem-leader-sir-ed-davey-says-13215430",
-   "urlToImage": "https://e3.365dm.com/24/09/1600x900/skynews-ed-davey_6686097.jpg?20240915094845",
-   "publishedAt": "2024-09-15T10:31:00Z",
-   "content": "Sir Ed Davey has said the NHS \"cannot withstand\" Labour reforms without more funding.\r\nThe Liberal Democrat leader, speaking from the party's conference in Brighton, said he is concerned the governme… [+1724 chars]"
-  },
-  {
-   "id": 65,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "Tom Boggioni",
-   "title": "'It’s almost incoherent': GOP strategists frustrated with 'flustered' Trump's campaigning",
-   "slug": "its-almost-incoherent-gop-strategists-frustrated-with-flustered-trumps-campaigning",
-   "description": "Donald Trump's constant \"ping-ponging\" on issues at his rallies, during speeches and at his recent debate with Vice President Kamala Harris is frustrating GOP strategists as the November election looms.Case in point, as Politico is reporting, the former presi…",
-   "url": "https://www.rawstory.com/trump-incoherent-2669206504/",
-   "urlToImage": "https://www.rawstory.com/media-library/trump.jpg?id=30142673\u0026width=1200\u0026height=600\u0026coordinates=0%2C25%2C0%2C25",
-   "publishedAt": "2024-09-14T13:42:33Z",
-   "content": "Some refer to the news. Others refer to universal themes of our democratic condition. Either way, I think they say something interesting and important about our country, our politics and the moment w… [+7273 chars]"
-  },
-  {
-   "id": 66,
-   "source": {
-    "id": "",
-    "name": "Biztoc.com"
-   },
-   "author": "pbs.org",
-   "title": "Do celebrity endorsements matter? A look at the role of pop stars in modern politics",
-   "slug": "do-celebrity-endorsements-matter-a-look-at-the-role-of-pop-stars-in-modern-politics",
-   "description": "Pop culture and politics have a history of crossover. These intersections take on new significance during an election year, but how important are celebrity endorsements of candidates, and do they actually make a difference in voters' minds? Lisa Desjardins sp…",
-   "url": "https://biztoc.com/x/11577beb12a376d0",
-   "urlToImage": "https://biztoc.com/cdn/11577beb12a376d0_s.webp",
-   "publishedAt": "2024-09-15T21:42:37Z",
-   "content": "Pop culture and politics have a history of crossover. These intersections take on new significance during an election year, but how important are celebrity endorsements of candidates, and do they act… [+133 chars]"
-  },
-  {
-   "id": 67,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "Mckenna Horsley, Kentucky Lantern",
-   "title": "Republicans refuse debates hosted by League of Women Voters — here's why",
-   "slug": "republicans-refuse-debates-hosted-by-league-of-women-voters--heres-why",
-   "description": "The League of Women Voters has a history of organizing debates and forums from elections for U.S. president to Kentucky governor to local school boards. But this year Republicans in Kentucky’s largest city are not accepting a local chapter’s invitations to ap…",
-   "url": "https://www.rawstory.com/league-of-women-voters-2669209939/",
-   "urlToImage": "https://www.rawstory.com/media-library/woman-speaking-at-a-podium.jpg?id=29783570\u0026width=1200\u0026height=600\u0026coordinates=0%2C25%2C0%2C25",
-   "publishedAt": "2024-09-15T13:56:21Z",
-   "content": "The League of Women Voters has a history of organizing debates and forums from elections for U.S. president to Kentucky governor to local school boards. But this year Republicans in Kentuckys largest… [+9104 chars]"
-  },
-  {
-   "id": 68,
-   "source": {
-    "id": "newsweek",
-    "name": "Newsweek"
-   },
-   "author": "James Bickerton",
-   "title": "Should Donald Trump Ditch Laura Loomer? Experts Weigh In",
-   "slug": "should-donald-trump-ditch-laura-loomer-experts-weigh-in",
-   "description": "One political scientist told Newsweek being associated with Laura Loomer will \"damage Trump's standing with undecided voters.\"",
-   "url": "https://www.newsweek.com/should-donald-trump-ditch-laura-loomer-experts-weigh-1953827",
-   "urlToImage": "https://d.newsweek.com/en/full/2471370/donald-trump-laura-loomer.jpg",
-   "publishedAt": "2024-09-14T12:00:26Z",
-   "content": "Donald Trump is being damaged by his association with Florida-based activist Laura Loomer, according to a number of academics specializing in American politics, with one warning it is playing into Ka… [+4182 chars]"
-  },
-  {
-   "id": 69,
-   "source": {
-    "id": "",
-    "name": "TheJournal.ie"
-   },
-   "author": "Emma Hickey",
-   "title": "'I HATE TAYLOR SWIFT!': Donald Trump rages against Swift's Democrat endorsement",
-   "slug": "i-hate-taylor-swift-donald-trump-rages-against-swifts-democrat-endorsement",
-   "description": "Trump’s declaration comes following the pop star’s endorsement of Vice President Kamala Harris.",
-   "url": "https://www.thejournal.ie/i-hate-taylor-swift-trump-6488504-Sep2024/",
-   "urlToImage": "https://img2.thejournal.ie/article/6488504/river/?height=400\u0026version=6488512",
-   "publishedAt": "2024-09-15T17:33:43Z",
-   "content": "US PRESIDENTIAL CANDIDATE Donald J. Trump took to site Truth Social to post a message: I HATE TAYLOR SWIFT! in the follow-up from Tuesday, when the world-famous pop star endorsed his rival. \r\nIn Penn… [+1648 chars]"
-  },
-  {
-   "id": 70,
-   "source": {
-    "id": "",
-    "name": "TheJournal.ie"
-   },
-   "author": "Muiris O'Cearbhaill",
-   "title": "Explainer: Why we could see an election here before Ireland's next EU Commissioner is in place",
-   "slug": "explainer-why-we-could-see-an-election-here-before-irelands-next-eu-commissioner-is-in-place",
-   "description": "There is still a long road ahead before the new commissioners can begin their work on new laws and enforcing regulation.",
-   "url": "https://www.thejournal.ie/explainer-new-european-commission-6483111-Sep2024/",
-   "urlToImage": "https://img2.thejournal.ie/article/6483111/river/?height=400\u0026version=6483250",
-   "publishedAt": "2024-09-14T20:00:33Z",
-   "content": "ON TUESDAY MORNING the proposed makeup of the next European Commission will be announced as President Ursula von der Leyen outlines who she wants in each portfolio.\r\nThis week, the announcement was d… [+4362 chars]"
-  },
-  {
-   "id": 71,
-   "source": {
-    "id": "msnbc",
-    "name": "MSNBC"
-   },
-   "author": "James Downie",
-   "title": "A resurfaced Vance interview reveals the truth about MAGA populism",
-   "slug": "a-resurfaced-vance-interview-reveals-the-truth-about-maga-populism",
-   "description": "A 2021 interview with JD Vance more fundamental problem for Republican would-be populists — a contradiction that once tore Democrats apart.",
-   "url": "https://www.msnbc.com/opinion/msnbc-opinion/jd-vance-interview-south-hillbilly-civil-war-rcna171142",
-   "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240914-jd-vance-ch-1149-4d0a1a.jpg",
-   "publishedAt": "2024-09-15T10:00:00Z",
-   "content": "Im sure theres all kinds of ways in which I would be a totally terrible political candidate, JD Vance said in a recently resurfaced interview, conducted less than three months before he first became … [+7138 chars]"
-  },
-  {
-   "id": 72,
-   "source": {
-    "id": "",
-    "name": "Bangkok Post"
-   },
-   "author": "",
-   "title": "Malaysia’s Islamists vow to shut casino if party wins key state",
-   "slug": "malaysiasislamists-vow-to-shut-casino-if-party-wins-key-state",
-   "description": "\u003cp\u003eAn Islamic party said it was prepared to shut down Malaysia\u0026rsquo;s only casino if it wins control of the state where it is located, as the group looks to build its influence in the Southeast Asian nation.\u0026nbsp;\u003c/p\u003e",
-   "url": "https://www.bangkokpost.com/world/2865831/malaysias-islamists-vow-to-shut-casino-if-party-wins-key-state",
-   "urlToImage": "https://static.bangkokpost.com/media/content/20240915/c1_2865831_700.jpg",
-   "publishedAt": "2024-09-15T07:40:00Z",
-   "content": "An Islamic party said it was prepared to shut down Malaysia’s only casino if it wins control of the state where it is located, as the group looks to build its influence in the Southeast Asian nation.… [+2139 chars]"
-  },
-  {
-   "id": 73,
-   "source": {
-    "id": "cbs-news",
-    "name": "CBS News"
-   },
-   "author": "",
-   "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Sept. 15, 2024",
-   "slug": "full-transcript-of-face-the-nation-with-margaret-brennan-sept-15-2024",
-   "description": "On this \"Face the Nation with Margaret Brennan\" broadcast, GOP VP nominee Sen. JD Vance and Gary Cohn join Margaret Brennan.",
-   "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-09-15-2024/",
-   "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/09/15/96fbc716-e70d-4851-a02d-f8a5a125c324/thumbnail/1200x630/6ee33ab79dd9d9d22362720ab8acc61a/0915-ftn-page2-3195541-640x360.jpg?v=d2d77bee90bcafa285fd6d60bd8b3612",
-   "publishedAt": "2024-09-15T18:05:44Z",
-   "content": "On this \"Face the Nation\" broadcast, moderated by Nancy Cordes: \r\n\u003cul\u003e\u003cli\u003eRepublican vice-presidential nominee Sen. JD Vance of Ohio\u003c/li\u003e\u003cli\u003eMaryland Gov. Wes Moore, a Democrat\u003c/li\u003e\u003cli\u003eGary Cohn, for… [+52854 chars]"
-  },
-  {
-   "id": 74,
-   "source": {
-    "id": "newsweek",
-    "name": "Newsweek"
-   },
-   "author": "Emma Marsden",
-   "title": "Donald Trump Vows To Terminate Harris' 'Phone App for Smuggling' Migrants",
-   "slug": "donald-trump-vows-to-terminate-harris-phone-app-for-smuggling-migrants",
-   "description": "Former President Trump spoke out against the CBP One app, which has been approved under the Biden administration.",
-   "url": "https://www.newsweek.com/donald-trump-vows-terminate-harris-phone-app-smuggling-migrants-1954040",
-   "urlToImage": "https://d.newsweek.com/en/full/2471640/trump-immigration.jpg",
-   "publishedAt": "2024-09-15T15:17:30Z",
-   "content": "In a statement posted online, Donald Trump has vowed to dismantle what he claims is a phone application developed under President Joe Biden and Vice President Kamala Harris' administration to facilit… [+2801 chars]"
-  },
-  {
-   "id": 75,
-   "source": {
-    "id": "",
-    "name": "Biztoc.com"
-   },
-   "author": "news.google.com",
-   "title": "Nippon Steel Finds Unlikely Ally in Pittsburgh Workers",
-   "slug": "nippon-steel-finds-unlikely-ally-in-pittsburgh-workers",
-   "description": "Nippon Steel Finds Unlikely Ally in Pittsburgh Workers The Wall Street Journal\nBiden Administration Is Likely to Delay Decision Over U.S. Steel The New York Times\nFate of US Steel merger expected to be pushed beyond election day as politics cloud outlook CNN\n…",
-   "url": "https://biztoc.com/x/36debc88415a3a16",
-   "urlToImage": "https://biztoc.com/cdn/800/og.png",
-   "publishedAt": "2024-09-15T18:45:43Z",
-   "content": "Nippon Steel Finds Unlikely Ally in Pittsburgh Workers The Wall Street JournalBiden Administration Is Likely to Delay Decision Over U.S. Steel The New York TimesFate of US Steel merger expected to be… [+137 chars]"
-  },
-  {
-   "id": 76,
-   "source": {
-    "id": "",
-    "name": "DW (English)"
-   },
-   "author": "Christoph Hasselbach",
-   "title": "Jens Stoltenberg set to head Munich Security Conference",
-   "slug": "jens-stoltenberg-set-to-head-munich-security-conference",
-   "description": "NATO Secretary General Jens Stoltenberg is to become the first non-German to head the renowned MSC. The former Norwegian Prime Minister has been a staunch advocate for increased defense spending by NATO member states.",
-   "url": "https://www.dw.com/en/jens-stoltenberg-set-to-head-munich-security-conference/a-70213341",
-   "urlToImage": "https://static.dw.com/image/70070065_6.jpg",
-   "publishedAt": "2024-09-14T08:23:00Z",
-   "content": "With Jens Stoltenberg, the Munich Security Conference is gaining one of the most experienced and high-profile security experts in the Western world.\r\nAnd he has the experience the world's most import… [+4986 chars]"
-  },
-  {
-   "id": 77,
-   "source": {
-    "id": "",
-    "name": "The Diplomat"
-   },
-   "author": "Shannon",
-   "title": "The US Withdrawal from Afghanistan: ‘Willful Blindness’ or a Face-Saving Act?",
-   "slug": "the-us-withdrawal-from-afghanistan-willful-blindness-or-a-face-saving-act",
-   "description": "The chaos of the U.S. exit from Afghanistan has become politicized. But the blame stretches back decades, through both Republican and Democratic administrations.",
-   "url": "https://thediplomat.com/2024/09/the-us-withdrawal-from-afghanistan-willful-blindness-or-a-face-saving-act/",
-   "urlToImage": "https://thediplomat.com/wp-content/uploads/2024/09/sizes/td-story-s-2/thediplomat_2024-09-13-142852.jpg",
-   "publishedAt": "2024-09-14T03:39:56Z",
-   "content": "On September 9, the U.S. House Foreign Affairs Committee Chairman Micheal McCaul released the committees investigation report on the Biden administrations hasty and haphazard withdrawal from Afghanis… [+11807 chars]"
-  },
-  {
-   "id": 78,
-   "source": {
-    "id": "",
-    "name": "Raw Story"
-   },
-   "author": "John Stoehr",
-   "title": "America ready 'to turn the page' on Trump's 'same old show'",
-   "slug": "america-ready-to-turn-the-page-on-trumps-same-old-show",
-   "description": "I usually write what I hope are thoughtful pieces about American politics that feature something like a beginning, middle and end. But today, I’m going to comment on short videos I have seen throughout the week.Some refer to the news. Others refer to universa…",
-   "url": "https://www.rawstory.com/raw-investigates/trump-show/",
-   "urlToImage": "https://www.rawstory.com/media-library/image.jpg?id=52034960\u0026width=1200\u0026height=600\u0026coordinates=0%2C85%2C0%2C86",
-   "publishedAt": "2024-09-14T12:30:57Z",
-   "content": "I usually write what I hope are thoughtful pieces about American politics that feature something like a beginning, middle and end. But today, Im going to comment on short videos I have seen throughou… [+7485 chars]"
-  },
-  {
-   "id": 79,
-   "source": {
-    "id": "",
-    "name": "Nakedcapitalism.com"
-   },
-   "author": "Yves Smith",
-   "title": "Is US Policy Saving the Dollar or Destroying It?",
-   "slug": "is-us-policy-saving-the-dollar-or-destroying-it",
-   "description": "How the global economy is being restructured, in no small measure due to inept, self-destructive policy moves that undermine dollar use in trade.",
-   "url": "https://www.nakedcapitalism.com/2024/09/is-us-policy-saving-the-dollar-or-destroying-it.html",
-   "urlToImage": "",
-   "publishedAt": "2024-09-14T06:27:55Z",
-   "content": "This is Naked Capitalism fundraising week. 927 donors have already invested in our efforts to combat corruption and predatory conduct, particularly in the financial realm. Please join us and particip… [+40354 chars]"
-  },
-  {
-   "id": 80,
-   "source": {
-    "id": "",
-    "name": "NDTV News"
-   },
-   "author": "",
-   "title": "In J\u0026K Pre-Poll Twist, Jamaat-Backed Leaders and Awami Agree On Alliance",
-   "slug": "in-jk-pre-poll-twist-jamaat-backed-leaders-and-awami-agree-on-alliance",
-   "description": "In a new twist to pre-assembly election politics in Jammu and Kashmir, the Awami Ittehad Party (AIP) and former members of the banned Jama'at-e-Islami (JeI) have come together in a strategic alliance and will support each other's candidates.",
-   "url": "https://www.ndtv.com/india-news/in-jammu-and-kashmir-k-pre-poll-twist-jamaat-backed-leaders-and-awami-agree-on-alliance-6572619",
-   "urlToImage": "https://c.ndtvimg.com/2024-09/u77nj06g_awami-ittehad-party_625x300_15_September_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
-   "publishedAt": "2024-09-15T15:47:29Z",
-   "content": "Awami Ittehad Party and Jama'at-e-Islami have come together in a strategic alliance\r\nSrinagar: In a new twist to pre-assembly election politics in Jammu and Kashmir, the Awami Ittehad Party (AIP) and… [+2683 chars]"
-  },
-  {
-   "id": 81,
-   "source": {
-    "id": "",
-    "name": "VOA News"
-   },
-   "author": "webdesk@voanews.com (Agence France-Presse)",
-   "title": "Peru bids farewell to polarizing former president Fujimori",
-   "slug": "peru-bids-farewell-to-polarizing-former-president-fujimori",
-   "description": "Relatives of the victims of army massacres lament that Fujimoro went to his grave without showing remorse for their deaths",
-   "url": "https://www.voanews.com/a/peru-bids-farewell-to-polarizing-former-president-fujimori-/7784580.html",
-   "urlToImage": "https://gdb.voanews.com/22A529EC-13CC-4BE7-8A79-071E074D1E16.jpg",
-   "publishedAt": "2024-09-15T00:11:42Z",
-   "content": "Peru bid an emotional farewell Saturday to its divisive ex-President Alberto Fujimori after three days of national mourning marked by expressions of nostalgia for his iron-fisted rule. \r\nFujimori was… [+4163 chars]"
-  },
-  {
-   "id": 82,
-   "source": {
-    "id": "",
-    "name": "Legalinsurrection.com"
-   },
-   "author": "Mike LaChance",
-   "title": "Dems and Media Silent as Joe Biden Brags About Creating ‘Black Jobs’ But Threw a Fit When Trump Used Same Term",
-   "slug": "dems-and-media-silent-as-joe-biden-brags-about-creating-black-jobs-but-threw-a-fit-when-trump-used-same-term",
-   "description": "\"Another day, another racist insult from Trump\"\nThe post Dems and Media Silent as Joe Biden Brags About Creating ‘Black Jobs’ But Threw a Fit When Trump Used Same Term first appeared on Le·gal In·sur·rec·tion.",
-   "url": "https://legalinsurrection.com/2024/09/dems-and-media-silent-as-joe-biden-brags-about-creating-black-jobs-but-threw-a-fit-when-trump-used-same-term/",
-   "urlToImage": "https://legalinsurrection.com/wp-content/uploads/2024/09/Joe-Biden-black-jobs.jpg",
-   "publishedAt": "2024-09-14T14:00:23Z",
-   "content": "About a month ago, Donald Trump said during some remarks that illegal immigrants are taking away black jobs. Democrats and people in media lost their ever-loving minds. Michelle Obama even used it to… [+2363 chars]"
-  },
-  {
-   "id": 83,
-   "source": {
-    "id": "",
-    "name": "Sky.com"
-   },
-   "author": "",
-   "title": "PM faces investigation over 'free clothes' for wife 'paid for by Labour donor'",
-   "slug": "pmfaces-investigation-over-free-clothes-for-wife-paid-for-by-labour-donor",
-   "description": "Sir Keir Starmer is under investigation for a possible breach of parliamentary rules after failing to declare that some of his wife's high-end clothes were bought for her by his biggest personal donor, Lord Alli.",
-   "url": "https://news.sky.com/story/starmer-faces-investigation-over-possible-breach-of-parliamentary-rules-after-labour-donor-pays-for-wifes-clothes-13215216",
-   "urlToImage": "https://e3.365dm.com/24/07/1600x900/skynews-keir-starmer-victoria-starmer_6622621.jpg?20240710072950",
-   "publishedAt": "2024-09-14T19:58:00Z",
-   "content": "Sir Keir Starmer is under investigation for a possible breach of parliamentary rules after failing to declare that some of his wife's high-end clothes were bought for her by his biggest personal dono… [+2963 chars]"
-  },
-  {
-   "id": 84,
-   "source": {
-    "id": "",
-    "name": "Typepad.com"
-   },
-   "author": "Paul Caron",
-   "title": "Evangelicals In A Diverse Democracy: Is It Time To Let Jesus Take The Wheel?",
-   "slug": "evangelicals-in-a-diverse-democracy-is-it-time-to-let-jesus-take-the-wheel",
-   "description": "Christianity Today: How to Find Common Ground When You Disagree About the Common Good, by John Inazu (Washington University; Google Scholar): How do Christians live faithfully and as good neighbors in a world we don’t control? In 2020, Tim Keller and I coedit…",
-   "url": "https://taxprof.typepad.com/taxprof_blog/2024/09/evangelicals-in-a-diverse-democracy-is-it-time-to-let-jesus-take-the-wheel.html",
-   "urlToImage": "https://taxprof.typepad.com/.a/6a00d8341c4eab53ef02c8d3bfcc2a200b-220si",
-   "publishedAt": "2024-09-15T15:00:00Z",
-   "content": "Christianity Today:  How to Find Common Ground When You Disagree About the Common Good, by John Inazu (Washington University; Google Scholar):\r\nHow do Christians live faithfully and as good neighbors… [+6572 chars]"
-  },
-  {
-   "id": 85,
-   "source": {
-    "id": "",
-    "name": "VOA News"
-   },
-   "author": "webdesk@voanews.com (Associated Press)",
-   "title": "Tunisia’s presidential campaign season begins a day after protests",
-   "slug": "tunisias-presidential-campaign-season-begins-a-day-after-protests",
-   "description": "TUNIS, Tunisia — The official start of the presidential campaign season in Tunisia began on Saturday, a day after Tunisians took their anger to the streets of the capital to decry what protesters say is the deteriorating state of the country.\n\n\nIn what appear…",
-   "url": "https://www.voanews.com/a/tunisia-s-presidential-campaign-season-begins-a-day-after-protests/7784831.html",
-   "urlToImage": "https://gdb.voanews.com/5920AEE8-DC83-4907-8400-2FF014950ED0.jpg",
-   "publishedAt": "2024-09-15T01:35:28Z",
-   "content": "TUNIS, Tunisia  The official start of the presidential campaign season in Tunisia began on Saturday, a day after Tunisians took their anger to the streets of the capital to decry what protesters say … [+4675 chars]"
-  },
-  {
-   "id": 86,
-   "source": {
-    "id": "",
-    "name": "Economictimes.com"
-   },
-   "author": "Agencies",
-   "title": "Savitri Jindal: India's richest woman contesting Haryana elections; check her net worth, education \u0026 more",
-   "slug": "savitri-jindal-indias-richest-woman-contesting-haryana-elections-check-her-net-worth-education--more",
-   "description": "Savitri Jindal, renowned as the wealthiest woman in India, is making waves by running as an independent candidate in the Haryana Assembly elections from Hisar. At 74, the O P Jindal Group chairperson is not just a successful businesswoman but also an influent…",
-   "url": "https://m.economictimes.com/news/elections/assembly-elections/haryana/savitri-jindal-indias-richest-woman-contesting-haryana-elections-check-her-net-worth-education-more/indias-richest-woman-enters-haryana-politics/slideshow/113344207.cms",
-   "urlToImage": "https://img.etimg.com/thumb/msid-113344207,width-1070,height-580,overlay-economictimes/photo.jpg",
-   "publishedAt": "2024-09-14T07:08:39Z",
-   "content": "Sep 14, 2024, 12:59:42 PM IST\r\nSavitri Jindal, renowned as the wealthiest woman in India, is making waves by running as an independent candidate in the Haryana Assembly elections from Hisar. At 74, t… [+2448 chars]"
-  },
-  {
-   "id": 87,
-   "source": {
-    "id": "newsweek",
-    "name": "Newsweek"
-   },
-   "author": "Gabe Whisnant",
-   "title": "JD Vance Downplays Donald Trump's Relationship With Laura Loomer",
-   "slug": "jd-vance-downplays-donald-trumps-relationship-with-laura-loomer",
-   "description": "Trump's running mate told NBC News' Kristen Welker on Sunday that he doesn't \"look at the internet for every single thing to get offended by.\"",
-   "url": "https://www.newsweek.com/jd-vance-downplays-donald-trump-laura-loomer-relationship-1954091",
-   "urlToImage": "https://d.newsweek.com/en/full/2471682/loomer-vance-trump.png",
-   "publishedAt": "2024-09-15T17:23:18Z",
-   "content": "In an appearance on Sunday on NBC News' Meet the Press,JD Vance, Republican presidential nominee Donald Trump's running mate, downplayed the former president's relationship with far-right political a… [+5679 chars]"
-  },
-  {
-   "id": 88,
-   "source": {
-    "id": "",
-    "name": "Inside the Magic"
-   },
-   "author": "Rick Lye",
-   "title": "Disney Has Another DeSantis Problem",
-   "slug": "disney-has-another-desantis-problem",
-   "description": "After years of feuding, The Walt Disney Company and Florida Governor Ron DeSantis decided to put aside their differences and work together to expand the Walt Disney World Resort. The two never resolved their differences, but that’s not the point. Related: Dis…",
-   "url": "https://insidethemagic.net/2024/09/casey-desantis-winning-poll-for-governor-of-florida-rl1/",
-   "urlToImage": "https://insidethemagic.net/wp-content/uploads/2024/07/desantis-disney-world-1.jpg",
-   "publishedAt": "2024-09-14T17:44:54Z",
-   "content": "After years of feuding, The Walt Disney Company and Florida Governor Ron DeSantis decided to put aside their differences and work together to expand the Walt Disney World Resort. The two never resolv… [+2737 chars]"
-  },
-  {
-   "id": 89,
-   "source": {
-    "id": "",
-    "name": "Fark.com"
-   },
-   "author": "",
-   "title": "Canadian election turns American [Followup]",
-   "slug": "canadian-election-turns-american-followup",
-   "description": "\u003ctable\u003e \u003ctr\u003e\u003ctd\u003e \u003c/td\u003e\u003ctd\u003e [link] [3 comments] \u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e",
-   "url": "https://www.fark.com/comments/13392126/Canadian-election-turns-American",
-   "urlToImage": "https://usrimg-full.fark.net/3/3Q/fark_3QmDNcEXXPTii272HwIwq4tUvf0.jpg?AWSAccessKeyId=JO3ELGV4BGLFW7Y3EZXN\u0026Expires=1726459200\u0026Signature=o7ez3l6C%2BjWs1FPp%2B9unl18IKZU%3D",
-   "publishedAt": "2024-09-14T02:25:32Z",
-   "content": "Chainsaw Gutsfunk:Canada, are you ok?\r\nBC politics have never been OK.  The whole thing's been a shiatshow from Day 1.https://en.wikipedia.org/wiki/Amor_De_Cosmos\r\n/Well, OK, that was the second prem… [+24 chars]"
-  },
-  {
-   "id": 90,
-   "source": {
-    "id": "the-irish-times",
-    "name": "The Irish Times"
-   },
-   "author": "Colin Coyle",
-   "title": "Big Phil is welcomed back into the Fine Gael fold as old foe Leo Varadkar departs the stage",
-   "slug": "big-phil-is-welcomed-back-into-the-fine-gael-fold-as-old-foe-leo-varadkar-departs-the-stage",
-   "description": "Plus: Alan Shatter seeks to protect the inheritance; a campaign for a Colm Meaney statue in Killarney; and Clare Daly’s political future",
-   "url": "https://www.irishtimes.com/ireland/2024/09/15/big-phil-is-welcomed-back-into-the-fine-gael-fold-as-old-foe-leo-varadkar-departs-the-stage/",
-   "urlToImage": "https://www.irishtimes.com/resizer/v2/PMXEG5PSKJOK7H6EOT4BURKNBI.jpg?smart=true\u0026auth=261d76f32638833770eab34aff5314b600ad2e6469e53a435539e8d5c6133dda\u0026width=1200\u0026height=630",
-   "publishedAt": "2024-09-15T05:00:00Z",
-   "content": "Last week it emerged that Phil Hogan, the former Fine Gael Minister and one-time EU commissioner, had finally made it out of the Golfgate rough. With his nemesis Leo Varadkar out of the Fine Gael lea… [+6341 chars]"
-  },
-  {
-   "id": 91,
-   "source": {
-    "id": "msnbc",
-    "name": "MSNBC"
-   },
-   "author": "Christian Schneider",
-   "title": "A Kamala Harris win could save conservatism",
-   "slug": "a-kamala-harris-win-could-save-conservatism",
-   "description": "The vice president and her policies are terrible. But I want her to win, so that a post-Trump conservative party can be reborn.",
-   "url": "https://www.msnbc.com/opinion/msnbc-opinion/kamala-harris-win-save-conservatism-rcna170533",
-   "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240912-republicans-for-kamala-harris-wm-314p-853e89.jpg",
-   "publishedAt": "2024-09-15T10:00:00Z",
-   "content": "To MAGA-era conservatives, there is no crime more unforgivable than for a traditional, Reagan-era Republican to endorse voting for Vice President Kamala Harris. You wont find any such endorsement her… [+5358 chars]"
   }
  ]
 }

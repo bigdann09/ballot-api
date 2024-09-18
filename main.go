@@ -51,6 +51,8 @@ func main() {
 	c := StartCronScheduler()
 	defer c.Stop()
 
+	fetchNews()
+
 	port := ":8002"
 	fmt.Println("Server started at port", port)
 
@@ -122,7 +124,7 @@ func StartCronScheduler() *cron.Cron {
 	c := cron.New()
 
 	// Add a cron job that runs every 10 seconds
-	c.AddFunc("@every 04h00m00s", fetchNews)
+	c.AddFunc("@every 00h00m05s", fetchNews)
 
 	// Start the cron scheduler
 	c.Start()
@@ -130,7 +132,8 @@ func StartCronScheduler() *cron.Cron {
 }
 
 func fetchNews() {
-	url := "https://newsapi.org/v2/everything?q=politics%20AND%20election&from=2024-09-14&apiKey=db10cebc16694fa99c5beb3c9eec64bf"
+	url := "https://newsapi.org/v2/everything?q=politics%20AND%20election&from=%s&apiKey=db10cebc16694fa99c5beb3c9eec64bf"
+	url = strings.Replace(url, "%s", formatDate(3), -1)
 
 	// initialize new request
 	client := &http.Client{}
@@ -187,4 +190,11 @@ func parseToSlug(title string) string {
 	title = strings.ReplaceAll(title, " ", "-")
 	title = sanitize.Custom(title, "[^a-zA-Z0-9-]")
 	return title
+}
+
+func formatDate(ago int) string {
+	year, month, day := time.Now().Date()
+	hour, min, sec := time.Now().Clock()
+	prev_date := time.Date(year, month, (day - ago), hour, min, sec, 0, time.UTC)
+	return prev_date.Format("2006-01-02")
 }
