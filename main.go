@@ -12,6 +12,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/mrz1836/go-sanitize"
 	"github.com/robfig/cron"
@@ -58,6 +59,7 @@ func main() {
 	gin.SetMode(gin.ReleaseMode)
 
 	router := gin.Default()
+	Cors(router)
 	router.GET("/news", GetBallotNewsArticles)
 	router.GET("/news/:slug", GetBallotNewsArticlesSlug)
 	router.Run(port)
@@ -115,7 +117,7 @@ func StartCronScheduler() *cron.Cron {
 	c := cron.New()
 
 	// Add a cron job that runs every 10 seconds
-	c.AddFunc("@every 00h00m06s", fetchNews)
+	c.AddFunc("@every 04h00m00s", fetchNews)
 
 	// Start the cron scheduler
 	c.Start()
@@ -212,4 +214,15 @@ func readFileFromServer() (*Response, error) {
 	json.Unmarshal(data, &response)
 
 	return &response, nil
+}
+
+func Cors(r *gin.Engine) {
+	r.Use(cors.New(cors.Config{
+		AllowOrigins:     []string{"*"},
+		AllowMethods:     []string{"GET"},
+		AllowHeaders:     []string{"X-Requested-With", "Cache-Control", "Origin", "Accept-Encoding", "Content-Type", "Accept", "User-Agent", "Pragma"},
+		ExposeHeaders:    []string{"Content-Length"},
+		AllowCredentials: false,
+		MaxAge:           12 * time.Hour,
+	}))
 }
