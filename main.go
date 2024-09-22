@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"html/template"
 	"io"
 	"log"
 	"net/http"
@@ -14,8 +13,9 @@ import (
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	"github.com/gocolly/colly/v2"
 	"github.com/mrz1836/go-sanitize"
-	"github.com/robfig/cron"
+	"github.com/robfig/cron/v3"
 )
 
 type Source struct {
@@ -24,16 +24,16 @@ type Source struct {
 }
 
 type Article struct {
-	ID          uint          `json:"id"`
-	Source      Source        `json:"source"`
-	Author      string        `json:"author"`
-	Title       string        `json:"title"`
-	Slug        string        `json:"slug"`
-	Description string        `json:"description"`
-	URL         string        `json:"url"`
-	URLToImage  string        `json:"urlToImage"`
-	PublishedAt string        `json:"publishedAt"`
-	Content     template.HTML `json:"content"`
+	ID          uint   `json:"id"`
+	Source      Source `json:"source"`
+	Author      string `json:"author"`
+	Title       string `json:"title"`
+	Slug        string `json:"slug"`
+	Description string `json:"description"`
+	URL         string `json:"url"`
+	URLToImage  string `json:"urlToImage"`
+	PublishedAt string `json:"publishedAt"`
+	Content     string `json:"content"`
 }
 
 type Data struct {
@@ -45,6 +45,17 @@ type Data struct {
 type Response struct {
 	RefereshedAt time.Time `json:"refereshedAt"`
 	Articles     []Article `json:"articles"`
+}
+
+type Poll struct {
+	Harris      string    `json:"harris"`
+	Trump       string    `json:"trump"`
+	LastScraped time.Time `json:"last_scraped"`
+}
+
+type PollResult struct {
+	Candidate string `json:"candidate"`
+	Result    string `json:"result"`
 }
 
 func main() {
@@ -59,20 +70,24 @@ func main() {
 	gin.SetMode(gin.ReleaseMode)
 
 	router := gin.Default()
-	Cors(router)
+	router.Use(Cors())
 	router.GET("/news", GetBallotNewsArticles)
 	router.GET("/news/:slug", GetBallotNewsArticlesSlug)
+	router.GET("/polls", GetNationalPolls)
 	router.Run(port)
 }
 
 func GetBallotNewsArticles(c *gin.Context) {
-	response, err := readFileFromServer()
+	read, err := readFile("news_articles.json")
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
 			"error": err.Error(),
 		})
 		return
 	}
+
+	var response Response
+	json.Unmarshal(read, &response)
 
 	// set content type and write response
 	c.JSON(http.StatusOK, response)
@@ -112,18 +127,62 @@ func GetBallotNewsArticlesSlug(c *gin.Context) {
 	c.JSON(http.StatusOK, article)
 }
 
-func StartCronScheduler() *cron.Cron {
-	// Create a new cron instance
-	c := cron.New()
-
-	// Add a cron job that runs every 10 seconds
-	c.AddFunc("@every 04h00m00s", fetchNews)
-
-	// Start the cron scheduler
-	c.Start()
-	return c
+func GetNationalPolls(c *gin.Context) {
+	polls := scrapedPolls()
+	c.JSON(http.StatusOK, polls)
 }
 
+func readFile(name string) ([]byte, error) {
+	// check if file exists
+	if _, err := os.Stat(name); os.IsNotExist(err) {
+		return []byte{}, err
+	}
+
+	bbyte, err := os.ReadFile(name)
+	if err != nil {
+		return bbyte, err
+	}
+
+	return bbyte, nil
+}
+
+// scrape polls
+func scrapedPolls() []Poll {
+	var polls = make([]Poll, 1)
+	c := colly.NewCollector(
+		colly.AllowedDomains("https://www.270towin.com", "www.270towin.com", "270towin.com"),
+		colly.UserAgent("Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"),
+		colly.CacheDir("./polls_cache"),
+	)
+
+	c.OnError(func(r *colly.Response, err error) {
+		log.Println("error:", r.StatusCode, err)
+	})
+
+	c.OnHTML("table#polls", func(e *colly.HTMLElement) {
+		var poll Poll
+		poll.Harris = e.ChildText("tr#poll_avg_row > td:nth-child(2)")
+		poll.Trump = e.ChildText("tr#poll_avg_row > td:nth-child(3)")
+		poll.LastScraped = time.Now()
+		polls = append(polls, poll)
+	})
+
+	c.Visit("https://www.270towin.com/2024-presidential-election-polls/national")
+
+	var modpolls []Poll
+	for key, poll := range polls {
+		if key == 1 {
+			pollValue := reflect.ValueOf(poll)
+			if !pollValue.IsZero() {
+				modpolls = append(modpolls, poll)
+			}
+		}
+	}
+
+	return modpolls
+}
+
+// fetch news
 func fetchNews() {
 	url := "https://newsapi.org/v2/everything?q=politics%20AND%20election&from=%s&apiKey=db10cebc16694fa99c5beb3c9eec64bf"
 	url = strings.Replace(url, "%s", formatDate(3), -1)
@@ -172,17 +231,15 @@ func fetchNews() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("Updated at", time.Now().Format(time.RFC1123))
+	fmt.Println("Last Fetched News at", time.Now().Format(time.RFC1123))
 
-	var builder strings.Builder
-	builder.Write(parsedResponse)
-
-	pres, err := http.Post("https://specialwaylogistics.com/api/news", "application/json", strings.NewReader(builder.String()))
-	if err != nil && pres.StatusCode != http.StatusOK {
+	err = os.WriteFile("news_articles.json", parsedResponse, 0666)
+	if err != nil {
 		log.Fatal(err)
 	}
 }
 
+// generate from from news title
 func parseToSlug(title string) string {
 	title = strings.ToLower(title)
 	title = strings.ReplaceAll(title, " ", "-")
@@ -190,6 +247,7 @@ func parseToSlug(title string) string {
 	return title
 }
 
+// format date for api
 func formatDate(ago int) string {
 	year, month, day := time.Now().Date()
 	hour, min, sec := time.Now().Clock()
@@ -197,32 +255,35 @@ func formatDate(ago int) string {
 	return prev_date.Format("2006-01-02")
 }
 
-func readFileFromServer() (*Response, error) {
-	var response Response
-	url := "https://specialwaylogistics.com/assets/news_articles.json"
+// configure cron
+func StartCronScheduler() *cron.Cron {
+	// Create a new cron instance
+	c := cron.New(
+		cron.WithParser(cron.NewParser(
+			cron.SecondOptional|cron.Minute|cron.Hour|cron.Dom|cron.Month|cron.Dow|cron.Descriptor,
+		)),
+		cron.WithLocation(time.UTC),
+	)
 
-	resp, err := http.Get(url)
-	if err != nil {
-		return &response, err
-	}
+	// Add a cron job that runs every 4 hours
+	c.AddFunc("@every 04h00m00s", fetchNews)
 
-	data, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return &response, err
-	}
+	// Add a cron job that runs every 10 seconds
+	// c.AddFunc("@every 00h00m10s", scrapedPolls)
 
-	json.Unmarshal(data, &response)
-
-	return &response, nil
+	// Start the cron scheduler
+	c.Start()
+	return c
 }
 
-func Cors(r *gin.Engine) {
-	r.Use(cors.New(cors.Config{
+// setup cors for api
+func Cors() gin.HandlerFunc {
+	return cors.New(cors.Config{
 		AllowOrigins:     []string{"*"},
 		AllowMethods:     []string{"GET"},
-		AllowHeaders:     []string{"X-Requested-With", "Cache-Control", "Origin", "Accept-Encoding", "Content-Type", "Accept", "User-Agent", "Pragma"},
+		AllowHeaders:     []string{"X-Requested-With", "Cache-Control", "Origin", "Content-Type", "Accept"},
 		ExposeHeaders:    []string{"Content-Length"},
 		AllowCredentials: false,
 		MaxAge:           12 * time.Hour,
-	}))
+	})
 }
