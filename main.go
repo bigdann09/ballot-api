@@ -48,9 +48,8 @@ type Response struct {
 }
 
 type Poll struct {
-	Harris      string    `json:"harris"`
-	Trump       string    `json:"trump"`
-	LastScraped time.Time `json:"last_scraped"`
+	Harris string `json:"harris"`
+	Trump  string `json:"trump"`
 }
 
 type PollResult struct {
@@ -163,7 +162,6 @@ func scrapedPolls() []Poll {
 		var poll Poll
 		poll.Harris = e.ChildText("tr#poll_avg_row > td:nth-child(2)")
 		poll.Trump = e.ChildText("tr#poll_avg_row > td:nth-child(3)")
-		poll.LastScraped = time.Now()
 		polls = append(polls, poll)
 	})
 
