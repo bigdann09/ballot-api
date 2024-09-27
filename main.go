@@ -183,7 +183,7 @@ func scrapedPolls() []Poll {
 // fetch news
 func fetchNews() {
 	url := "https://newsapi.org/v2/everything?q=politics%20AND%20election&from=%s&apiKey=db10cebc16694fa99c5beb3c9eec64bf"
-	url = strings.Replace(url, "%s", formatDate(3), -1)
+	url = strings.Replace(url, "%s", formatDate(5), -1)
 
 	// initialize new request
 	client := &http.Client{}
