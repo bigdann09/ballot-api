@@ -1,8 +1,6 @@
 package models
 
 import (
-	"strings"
-
 	"gorm.io/gorm"
 
 	"github.com/ballot/internals/database"
@@ -27,7 +25,6 @@ func NewUser(user *utils.NewUser) (*User, error) {
 		TGID:      user.TGID,
 		TGPremium: user.TGPremium,
 		Token:     utils.ReferralToken(10),
-		Party:     strings.ToLower(user.Party),
 	}).Scan(&newUser)
 
 	if result.Error != nil {

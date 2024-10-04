@@ -127,7 +127,7 @@ func OnboardUserController(c *gin.Context) {
 		return
 	}
 
-	if user.TGID == 0 || user.Username == "" || user.Party == "" {
+	if user.TGID == 0 || user.Username == "" {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"status":  http.StatusBadRequest,
 			"message": "Missing required fileds",

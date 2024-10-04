@@ -87,7 +87,6 @@ type NewUser struct {
 	TGID      int64  `json:"tg_id"`
 	Username  string `json:"username"`
 	TGPremium bool   `json:"tg_premium"`
-	Party     string `json:"party"`
 }
 
 type ReferralCreateApiRequest struct {
