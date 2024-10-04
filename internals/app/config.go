@@ -2,12 +2,12 @@ package app
 
 import (
 	"os"
-	
+
 	"github.com/joho/godotenv"
 
-	"github.com/ballot/internals/utils"
-	"github.com/ballot/internals/models"
 	"github.com/ballot/internals/database"
+	"github.com/ballot/internals/models"
+	"github.com/ballot/internals/utils"
 )
 
 func init() {
@@ -34,5 +34,5 @@ func init() {
 	database.Connect(config)
 
 	// auto create tables
-	database.DB.AutoMigrate(&models.User{}, &models.Point{}, &models.Referral{}, &models.Task{}, &models.UserTask{})
+	database.DB.AutoMigrate(&models.User{}, &models.Point{}, &models.Referral{}, &models.Task{}, &models.UserTask{}, &models.Candidate{}, &models.Vote{})
 }

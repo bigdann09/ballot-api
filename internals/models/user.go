@@ -9,12 +9,12 @@ import (
 
 type User struct {
 	gorm.Model
-	Username string `json:"username" gorm:"default:''"`
+	Username      string `json:"username" gorm:"default:''"`
 	WalletAddress string `json:"username" gorm:"default:''"`
-	TGID          int64     `json:"tg_id"`
-	TGPremium     bool      `json:"tg_premium"`
-	Token         string    `json:"token"`
-	Point         Point     `json:"point"`
+	TGID          int64  `json:"tg_id"`
+	TGPremium     bool   `json:"tg_premium"`
+	Token         string `json:"token"`
+	Point         Point  `json:"point"`
 }
 
 func NewUser(user *User) (*User, error) {

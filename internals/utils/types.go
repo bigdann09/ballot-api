@@ -3,14 +3,14 @@ package utils
 import "time"
 
 type UserAPI struct {
-	ID            uint      `json:"id,omitempty"`
-	TGID          int64     `json:"tg_id,omitempty"`
-	Username      string    `json:"username,omitempty"`
-	WalletAddress string    `json:"wallet_address,omitempty"`
-	TGPremium     string    `json:"tg_premium"`
-	Token         string    `json:"token,omitempty"`
-	ReferralPoint uint64    `json:"referral_point"`
-	TaskPoint     uint64    `json:"task_point"`
+	ID            uint   `json:"id,omitempty"`
+	TGID          int64  `json:"tg_id,omitempty"`
+	Username      string `json:"username,omitempty"`
+	WalletAddress string `json:"wallet_address,omitempty"`
+	TGPremium     string `json:"tg_premium"`
+	Token         string `json:"token,omitempty"`
+	ReferralPoint uint64 `json:"referral_point"`
+	TaskPoint     uint64 `json:"task_point"`
 }
 
 type PointAPI struct {
@@ -27,6 +27,26 @@ type TaskAPI struct {
 	Link      string `json:"link,omitempty"`
 	Point     int64  `json:"point"`
 	Completed bool   `json:"completed"`
+}
+
+type CandidateAPI struct {
+	ID         uint      `json:"id"`
+	Name       string    `json:"name"`
+	Votes      uint      `json:"votes"`
+	LastVoteAt time.Time `json:"last_vote_at"`
+}
+
+type VoteAPI struct {
+	ID          uint      `json:"id"`
+	UserID      uint      `json:"user_id"`
+	CandidateID uint      `json:"candidate_id"`
+	CreatedAt   time.Time `json:"created_at,omitempty"`
+}
+
+type ReferralAPI struct {
+	ID       uint `json:"id"`
+	Referrer uint `json:"referrer"`
+	Referee  uint `json:"referee"`
 }
 
 // news struct
@@ -62,7 +82,6 @@ type Response struct {
 // Request structs
 
 type NewUser struct {
-
 }
 
 type ReferralCreateApiRequest struct {

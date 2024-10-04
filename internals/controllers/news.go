@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"os"
-	"reflect"
 	"encoding/json"
 	"net/http"
+	"os"
+	"reflect"
 	"strings"
 
 	"github.com/ballot/internals/utils"

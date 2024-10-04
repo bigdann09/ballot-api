@@ -2,7 +2,7 @@ package main
 
 import (
 	"os"
-	
+
 	_ "github.com/ballot/internals/app"
 	"github.com/ballot/internals/routes"
 )
@@ -16,4 +16,3 @@ func main() {
 	routes.RegisteredRoutes()
 	routes.Run(":8000")
 }
-

@@ -1,12 +1,12 @@
 package routes
 
 import (
-	"fmt"
 	"encoding/json"
-	"time"
-	"net/http"
+	"fmt"
 	"io"
+	"net/http"
 	"os"
+	"time"
 
 	tgbotapi "gitlab.com/kingofsystem/telegram-bot-api/v5"
 
@@ -59,13 +59,24 @@ func RegisteredRoutes() {
 		}
 
 		ballot_bot.HandleUpdates(update)
-	})	
+	})
+
+	// CandidateRoute
+	candidates := router.Group("api/candidates")
+	candidates.GET("/", controllers.GetAllCandidatesController)
+	candidates.GET("/:name", controllers.GetCandidateController)
 
 	// UserRoute
-	user := router.Group("users")
+	user := router.Group("api/users")
 	user.GET("/:tg_id", controllers.GetUserController)
 	user.GET("/:tg_id/referrals", controllers.GetUserReferralsController)
 	user.GET("/leaderboard", controllers.GetLeaderboardsController)
+
+	// VoteRoute
+	votes := router.Group("api/votes")
+	votes.GET("", controllers.GetAllVotesController)
+	votes.GET("/daily", controllers.GetDailyVotesController)
+	votes.POST("/", controllers.MakeVoteController)
 }
 
 func Run(port string) {

@@ -8,9 +8,9 @@ import (
 
 type Task struct {
 	gorm.Model
-	Name  string `json:"name"`
-	Type  string `json:"type"`
-	Link  string `json:"link" gorm:"default:''"`
-	Point int64  `json:"point"`
-	Validate bool `json:"validate" gorm:"default:false"`
+	Name     string `json:"name"`
+	Type     string `json:"type"`
+	Link     string `json:"link" gorm:"default:''"`
+	Point    int64  `json:"point"`
+	Validate bool   `json:"validate" gorm:"default:false"`
 }

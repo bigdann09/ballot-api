@@ -33,8 +33,5 @@ func (bot *Bot) HandleUpdates(update *tgbotapi.Update) {
 	case update.Message != nil:
 		// handle all message request
 		bot.handleMessage(update.Message)
-	case update.CallbackQuery != nil:
-		// handle all callback query request
-		bot.handleCallbackQuery(update.CallbackQuery)
 	}
 }
