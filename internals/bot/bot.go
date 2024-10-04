@@ -20,7 +20,7 @@ func New(token string) (*Bot, error) {
 			Type: "web_app",
 			Text: "Vote",
 			WebApp: &tgbotapi.WebAppInfo{
-				URL: utils.MINIAPP_URL,
+				URL: utils.TGAPP_URL,
 			},
 		},
 	})

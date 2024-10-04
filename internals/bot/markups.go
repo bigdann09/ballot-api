@@ -8,13 +8,13 @@ import (
 func StartUserMarkup() tgbotapi.InlineKeyboardMarkup {
 	return tgbotapi.NewInlineKeyboardMarkup(
 		tgbotapi.NewInlineKeyboardRow(
-			tgbotapi.NewInlineKeyboardButtonData("Join Channel", utils.CHANNEL_URL),
+			tgbotapi.NewInlineKeyboardButtonURL("Join Channel", utils.CHANNEL_URL),
 		),
 		tgbotapi.NewInlineKeyboardRow(
-			tgbotapi.NewInlineKeyboardButtonData("Join Group", utils.GROUP_URL),
+			tgbotapi.NewInlineKeyboardButtonURL("Join Group", utils.GROUP_URL),
 		),
 		tgbotapi.NewInlineKeyboardRow(
-			tgbotapi.NewInlineKeyboardButtonData("Follow On X", utils.TWITTER_URL),
+			tgbotapi.NewInlineKeyboardButtonURL("Follow On X", utils.TWITTER_URL),
 		),
 		tgbotapi.NewInlineKeyboardRow(
 			tgbotapi.NewInlineKeyboardButtonWebApp("Let's go", tgbotapi.WebAppInfo{
