@@ -26,8 +26,6 @@ jobs:
         id: build-push-api
         uses: docker/build-push-action@v3
         with:
-          context: .
-          file: Dockerfile
           push: true
           tags: brainydev/ballot:latest
       
