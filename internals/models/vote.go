@@ -39,15 +39,19 @@ func GetDailyVotes() ([]*utils.VoteAPI, error) {
 		return data, result.Error
 	}
 
-	if len(data) == 0 {
+	var votes []*utils.VoteAPI
+	if len(data) > 0 {
+		for _, vote := range data {
+			if vote.CreatedAt.Format("2006-01-02") == time.Now().Format("2006-01-02") {
+				votes = append(votes, vote)
+			}
+		}
+	} else if len(data) == 0 {
 		data = []*utils.VoteAPI{}
 	}
 
-	var votes []*utils.VoteAPI
-	for _, vote := range data {
-		if vote.CreatedAt.Format("2006-01-02") == time.Now().Format("2006-01-02") {
-			votes = append(votes, vote)
-		}
+	if len(votes) == 0 {
+		votes = []*utils.VoteAPI{}
 	}
 
 	return votes, nil

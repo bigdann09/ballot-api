@@ -1,6 +1,8 @@
 package models
 
 import (
+	"fmt"
+
 	"gorm.io/gorm"
 
 	"github.com/ballot/internals/database"
@@ -10,21 +12,30 @@ import (
 type User struct {
 	gorm.Model
 	Username      string `json:"username" gorm:"default:''"`
-	WalletAddress string `json:"username" gorm:"default:''"`
+	WalletAddress string `json:"wallet_address" gorm:"default:''"`
 	TGID          int64  `json:"tg_id"`
 	TGPremium     bool   `json:"tg_premium"`
 	Token         string `json:"token"`
 	Point         Point  `json:"point"`
+	Party         string `json:"party" gorm:"default:''"`
 }
 
-func NewUser(user *User) (*User, error) {
-	result := database.DB.Model(&User{}).Create(user)
+func NewUser(user *utils.NewUser) (*User, error) {
+	var newUser *User
+	result := database.DB.Model(&User{}).Create(&User{
+		Username:  user.Username,
+		TGID:      user.TGID,
+		TGPremium: user.TGPremium,
+		Token:     utils.ReferralToken(10),
+	}).Scan(&newUser)
+
 	if result.Error != nil {
-		return &User{}, result.Error
+		return newUser, result.Error
 	}
 
-	NewPoint(&Point{UserID: int(user.ID)})
-	return user, nil
+	NewPoint(int(newUser.ID))
+	NewActivity(int(newUser.ID))
+	return newUser, nil
 }
 
 func GetUser(tgID int64) (*utils.UserAPI, error) {
@@ -52,6 +63,25 @@ func GetUserByToken(token string) (*utils.UserAPI, error) {
 		return &user, result.Error
 	}
 	return &user, nil
+}
+
+func GetTotalUsersByParty(party string) (int, error) {
+	var total int
+	result := database.DB.Model(&User{}).Select("COUNT(*) as total").Where("party = ?", party).Scan(&total)
+	if result.Error != nil {
+		return total, result.Error
+	}
+	return total, nil
+}
+
+func UpdateUserParty(userID uint, party string) error {
+	result := database.DB.Model(&User{}).Where("user_id = ?", userID).Updates(&User{Party: party})
+	if result.Error != nil {
+		return result.Error
+	} else if result.RowsAffected == 0 {
+		return fmt.Errorf("error updating user's party")
+	}
+	return nil
 }
 
 func CheckUser(tgID int64) bool {

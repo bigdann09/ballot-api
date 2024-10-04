@@ -1,6 +1,7 @@
 package models
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/ballot/internals/database"
@@ -13,15 +14,22 @@ type Candidate struct {
 	gorm.Model
 	Name       string    `json:"name"`
 	Votes      uint      `json:"votes" gorm:"default:0"`
+	Party      string    `json:"party"`
 	LastVoteAt time.Time `json:"last_vote"`
 }
 
-func NewCandidate(name string) error {
-	result := database.DB.Create(&Candidate{Name: name})
-	if result.Error != nil {
-		return result.Error
+func NewCandidate(name, party string) error {
+	if !CheckCandidate(name) {
+		result := database.DB.Create(&Candidate{
+			Name:  name,
+			Party: party,
+		})
+		if result.Error != nil {
+			return result.Error
+		}
+		return nil
 	}
-	return nil
+	return fmt.Errorf("candidate already exists")
 }
 
 func GetAllCandidates() ([]*utils.CandidateAPI, error) {
@@ -45,4 +53,9 @@ func GetCandidateByName(name string) (utils.CandidateAPI, error) {
 		return candidate, result.Error
 	}
 	return candidate, nil
+}
+
+func CheckCandidate(name string) bool {
+	candidate, _ := GetCandidateByName(name)
+	return candidate.ID != 0
 }

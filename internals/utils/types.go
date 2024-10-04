@@ -15,18 +15,20 @@ type UserAPI struct {
 
 type PointAPI struct {
 	ID            uint   `json:"id"`
-	UserID        uint64 `json:"user_id,omitempty"`
+	UserID        uint   `json:"user_id,omitempty"`
 	ReferralPoint uint64 `json:"referral_point"`
 	TaskPoint     uint64 `json:"task_point"`
 }
 
 type TaskAPI struct {
 	ID        uint   `json:"id"`
+	UUID      string `json:"uuid"`
 	Name      string `json:"name"`
 	Type      string `json:"type"`
 	Link      string `json:"link,omitempty"`
 	Point     int64  `json:"point"`
 	Completed bool   `json:"completed"`
+	Validate  bool   `json:"validate"`
 }
 
 type CandidateAPI struct {
@@ -82,17 +84,26 @@ type Response struct {
 // Request structs
 
 type NewUser struct {
+	TGID      int64  `json:"tg_id"`
+	Username  string `json:"username"`
+	TGPremium bool   `json:"tg_premium"`
 }
 
 type ReferralCreateApiRequest struct {
+	Username  string `json:"username"`
 	Token     string `json:"token"`
 	TGID      int64  `json:"tg_id"`
 	TGPremium bool   `json:"tg_premium"`
 }
 
 type TaskCreateApiRequest struct {
-	Name  string `json:"name"`
-	Type  string `json:"type"`
-	Link  string `json:"link,omitempty"`
-	Point int64  `json:"point"`
+	Name     string `json:"name"`
+	Type     string `json:"type"`
+	Link     string `json:"link,omitempty"`
+	Point    int64  `json:"point"`
+	Validate bool   `json:"validate"`
+}
+
+type MakeVote struct {
+	CandidateID uint `json:"candidate_id"`
 }

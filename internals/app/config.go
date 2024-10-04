@@ -34,5 +34,5 @@ func init() {
 	database.Connect(config)
 
 	// auto create tables
-	database.DB.AutoMigrate(&models.User{}, &models.Point{}, &models.Referral{}, &models.Task{}, &models.UserTask{}, &models.Candidate{}, &models.Vote{})
+	database.DB.AutoMigrate(&models.User{}, &models.Activity{}, &models.Point{}, &models.Referral{}, &models.Task{}, &models.UserTask{}, &models.Candidate{}, &models.Vote{})
 }

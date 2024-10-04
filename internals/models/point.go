@@ -15,8 +15,8 @@ type Point struct {
 	TaskPoint     uint64 `gorm:"default:0"`
 }
 
-func NewPoint(point *Point) error {
-	result := database.DB.Create(point)
+func NewPoint(userID int) error {
+	result := database.DB.Create(&Point{UserID: userID})
 	if result.Error != nil {
 		return result.Error
 	}
@@ -54,6 +54,21 @@ func UpdateReferralPoint(userID uint, referral_point uint64) error {
 		return result.Error
 	} else if result.RowsAffected == 0 {
 		return fmt.Errorf("error updating user's referral point")
+	}
+	return nil
+}
+
+func UpdateTaskPoint(userID uint, task_point uint64) error {
+	point, _ := GetPoint(userID)
+	point.TaskPoint += task_point
+
+	result := database.DB.Model(&Point{}).Where("user_id = ?", userID).Updates(&Point{
+		TaskPoint: point.TaskPoint,
+	})
+	if result.Error != nil {
+		return result.Error
+	} else if result.RowsAffected == 0 {
+		return fmt.Errorf("error updating user's task point")
 	}
 	return nil
 }
