@@ -24,11 +24,15 @@ jobs:
 
       - name: build and push api
         id: build-push-api
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v6
         with:
           push: true
           tags: brainydev/ballot:latest
-      
+
+      - name: Inspect
+        run: |
+          docker image inspect myimage:latest
+
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         env:
