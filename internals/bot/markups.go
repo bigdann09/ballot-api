@@ -1,18 +1,25 @@
 package bot
 
 import (
+	"github.com/ballot/internals/utils"
 	tgbotapi "gitlab.com/kingofsystem/telegram-bot-api/v5"
 )
 
-func WelcomeNewUserMarkup() tgbotapi.InlineKeyboardMarkup {
+func StartUserMarkup() tgbotapi.InlineKeyboardMarkup {
 	return tgbotapi.NewInlineKeyboardMarkup(
 		tgbotapi.NewInlineKeyboardRow(
-			tgbotapi.NewInlineKeyboardButtonWebApp("Launch app 🔫", tgbotapi.WebAppInfo{
-				URL: "https://www.minicatbook.com",
-			}),
+			tgbotapi.NewInlineKeyboardButtonData("Join Channel", utils.CHANNEL_URL),
 		),
 		tgbotapi.NewInlineKeyboardRow(
-			tgbotapi.NewInlineKeyboardButtonData("Join telegram community", "https://t.me/catbook"),
+			tgbotapi.NewInlineKeyboardButtonData("Join Group", utils.GROUP_URL),
+		),
+		tgbotapi.NewInlineKeyboardRow(
+			tgbotapi.NewInlineKeyboardButtonData("Follow On X", utils.TWITTER_URL),
+		),
+		tgbotapi.NewInlineKeyboardRow(
+			tgbotapi.NewInlineKeyboardButtonWebApp("Let's go", tgbotapi.WebAppInfo{
+				URL: utils.MINIAPP_URL,
+			}),
 		),
 	)
 }
