@@ -1,7 +1,7 @@
 package models
 
 import (
-	"fmt"
+	"strings"
 
 	"gorm.io/gorm"
 
@@ -27,6 +27,7 @@ func NewUser(user *utils.NewUser) (*User, error) {
 		TGID:      user.TGID,
 		TGPremium: user.TGPremium,
 		Token:     utils.ReferralToken(10),
+		Party:     strings.ToLower(user.Party),
 	}).Scan(&newUser)
 
 	if result.Error != nil {
@@ -72,16 +73,6 @@ func GetTotalUsersByParty(party string) (int, error) {
 		return total, result.Error
 	}
 	return total, nil
-}
-
-func UpdateUserParty(userID uint, party string) error {
-	result := database.DB.Model(&User{}).Where("user_id = ?", userID).Updates(&User{Party: party})
-	if result.Error != nil {
-		return result.Error
-	} else if result.RowsAffected == 0 {
-		return fmt.Errorf("error updating user's party")
-	}
-	return nil
 }
 
 func CheckUser(tgID int64) bool {

@@ -3,6 +3,7 @@ package controllers
 import (
 	"fmt"
 	"net/http"
+	"os"
 
 	"github.com/ballot/internals/models"
 	"github.com/ballot/internals/utils"
@@ -126,7 +127,7 @@ func OnboardUserController(c *gin.Context) {
 		return
 	}
 
-	if user.TGID == 0 || user.Username == "" {
+	if user.TGID == 0 || user.Username == "" || user.Party == "" {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"status":  http.StatusBadRequest,
 			"message": "Missing required fileds",
@@ -153,6 +154,11 @@ func OnboardUserController(c *gin.Context) {
 		return
 	}
 
+	if newUser.TGPremium {
+		// give point to premium user
+		models.UpdateTaskPoint(newUser.ID, uint64(utils.ParseStringToInt(os.Getenv("PREMIUM_POINTS"))))
+	}
+
 	// set cookie
 	token, err := utils.CreateJWTToken(user.TGID)
 	if err != nil {
@@ -166,7 +172,7 @@ func OnboardUserController(c *gin.Context) {
 	// Store cookie
 	token = fmt.Sprintf("Bearer %s", token)
 	maxAge := 3500 * 24 * 7 * 4 * 3
-	c.SetCookie("Authorization", token, maxAge, "", "/", true, false)
+	c.SetCookie("Authorization", token, maxAge, "", "", true, false)
 
 	// update last login
 	models.UpdateLoginActivity(newUser.ID)
