@@ -1,8 +1,9 @@
 package controllers
 
 import (
-	"github.com/ballot/internals/models"
 	"net/http"
+
+	"github.com/ballot/internals/models"
 
 	"github.com/gin-gonic/gin"
 )

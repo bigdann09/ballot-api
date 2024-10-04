@@ -1,0 +1,50 @@
+services:
+  ballot-api:
+    container_name: "ballot"
+    image: brainydev/ballot:latest
+    build: .
+    environment:
+      FRONTEND_URL: http://localhost:5173
+      DB_HOST: dpg-crvts2btq21c738qo950-a
+      DB_PORT: 5432
+      DB_USER: ballot_xskl_user
+      DB_PASS: JA6QpNZZBpk1OhiyMhVRKheOKnLKZHhG
+      DB_NAME: ballot_xskl
+      SSL_MODE: true
+      REFERRAL_LINK: https://t.me/BallotMiniBot/start?startapp=%s
+      REFERRAL_POINTS: 100
+      REFERRAL_PREMIUM_POINTS: 300
+      PREMIUM_POINTS: 150
+      VOTE_POINTS: 500
+      TELEGRAM_APIKEY: 7660093404:AAFdLWgiOOg6imeC5Q4e185DA0xcSdXMDB0
+      TELEGRAM_NAME: BallotMiniBot
+      JWT_KEY: BQAweDELMAkGA1UEBhMCTkcxDjAMBgNVBAgMBUxhZ29zMQwwCgYDV
+      PRODUCTION: true
+    ports:
+      - "8003:8003"
+    depends_on:
+      - db
+  
+  db:
+    container_name: db
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: ballot_xskl_user
+      POSTGRES_PASSWORD: JA6QpNZZBpk1OhiyMhVRKheOKnLKZHhG
+      POSTGRES_DB: ballot_xskl
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  
+  watchtower:
+    image: containrrr/watchtower
+    command: 
+      - --label-enable
+      - --interval 30
+      - ballot-api
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    
+volumes:
+  pgdata: {}

@@ -65,6 +65,14 @@ func RegisteredRoutes() {
 	router.Use(gin.Logger())
 	router.Use(gin.Recovery())
 
+	// NewsRoute
+	news := router.Group("/api/news")
+	news.GET("/", controllers.GetBallotNewsArticles)
+	news.GET("/:slug", controllers.GetBallotNewsArticlesSlug)
+
+	// PollsRoute
+	router.GET("/api/polls", controllers.GetNationalPolls)
+
 	// CandidateRoute
 	candidates := router.Group("api/candidates")
 	candidates.Use(middleware.AuthMiddleware()) // apply middleware authentication

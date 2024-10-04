@@ -6,6 +6,6 @@ COPY . .
 
 RUN CGO_ENABLED=0 GOOS=linux go build -o ballot .
 
-EXPOSE 8002
+EXPOSE 8003
 
 CMD ["/app/ballot"]

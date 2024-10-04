@@ -14,5 +14,5 @@ func main() {
 
 	// api routes
 	routes.RegisteredRoutes()
-	routes.Run(":8000")
+	routes.Run(":8003")
 }

@@ -2,6 +2,7 @@ package app
 
 import (
 	"os"
+	"strconv"
 
 	"github.com/joho/godotenv"
 
@@ -15,10 +16,14 @@ func init() {
 	c := utils.StartCronScheduler()
 	defer c.Stop()
 
-	// load env variables
-	err := godotenv.Load(".env")
-	if err != nil {
-		panic(err)
+	isProd, _ := strconv.ParseBool(os.Getenv("PRODUCTION"))
+
+	if !isProd {
+		// load env variables
+		err := godotenv.Load(".env")
+		if err != nil {
+			panic(err)
+		}
 	}
 
 	config := map[string]string{
