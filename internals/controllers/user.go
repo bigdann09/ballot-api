@@ -156,7 +156,9 @@ func OnboardUserController(c *gin.Context) {
 
 	if newUser.TGPremium {
 		// give point to premium user
-		models.UpdateTaskPoint(newUser.ID, uint64(utils.ParseStringToInt(os.Getenv("PREMIUM_POINTS"))))
+		models.UpdateTaskPoint(newUser.ID, uint64(utils.ParseStringToInt(os.Getenv("NEWUSER_PREMIUM_POINTS"))))
+	} else {
+		models.UpdateTaskPoint(newUser.ID, uint64(utils.ParseStringToInt(os.Getenv("NEWUSER_POINTS"))))
 	}
 
 	// set cookie
