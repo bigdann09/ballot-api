@@ -84,9 +84,10 @@ type Response struct {
 // Request structs
 
 type NewUser struct {
-	TGID      int64  `json:"tg_id"`
-	Username  string `json:"username"`
-	TGPremium bool   `json:"tg_premium"`
+	TGID          int64  `json:"tg_id"`
+	Username      string `json:"username"`
+	TGPremium     bool   `json:"tg_premium"`
+	WalletAddress string `json:"wallet_address"`
 }
 
 type ReferralCreateApiRequest struct {
