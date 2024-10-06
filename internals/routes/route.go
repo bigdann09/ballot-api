@@ -85,7 +85,7 @@ func RegisteredRoutes() {
 	users.GET("/leaderboard", controllers.GetLeaderboardsController)
 	users.GET("/referrals", controllers.GetUserReferralsController)
 	users.GET("/party", controllers.GetUserPartiesController)
-	router.GET("/:tg_id", controllers.GetUserController)
+	router.GET("api/users/:tg_id", controllers.GetUserController)
 	router.POST("/api/users/onboard", controllers.OnboardUserController)
 
 	// VoteRoute
