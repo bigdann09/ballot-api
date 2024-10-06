@@ -44,12 +44,11 @@ func GetUserReferralsController(c *gin.Context) {
 }
 
 func GetUserController(c *gin.Context) {
-	tgID := utils.ParseStringToInt(c.Param("tg_id"))
-
-	user, err := models.GetUser(int64(tgID))
+	user, err := utils.GetAuthUser(c)
 	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{
-			"error": err.Error(),
+		c.JSON(http.StatusUnauthorized, gin.H{
+			"status":  http.StatusUnauthorized,
+			"message": err.Error(),
 		})
 		return
 	}
@@ -115,6 +114,28 @@ func GetLeaderboardsController(c *gin.Context) {
 		"data":     leaderboard,
 		"position": userPosition,
 	})
+}
+
+func CheckUserController(c *gin.Context) {
+	tgID := utils.ParseStringToInt(c.Param("tg_id"))
+
+	var exists bool
+	var status int
+
+	// check if a user exist
+	if found := models.CheckUser(int64(tgID)); found {
+		status = http.StatusOK
+		exists = found
+	} else {
+		status = http.StatusNotFound
+		exists = found
+	}
+
+	c.JSON(status, gin.H{
+		"status": status,
+		"exists": exists,
+	})
+
 }
 
 func OnboardUserController(c *gin.Context) {
