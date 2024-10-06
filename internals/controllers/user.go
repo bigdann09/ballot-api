@@ -192,15 +192,16 @@ func OnboardUserController(c *gin.Context) {
 	}
 
 	// Store cookie
-	token = fmt.Sprintf("Bearer %s", token)
+	bearerToken := fmt.Sprintf("Bearer %s", token)
 	maxAge := 3500 * 24 * 7 * 4 * 3
-	c.SetCookie("Authorization", token, maxAge, "", "", true, false)
+	c.SetCookie("Authorization", bearerToken, maxAge, "", "", true, false)
 
 	// update last login
 	models.UpdateLoginActivity(newUser.ID)
 
 	c.JSON(http.StatusOK, gin.H{
 		"status":  http.StatusOK,
+		"token":   token,
 		"message": "User added successfully",
 	})
 }
