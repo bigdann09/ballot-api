@@ -12,9 +12,6 @@ import (
 )
 
 func init() {
-	// initialize cron server
-	c := utils.StartCronScheduler()
-	defer c.Stop()
 
 	isProd, _ := strconv.ParseBool(os.Getenv("PRODUCTION"))
 
@@ -25,6 +22,13 @@ func init() {
 			panic(err)
 		}
 	}
+
+	// set timezone
+	os.Setenv("TZ", os.Getenv("TIMEZONE"))
+
+	// initialize cron server
+	c := utils.StartCronScheduler()
+	defer c.Stop()
 
 	config := map[string]string{
 		"host": os.Getenv("DB_HOST"),
