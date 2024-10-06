@@ -82,10 +82,10 @@ func RegisteredRoutes() {
 	// UserRoute
 	users := router.Group("api/users")
 	users.Use(middleware.AuthMiddleware()) // apply middleware authentication
-	users.GET("/:tg_id", controllers.GetUserController)
 	users.GET("/leaderboard", controllers.GetLeaderboardsController)
 	users.GET("/referrals", controllers.GetUserReferralsController)
 	users.GET("/party", controllers.GetUserPartiesController)
+	router.GET("/:tg_id", controllers.GetUserController)
 	router.POST("/api/users/onboard", controllers.OnboardUserController)
 
 	// VoteRoute
