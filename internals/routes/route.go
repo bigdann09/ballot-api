@@ -30,7 +30,7 @@ func Cors(origins ...string) {
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE"},
 		AllowHeaders:     []string{"X-Requested-With", "Cache-Control", "Origin", "Accept-Encoding", "X-CSRF-Token", "Content-Type", "Authorization", "Accept", "User-Agent", "Pragma"},
 		ExposeHeaders:    []string{"Content-Length", "Authorization"},
-		AllowCredentials: false,
+		AllowCredentials: true,
 		MaxAge:           12 * time.Hour,
 	}))
 }
