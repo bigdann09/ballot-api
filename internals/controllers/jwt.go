@@ -74,7 +74,7 @@ func JWTVerifyController(c *gin.Context) {
 			"status": false,
 		})
 	} else {
-		c.JSON(http.StatusUnauthorized, gin.H{
+		c.JSON(http.StatusOK, gin.H{
 			"status": true,
 		})
 	}
