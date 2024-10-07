@@ -194,9 +194,8 @@ func OnboardUserController(c *gin.Context) {
 	// Store cookie
 	bearerToken := fmt.Sprintf("Bearer %s", token)
 	maxAge := 3500 * 24 * 7 * 4 * 3
-	c.SetSameSite(http.SameSiteNoneMode)
-	// c.SetCookie("Authorization", bearerToken, maxAge, "/", os.Getenv("FRONTEND_URL"), true, true)
-	c.SetCookie("Authorization", bearerToken, maxAge, "", "", false, true)
+	c.SetSameSite(http.SameSiteLaxMode)
+	c.SetCookie("Authorization", bearerToken, maxAge, "/", os.Getenv("FRONTEND_URL"), false, true)
 
 	// update last login
 	models.UpdateLoginActivity(newUser.ID)
