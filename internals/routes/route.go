@@ -112,7 +112,7 @@ func RegisteredRoutes() {
 	// JWTRoute
 	jwt := router.Group("/api/jwt")
 	jwt.GET("/:user_id/refresh", controllers.JWTRefreshController)
-	jwt.POST("/:user_id/verify", controllers.JWTVerifyController)
+	jwt.POST("/verify", controllers.JWTVerifyController)
 }
 
 func Run(port string) {
