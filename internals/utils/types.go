@@ -103,6 +103,7 @@ type TaskCreateApiRequest struct {
 	Link     string `json:"link,omitempty"`
 	Point    int64  `json:"point"`
 	Validate bool   `json:"validate"`
+	Duration string `json:"duration"`
 }
 
 type MakeVote struct {

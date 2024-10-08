@@ -18,6 +18,7 @@ type Task struct {
 	Link     string `json:"link" gorm:"default:''"`
 	Point    int64  `json:"point"`
 	Validate bool   `json:"validate" gorm:"default:false"`
+	Duration string `json:"duration"`
 }
 
 func NewTask(task *utils.TaskCreateApiRequest) error {
@@ -28,6 +29,7 @@ func NewTask(task *utils.TaskCreateApiRequest) error {
 		Link:     task.Link,
 		Point:    task.Point,
 		Validate: task.Validate,
+		Duration: task.Duration,
 	})
 	if result.Error != nil {
 		return result.Error
@@ -80,4 +82,15 @@ func GetTaskByUUID(uuid string, tgID int64) (*utils.TaskAPI, error) {
 func CheckTaskByName(name string) bool {
 	task, _ := GetTaskByName(name)
 	return task.ID != 0
+}
+
+func DeleteTask(uuid string) error {
+	// result := task.Delete
+	result := database.DB.Unscoped().Where("uuid = ?", uuid).Delete(&Task{})
+	if result.Error != nil {
+		return result.Error
+	} else if result.RowsAffected == 0 {
+		return fmt.Errorf("error deleting task")
+	}
+	return nil
 }

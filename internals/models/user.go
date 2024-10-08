@@ -21,10 +21,11 @@ type User struct {
 func NewUser(user *utils.NewUser) (*User, error) {
 	var newUser *User
 	result := database.DB.Model(&User{}).Create(&User{
-		Username:  user.Username,
-		TGID:      user.TGID,
-		TGPremium: user.TGPremium,
-		Token:     utils.ReferralToken(10),
+		Username:      user.Username,
+		TGID:          user.TGID,
+		TGPremium:     user.TGPremium,
+		Token:         utils.ReferralToken(10),
+		WalletAddress: user.WalletAddress,
 	}).Scan(&newUser)
 
 	if result.Error != nil {
