@@ -29,6 +29,7 @@ type TaskAPI struct {
 	Point     int64  `json:"point"`
 	Completed bool   `json:"completed"`
 	Validate  bool   `json:"validate"`
+	Duration  string `json:"duration"`
 }
 
 type CandidateAPI struct {
