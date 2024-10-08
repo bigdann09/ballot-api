@@ -38,10 +38,29 @@ func MakeVoteController(c *gin.Context) {
 		return
 	}
 
+	// check if candidate with name exists
+	if found := models.CheckCandidate(vote.Candidate); !found {
+		c.JSON(http.StatusNotFound, gin.H{
+			"status":  http.StatusNotFound,
+			"message": "candidate with name does not exist",
+		})
+		return
+	}
+
+	// fetch candidate
+	candidate, err := models.GetCandidateByName(vote.Candidate)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"status":  http.StatusInternalServerError,
+			"message": err.Error(),
+		})
+		return
+	}
+
 	if activity.LastVotedAt == "" {
 		models.MakeVote(&models.Vote{
 			UserID:      uint(user.ID),
-			CandidateID: vote.CandidateID,
+			CandidateID: candidate.ID,
 		})
 
 		// update activity
@@ -61,7 +80,7 @@ func MakeVoteController(c *gin.Context) {
 		} else {
 			models.MakeVote(&models.Vote{
 				UserID:      uint(user.ID),
-				CandidateID: vote.CandidateID,
+				CandidateID: candidate.ID,
 			})
 
 			// update activity

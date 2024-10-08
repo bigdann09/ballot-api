@@ -108,5 +108,5 @@ type TaskCreateApiRequest struct {
 }
 
 type MakeVote struct {
-	CandidateID uint `json:"candidate_id"`
+	Candidate string `json:"candidate"`
 }
