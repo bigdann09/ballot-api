@@ -9,6 +9,14 @@ import (
 )
 
 func GetAllTasksController(c *gin.Context) {
+	user, err := utils.GetAuthUser(c)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"status":  http.StatusUnauthorized,
+			"message": err.Error(),
+		})
+	}
+
 	tasks, err := models.GetAllTasks()
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
@@ -16,14 +24,6 @@ func GetAllTasksController(c *gin.Context) {
 			"message": err.Error(),
 		})
 		return
-	}
-
-	user, err := utils.GetAuthUser(c)
-	if err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{
-			"status":  http.StatusUnauthorized,
-			"message": err.Error(),
-		})
 	}
 
 	if tasks == nil {

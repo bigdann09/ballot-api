@@ -30,7 +30,10 @@ func Cors(origins ...string) {
 		AllowHeaders:     []string{"X-Requested-With", "Cache-Control", "Origin", "Accept-Encoding", "X-CSRF-Token", "Content-Type", "Authorization", "Accept", "User-Agent", "Pragma"},
 		ExposeHeaders:    []string{"Content-Length", "Authorization"},
 		AllowCredentials: true,
-		MaxAge:           3600 * 24 * 7 * 4 * 3,
+		AllowOriginFunc: func(origin string) bool {
+			return (origin == origins[0]) || (origin == origins[1]) || (origin == origins[2])
+		},
+		MaxAge: 3600 * 24 * 7 * 4 * 3,
 	}))
 }
 
