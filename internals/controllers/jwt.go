@@ -58,6 +58,7 @@ func JWTRefreshController(c *gin.Context) {
 }
 
 func JWTVerifyController(c *gin.Context) {
+	var status bool
 	var jwt map[string]string
 	if err := c.BindJSON(&jwt); err != nil {
 		c.JSON(http.StatusUnprocessableEntity, gin.H{
@@ -70,12 +71,12 @@ func JWTVerifyController(c *gin.Context) {
 	token := jwt["token"]
 	_, err := utils.ValidateJWTToken(token)
 	if err != nil {
-		c.JSON(http.StatusUnauthorized, gin.H{
-			"status": false,
-		})
+		status = false
 	} else {
-		c.JSON(http.StatusOK, gin.H{
-			"status": true,
-		})
+		status = true
 	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"status": status,
+	})
 }
