@@ -27,13 +27,10 @@ func Cors(origins ...string) {
 	router.Use(cors.New(cors.Config{
 		AllowOrigins:     origins,
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE"},
-		AllowHeaders:     []string{"X-Requested-With", "Cache-Control", "Origin", "Accept-Encoding", "X-CSRF-Token", "Content-Type", "Authorization", "Accept", "User-Agent", "Pragma"},
+		AllowHeaders:     []string{"Content-Type", "Authorization", "Accept", "X-Requested-With"},
 		ExposeHeaders:    []string{"Content-Length", "Authorization"},
 		AllowCredentials: true,
-		AllowOriginFunc: func(origin string) bool {
-			return (origin == origins[0]) || (origin == origins[1]) || (origin == origins[2])
-		},
-		MaxAge: 3600 * 24 * 7 * 4 * 3,
+		MaxAge:           3600 * 24 * 7 * 4 * 3,
 	}))
 }
 
