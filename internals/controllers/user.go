@@ -159,8 +159,8 @@ func OnboardUserController(c *gin.Context) {
 
 	// check if user already exists
 	if found := models.CheckUser(user.TGID); found {
-		c.JSON(http.StatusConflict, gin.H{
-			"status":  http.StatusConflict,
+		c.JSON(http.StatusBadRequest, gin.H{
+			"status":  http.StatusBadRequest,
 			"message": "User already exists",
 		})
 		return
