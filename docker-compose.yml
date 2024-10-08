@@ -4,7 +4,9 @@ services:
     image: brainydev/ballot:latest
     build: .
     environment:
-      FRONTEND_URL: http://localhost:5173
+      MINIAPP_URL: https://www.oxballot.xyz
+      FRONTEND_URL: https://ballot-mini-app.vercel.app/
+      LOCAL_FRONTEND_URL: http://localhost:5173
       DB_HOST: dpg-crvts2btq21c738qo950-a
       DB_PORT: 5432
       DB_USER: ballot_xskl_user

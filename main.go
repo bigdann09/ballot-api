@@ -9,7 +9,12 @@ import (
 
 func main() {
 	// setup cors
-	origins := []string{os.Getenv("FRONTEND_URL"), os.Getenv("LOCAL_FRONTEND_URL")}
+	origins := []string{
+		os.Getenv("MINIAPP_URL"),
+		os.Getenv("FRONTEND_URL"),
+		os.Getenv("LOCAL_FRONTEND_URL"),
+	}
+
 	routes.Cors(origins...)
 
 	// api routes
