@@ -165,7 +165,7 @@ func ParseStringToInt(s string) int {
 }
 
 func CreateJWTToken(issuer int64) (string, error) {
-	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, &jwt.MapClaims{
 		"user":       issuer,
 		"expires_at": time.Now().AddDate(2024, 12, 12).Unix(),
 	})

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"time"
 
 	"github.com/ballot/internals/models"
 	"github.com/ballot/internals/utils"
@@ -151,7 +152,7 @@ func OnboardUserController(c *gin.Context) {
 	if user.TGID == 0 || user.Username == "" || user.WalletAddress == "" {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"status":  http.StatusBadRequest,
-			"message": "Missing required fileds",
+			"message": "Missing required fields",
 		})
 		return
 	}
@@ -193,9 +194,9 @@ func OnboardUserController(c *gin.Context) {
 
 	// Store cookie
 	bearerToken := fmt.Sprintf("Bearer %s", token)
-	maxAge := 3500 * 24 * 7 * 4 * 3
-	c.SetSameSite(http.SameSiteNoneMode)
-	c.SetCookie("Authorization", bearerToken, maxAge, "/", "localhost", false, true)
+	maxAge := time.Now().AddDate(2024, 12, 12).Unix()
+	c.SetCookie("Authorization", bearerToken, int(maxAge), "/", os.Getenv("FRONTEND_URL"), true, true)
+	c.SetSameSite(http.SameSiteLaxMode)
 
 	// update last login
 	models.UpdateLoginActivity(newUser.ID)
