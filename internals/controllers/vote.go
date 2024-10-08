@@ -3,6 +3,7 @@ package controllers
 import (
 	"net/http"
 	"os"
+	"strings"
 
 	"github.com/ballot/internals/models"
 	"github.com/ballot/internals/utils"
@@ -48,7 +49,7 @@ func MakeVoteController(c *gin.Context) {
 	}
 
 	// fetch candidate
-	candidate, err := models.GetCandidateByName(vote.Candidate)
+	candidate, err := models.GetCandidateByName(strings.ToLower(vote.Candidate))
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
 			"status":  http.StatusInternalServerError,
