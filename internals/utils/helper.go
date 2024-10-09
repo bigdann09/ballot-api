@@ -127,7 +127,7 @@ func ScrapeNewsArticle() {
 		e.ForEachWithBreak("p.paragraph.inline-placeholder.vossi-paragraph", func(i int, f *colly.HTMLElement) bool {
 			return true
 		})
-		fmt.Println(title, publishedBy, thumb, metadata, metadata, contents)
+		fmt.Println(title, publishedBy, thumb, metadata, metadata)
 	})
 
 	c.Visit("https://edition.cnn.com/politics/live-news/trump-harris-election-10-08-24/index.html")
