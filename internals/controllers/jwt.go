@@ -10,10 +10,7 @@ import (
 
 func JWTRefreshController(c *gin.Context) {
 	issuer := utils.ParseStringToInt(c.Param("user_id"))
-	cookie, err := c.Cookie("_oxballot_")
-
-	// parse token
-	token := utils.ParseJWTToken(cookie)
+	token, _ := utils.GetTokenFromHeader(c)
 
 	// validate token
 	claims, err := utils.ValidateJWTToken(token)

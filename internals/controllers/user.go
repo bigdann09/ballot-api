@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	"time"
 
 	"github.com/ballot/internals/models"
 	"github.com/ballot/internals/utils"
@@ -195,9 +194,10 @@ func OnboardUserController(c *gin.Context) {
 
 	// Store cookie
 	bearerToken := fmt.Sprintf("Bearer %s", token)
-	maxAge := time.Now().AddDate(0, 3, 12).Unix()
+	// maxAge := time.Now().AddDate(0, 3, 12).Unix()
 	c.SetSameSite(http.SameSiteNoneMode)
-	c.SetCookie("Authorization", bearerToken, int(maxAge), "/", "", true, true)
+	// c.SetCookie("Authorization", bearerToken, int(maxAge), "/", "", true, true)
+	c.Request.Header.Set("Authorization", bearerToken)
 
 	// update last login
 	models.UpdateLoginActivity(newUser.ID)

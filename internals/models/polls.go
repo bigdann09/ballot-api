@@ -38,7 +38,6 @@ func ScrapedPolls() []Poll {
 	})
 
 	c.Visit("https://www.270towin.com/2024-presidential-election-polls/national")
-	// https://edition.cnn.com/politics/live-news/trump-harris-election-10-08-24/index.html
 
 	var modpolls []Poll
 	for key, poll := range polls {

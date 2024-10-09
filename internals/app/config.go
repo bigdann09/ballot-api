@@ -39,6 +39,8 @@ func init() {
 		"ssl":  os.Getenv("SSL_MODE"),
 	}
 
+	utils.ScrapeNewsArticle()
+
 	// connect to database
 	database.Connect(config)
 

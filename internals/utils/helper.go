@@ -17,6 +17,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/gocolly/colly/v2"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
 	"github.com/mrz1836/go-sanitize"
@@ -96,6 +97,40 @@ func fetchNews() {
 	if err != nil {
 		log.Fatal(err)
 	}
+}
+
+func ScrapeNewsArticle() {
+	c := colly.NewCollector(
+		colly.AllowedDomains("https://edition.cnn.com", "www.edition.cnn.com", "edition.cnn.com"),
+		colly.UserAgent("Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"),
+		colly.CacheDir("./news_cache"),
+	)
+
+	c.SetRequestTimeout(120 * time.Second)
+	c.OnRequest(func(r *colly.Request) {
+		fmt.Println("Visiting", r.URL)
+	})
+
+	c.OnResponse(func(r *colly.Response) {
+		fmt.Println("Got a response from", r.Request.URL)
+	})
+
+	c.OnError(func(r *colly.Response, err error) {
+		log.Println("error:", r.StatusCode, err)
+	})
+
+	c.OnHTML("article.live-story-post.liveStoryPost", func(e *colly.HTMLElement) {
+		title := e.ChildText("h2.live-story-post__headline.inline-placeholder > strong")
+		publishedBy := e.ChildText("span.live-story-post__byline.inline-placeholder")
+		thumb := e.ChildAttr("div.image_live-story.image_live-story__hide-placeholder", "data-url")
+		metadata := e.ChildText("span[data-editable]")
+		e.ForEachWithBreak("p.paragraph.inline-placeholder.vossi-paragraph", func(i int, f *colly.HTMLElement) bool {
+			return true
+		})
+		fmt.Println(title, publishedBy, thumb, metadata, metadata, contents)
+	})
+
+	c.Visit("https://edition.cnn.com/politics/live-news/trump-harris-election-10-08-24/index.html")
 }
 
 // configure cron
@@ -178,7 +213,7 @@ func CreateJWTToken(issuer int64) (string, error) {
 	return tokenString, nil
 }
 
-func ParseJWTToken(token string) string {
+func parseJWTToken(token string) string {
 	if strings.Contains(token, "Bearer") {
 		return strings.Split(token, " ")[1]
 	}
@@ -253,4 +288,13 @@ func CalculateTimeDiff(timeString string) int {
 func NewUUID() string {
 	id := uuid.New()
 	return id.String()
+}
+
+func GetTokenFromHeader(c *gin.Context) (string, error) {
+	token := c.Request.Header.Get("Authorization")
+	token = parseJWTToken(token)
+	if token == "" {
+		return "", fmt.Errorf("Bearer token not found")
+	}
+	return token, nil
 }

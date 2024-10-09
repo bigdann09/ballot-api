@@ -11,7 +11,7 @@ import (
 
 func AuthMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		cookie, err := c.Cookie("Authorization")
+		token, err := utils.GetTokenFromHeader(c)
 		if err != nil {
 			c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{
 				"status":  http.StatusUnauthorized,
@@ -19,9 +19,6 @@ func AuthMiddleware() gin.HandlerFunc {
 			})
 			return
 		}
-
-		// parse token
-		token := utils.ParseJWTToken(cookie)
 
 		// validate token
 		claims, err := utils.ValidateJWTToken(token)
