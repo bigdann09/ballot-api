@@ -195,7 +195,7 @@ func OnboardUserController(c *gin.Context) {
 	// Store cookie
 	bearerToken := fmt.Sprintf("Bearer %s", token)
 	maxAge := time.Now().AddDate(2024, 3, 12).Unix()
-	c.SetCookie("_oxballot_", bearerToken, int(maxAge), "/", "", true, true)
+	c.SetCookie("_oxballot_", bearerToken, int(maxAge), "/", "", false, true)
 	c.SetSameSite(http.SameSiteLaxMode)
 
 	// update last login
