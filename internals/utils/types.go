@@ -7,7 +7,7 @@ type UserAPI struct {
 	TGID          int64  `json:"tg_id,omitempty"`
 	Username      string `json:"username,omitempty"`
 	WalletAddress string `json:"wallet_address,omitempty"`
-	TGPremium     string `json:"tg_premium"`
+	TGPremium     bool   `json:"tg_premium"`
 	Token         string `json:"token,omitempty"`
 	ReferralPoint uint64 `json:"referral_point"`
 	TaskPoint     uint64 `json:"task_point"`

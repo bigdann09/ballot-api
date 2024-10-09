@@ -102,6 +102,7 @@ func GetLeaderboardsController(c *gin.Context) {
 		if total > 0 {
 			leaderboard = append(leaderboard, map[string]interface{}{
 				"tg_id":        user.TGID,
+				"username":     user.Username,
 				"total_points": total,
 			})
 		}

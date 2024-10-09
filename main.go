@@ -12,6 +12,7 @@ func main() {
 	origins := []string{
 		os.Getenv("MINIAPP_URL"),
 		os.Getenv("FRONTEND_URL"),
+		os.Getenv("MINIAPP_TG_URL"),
 		os.Getenv("LOCAL_FRONTEND_URL"),
 	}
 
