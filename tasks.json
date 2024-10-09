@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "uuid": "cd526197-98c2-48c9-901c-1aba23bbf045",
+        "name": "Join telegram channel",
+        "type": "social_telegram",
+        "link": "https://t.me/usballot2024",
+        "point": 200,
+        "completed": false,
+        "validate": true,
+        "duration": "static"
+    },
+    {
+        "id": 2,
+        "uuid": "dfa9f9f4-ac38-426e-9b78-c24cb06817bd",
+        "name": "Join Discord server",
+        "type": "social_discord",
+        "link": "https://discord.gg/SXkMmqJJ",
+        "point": 200,
+        "completed": false,
+        "validate": false,
+        "duration": "static"
+    },
+    {
+        "id": 3,
+        "uuid": "0c3f64d6-2615-4d93-ba45-695819582c6e",
+        "name": "Follow $Ballot on twitter",
+        "type": "social_twitter",
+        "link": "https://x.com/0x_ballot",
+        "point": 200,
+        "completed": false,
+        "validate": false,
+        "duration": "static"
+    },
+    {
+        "id": 4,
+        "uuid": "7dd77a0d-4a6d-4b66-985c-32a55cab7d53",
+        "name": "Refer 1 friend",
+        "type": "refer",
+        "link": "https://x.com/0x_ballot",
+        "point": 500,
+        "completed": false,
+        "validate": false,
+        "duration": "static"
+    }
+]
