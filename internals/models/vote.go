@@ -20,7 +20,7 @@ func MakeVote(vote *Vote) error {
 
 func GetAllVotes() ([]*utils.VoteAPI, error) {
 	var votes []*utils.VoteAPI
-	result := database.DB.Model(&Vote{}).Select("id", "user_id", "candidate_id").Scan(&votes)
+	result := database.DB.Model(&Vote{}).Select("id", "user_id", "candidate_id", "created_at").Scan(&votes)
 	if result.Error != nil {
 		return votes, result.Error
 	}
@@ -34,7 +34,7 @@ func GetAllVotes() ([]*utils.VoteAPI, error) {
 
 func GetDailyVotes() ([]*utils.VoteAPI, error) {
 	var data []*utils.VoteAPI
-	result := database.DB.Raw("SELECT id, user_id, candidate_id, DATE_TRUNC('day', created_at) as created_at FROM votes").Scan(&data)
+	result := database.DB.Raw("SELECT id, user_id, candidate_id, created_at FROM votes").Scan(&data)
 	if result.Error != nil {
 		return data, result.Error
 	}
@@ -42,7 +42,7 @@ func GetDailyVotes() ([]*utils.VoteAPI, error) {
 	var votes []*utils.VoteAPI
 	if len(data) > 0 {
 		for _, vote := range data {
-			if vote.CreatedAt.Format("2006-01-02") == time.Now().Format("2006-01-02") {
+			if time.Now().Day() == vote.CreatedAt.Day() {
 				votes = append(votes, vote)
 			}
 		}
