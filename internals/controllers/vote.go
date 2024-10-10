@@ -73,8 +73,8 @@ func MakeVoteController(c *gin.Context) {
 	} else {
 		last_voted := utils.CalculateTimeDiff(activity.LastVotedAt)
 		if last_voted < 24 {
-			c.JSON(http.StatusTooManyRequests, gin.H{
-				"status":  http.StatusTooManyRequests,
+			c.JSON(http.StatusBadRequest, gin.H{
+				"status":  http.StatusBadRequest,
 				"message": "You can only vote once every 24 hours",
 			})
 			return
