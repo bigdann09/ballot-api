@@ -6,9 +6,10 @@ require (
 	github.com/gin-contrib/cors v1.7.2
 	github.com/gin-gonic/gin v1.10.0
 	github.com/gocolly/colly/v2 v2.1.0
+	github.com/golang-jwt/jwt/v5 v5.2.1
+	github.com/google/uuid v1.6.0
 	github.com/joho/godotenv v1.5.1
 	github.com/mrz1836/go-sanitize v1.3.2
-	github.com/robfig/cron/v3 v3.0.1
 	gitlab.com/kingofsystem/telegram-bot-api/v5 v5.5.2
 	gorm.io/driver/postgres v1.5.9
 	gorm.io/gorm v1.25.10
@@ -31,10 +32,8 @@ require (
 	github.com/go-playground/validator/v10 v10.22.1 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/goccy/go-json v0.10.3 // indirect
-	github.com/golang-jwt/jwt/v5 v5.2.1 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
-	github.com/google/uuid v1.6.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
 	github.com/jackc/pgx/v5 v5.5.5 // indirect

@@ -8,7 +8,6 @@ import (
 
 	"github.com/ballot/internals/database"
 	"github.com/ballot/internals/models"
-	"github.com/ballot/internals/utils"
 )
 
 func init() {
@@ -26,10 +25,6 @@ func init() {
 	// set timezone
 	os.Setenv("TZ", os.Getenv("TIMEZONE"))
 
-	// initialize cron server
-	c := utils.StartCronScheduler()
-	defer c.Stop()
-
 	config := map[string]string{
 		"host": os.Getenv("DB_HOST"),
 		"port": os.Getenv("DB_PORT"),
@@ -38,8 +33,6 @@ func init() {
 		"name": os.Getenv("DB_NAME"),
 		"ssl":  os.Getenv("SSL_MODE"),
 	}
-
-	utils.ScrapeNewsArticle()
 
 	// connect to database
 	database.Connect(config)

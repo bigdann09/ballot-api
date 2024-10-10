@@ -66,7 +66,7 @@ func RegisteredRoutes() {
 
 	// NewsRoute
 	news := router.Group("/api/news")
-	news.GET("/", controllers.GetBallotNewsArticles)
+	news.GET("", controllers.GetBallotNewsArticles)
 	news.GET("/:slug", controllers.GetBallotNewsArticlesSlug)
 
 	// PollsRoute
