@@ -176,6 +176,49 @@ func OnboardUserController(c *gin.Context) {
 		return
 	}
 
+	// check for referral
+	ref := c.Query("ref")
+	if ref != "" {
+		referrer, err := models.GetUserByToken(ref)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+
+		if referrer.ID != 0 {
+			// add new referral data
+			err := models.NewReferral(&models.Referral{
+				Referrer: referrer.ID,
+				Referee:  newUser.ID,
+			})
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{
+					"error": err.Error(),
+				})
+				return
+			}
+
+			// add points
+			var points int
+			if newUser.TGPremium {
+				points = utils.ParseStringToInt(os.Getenv("REFERRAL_PREMIUM_POINTS"))
+			} else {
+				points = utils.ParseStringToInt(os.Getenv("REFERRAL_POINTS"))
+			}
+
+			// update referral points
+			models.UpdateReferralPoint(referrer.ID, uint64(points))
+
+			// send message to bot
+			utils.SendMessageToBot(referrer.TGID, fmt.Sprintf("You just earned %d points for your referral", points))
+
+			// update last login
+			models.UpdateLoginActivity(newUser.ID)
+		}
+	}
+
 	if newUser.TGPremium {
 		models.UpdateTaskPoint(newUser.ID, uint64(utils.ParseStringToInt(os.Getenv("NEWUSER_PREMIUM_POINTS"))))
 	} else {
@@ -194,9 +237,7 @@ func OnboardUserController(c *gin.Context) {
 
 	// Store cookie
 	bearerToken := fmt.Sprintf("Bearer %s", token)
-	// maxAge := time.Now().AddDate(0, 3, 12).Unix()
 	c.SetSameSite(http.SameSiteNoneMode)
-	// c.SetCookie("Authorization", bearerToken, int(maxAge), "/", "", true, true)
 	c.Request.Header.Set("Authorization", bearerToken)
 
 	// update last login

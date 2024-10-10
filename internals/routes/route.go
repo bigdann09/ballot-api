@@ -103,11 +103,6 @@ func RegisteredRoutes() {
 	tasks.POST("/", controllers.StoreTaskController)
 	tasks.PUT("/:uuid/complete", controllers.MarkTaskCompleteController)
 
-	// ReferralRoute
-	referrals := router.Group("api/referrals")
-	referrals.Use(middleware.AuthMiddleware()) // apply middleware authentication
-	router.POST("api/referrals", controllers.StoreReferralController)
-
 	// JWTRoute
 	jwt := router.Group("/api/jwt")
 	jwt.GET("/:user_id/refresh", controllers.JWTRefreshController)
