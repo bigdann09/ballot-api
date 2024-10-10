@@ -15,12 +15,13 @@ import (
 )
 
 type Article struct {
-	Title       string   `json:"title"`
-	Slug        string   `json:"slug"`
-	PublishedBy string   `json:"published_by"`
-	Thumbnail   string   `json:"thumb"`
-	Metadata    string   `json:"metadata"`
-	Contents    []string `json:"contents"`
+	Title       string            `json:"title"`
+	Slug        string            `json:"slug"`
+	PublishedBy string            `json:"published_by"`
+	Thumbnail   string            `json:"thumb"`
+	Metadata    string            `json:"metadata"`
+	Contents    []string          `json:"contents"`
+	Socials     map[string]string `json:"socials"`
 }
 
 func GetArticles() []*Article {
@@ -53,6 +54,19 @@ func GetArticles() []*Article {
 		article.Metadata = e.ChildText("span[data-editable=metaCaption]")
 		article.Slug = utils.ParseToSlug(article.Title)
 
+		// get social links
+		socials := make(map[string]string)
+		e.ForEach("button.social-share_compact__share", func(_ int, f *colly.HTMLElement) {
+			attr := f.Attr("data-url")
+			if strings.Contains(attr, "twitter") {
+				socials["twitter"] = attr
+			} else if strings.Contains(attr, "facebook") {
+				socials["facebook"] = attr
+			} else if strings.Contains(attr, "cnn.com/politics") {
+				socials["website"] = attr
+			}
+		})
+
 		e.ForEach("p.paragraph.inline-placeholder.vossi-paragraph", func(_ int, f *colly.HTMLElement) {
 			content := f.Text
 			article.Contents = append(article.Contents, strings.TrimSpace(content))
@@ -62,12 +76,8 @@ func GetArticles() []*Article {
 			article.Title = template.HTMLEscapeString(e.ChildText("h2.live-story-post__headline.inline-placeholder > strong"))
 		}
 
-		fmt.Println(article.Title)
-
+		article.Socials = socials
 		articles = append(articles, &article)
-		// if article.Title != "" && article.Thumbnail != "" {
-		// }
-
 	})
 
 	c.OnScraped(func(r *colly.Response) {
