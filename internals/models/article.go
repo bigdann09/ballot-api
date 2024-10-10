@@ -47,7 +47,7 @@ func GetArticles() []*Article {
 
 	c.OnHTML("article.live-story-post.liveStoryPost", func(e *colly.HTMLElement) {
 		var article Article
-		article.Title = template.HTMLEscapeString(e.ChildText("h2.live-story-post__headline.inline-placeholder > strong"))
+		article.Title = template.HTMLEscapeString(e.ChildText("h2.live-story-post__headline.inline-placeholder"))
 		article.PublishedBy = e.ChildText("span.live-story-post__byline.inline-placeholder")
 		article.Thumbnail = e.ChildAttr("div.image_live-story.image_live-story__hide-placeholder", "data-url")
 		article.Metadata = e.ChildText("span[data-editable=metaCaption]")
@@ -58,9 +58,15 @@ func GetArticles() []*Article {
 			article.Contents = append(article.Contents, strings.TrimSpace(content))
 		})
 
-		if article.Title != "" && article.Thumbnail != "" {
-			articles = append(articles, &article)
+		if article.Title == "" {
+			article.Title = template.HTMLEscapeString(e.ChildText("h2.live-story-post__headline.inline-placeholder > strong"))
 		}
+
+		fmt.Println(article.Title)
+
+		articles = append(articles, &article)
+		// if article.Title != "" && article.Thumbnail != "" {
+		// }
 
 	})
 
