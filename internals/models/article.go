@@ -32,6 +32,7 @@ func GetArticles() []*Article {
 	)
 
 	c.SetRequestTimeout(120 * time.Second)
+
 	c.OnRequest(func(r *colly.Request) {
 		fmt.Println("Visiting", r.URL)
 	})
@@ -75,7 +76,10 @@ func GetArticles() []*Article {
 		os.WriteFile("articles.json", parsed, 0666)
 	})
 
-	c.Visit("https://edition.cnn.com/politics/live-news/trump-harris-election-10-08-24/index.html")
+	day := time.Now().Day()
+	url := fmt.Sprintf("https://edition.cnn.com/politics/live-news/trump-harris-election-10-%d-24/index.html", day)
+
+	c.Visit(url)
 
 	return articles
 }
