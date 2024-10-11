@@ -92,7 +92,8 @@ func GetArticles() []*Article {
 		os.WriteFile("articles.json", parsed, 0666)
 	})
 
-	day := time.Now().Day()
+	// day := time.Now().Day()
+	day := 10
 	url := fmt.Sprintf("https://edition.cnn.com/politics/live-news/trump-harris-election-10-%d-24/index.html", day)
 
 	c.Visit(url)

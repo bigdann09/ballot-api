@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"sort"
 
 	"github.com/ballot/internals/models"
 	"github.com/ballot/internals/utils"
@@ -89,7 +90,7 @@ func GetLeaderboardsController(c *gin.Context) {
 
 	var userPosition uint
 
-	var leaderboard []map[string]interface{}
+	var leaderboard []utils.LeaderboardAPI
 	for key, point := range user_points {
 		total := point.ReferralPoint + point.TaskPoint
 		user, _ := models.GetUserByID(uint(point.UserID))
@@ -99,17 +100,19 @@ func GetLeaderboardsController(c *gin.Context) {
 		}
 
 		if total > 0 {
-			leaderboard = append(leaderboard, map[string]interface{}{
-				"tg_id":        user.TGID,
-				"username":     user.Username,
-				"total_points": total,
+			leaderboard = append(leaderboard, utils.LeaderboardAPI{
+				TGID:        uint64(user.TGID),
+				Username:    user.Username,
+				TotalPoints: total,
 			})
 		}
 	}
 
 	if len(leaderboard) == 0 {
-		leaderboard = []map[string]interface{}{}
+		leaderboard = []utils.LeaderboardAPI{}
 	}
+
+	sort.Sort(models.LeaderboardSort(leaderboard))
 
 	c.JSON(http.StatusOK, map[string]interface{}{
 		"data":     leaderboard,
@@ -251,7 +254,6 @@ func OnboardUserController(c *gin.Context) {
 }
 
 func GetUserPartiesController(c *gin.Context) {
-
 	republicans, _ := models.GetTotalUsersByParty("republican")
 	democratics, _ := models.GetTotalUsersByParty("democratic")
 
@@ -259,5 +261,4 @@ func GetUserPartiesController(c *gin.Context) {
 		"republicans": republicans,
 		"democrats":   democratics,
 	})
-
 }

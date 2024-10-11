@@ -18,6 +18,12 @@ type User struct {
 	Party         string `json:"party" gorm:"default:''"`
 }
 
+type LeaderboardSort []utils.LeaderboardAPI
+
+func (s LeaderboardSort) Len() int           { return len(s) }
+func (s LeaderboardSort) Swap(i, j int)      { s[i], s[j] = s[j], s[i] }
+func (s LeaderboardSort) Less(i, j int) bool { return s[i].TotalPoints > s[j].TotalPoints }
+
 func NewUser(user *utils.NewUser) (*User, error) {
 	var newUser *User
 	result := database.DB.Model(&User{}).Create(&User{

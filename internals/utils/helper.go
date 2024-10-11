@@ -4,6 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 	"fmt"
+	"log"
 	"math"
 	"os"
 	"reflect"
@@ -16,6 +17,7 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
 	"github.com/mrz1836/go-sanitize"
+	"github.com/playwright-community/playwright-go"
 
 	tgbotapi "gitlab.com/kingofsystem/telegram-bot-api/v5"
 )
@@ -168,4 +170,71 @@ func GetTokenFromHeader(c *gin.Context) (string, error) {
 		return "", fmt.Errorf("Bearer token not found")
 	}
 	return token, nil
+}
+
+func PlaywrightArticleScraper() {
+	pw, err := playwright.Run()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// initialize chromium instance
+	browser, err := pw.Chromium.Launch(
+		playwright.BrowserTypeLaunchOptions{
+			Headless: playwright.Bool(false),
+		},
+	)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	page, err := browser.NewPage()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	if _, err := page.Goto("https://edition.cnn.com/politics/live-news/trump-harris-election-10-10-24/index.html"); err != nil {
+		log.Fatal(err)
+	}
+
+	articleElements, err := page.Locator("article.live-story-post.liveStoryPost").All()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for _, articleElement := range articleElements {
+		title, err := articleElement.Locator("h2.live-story-post__headline.inline-placeholder").First().TextContent()
+		if err != nil {
+			log.Println(err)
+		}
+		fmt.Println(title)
+
+		publishedBy, err := articleElement.Locator("div.image_live-story.image_live-story__hide-placeholder").First().TextContent()
+		if err != nil {
+			log.Println(err)
+		}
+
+		thumbnail, err := articleElement.Locator("div.image_live-story.image_live-story__hide-placeholder").First().TextContent()
+		if err != nil {
+			log.Println(err)
+		}
+
+		metadata, err := articleElement.Locator("span[data-editable=metaCaption]").First().GetAttribute("data-url")
+		if err != nil {
+			log.Println(err)
+		}
+
+		fmt.Println(title, publishedBy, thumbnail, metadata)
+	}
+
+	if err = page.Close(); err != nil {
+		log.Fatalf("could not close page: %v", err)
+	}
+
+	if err = browser.Close(); err != nil {
+		log.Fatalf("could not close browser: %v", err)
+	}
+	if err = pw.Stop(); err != nil {
+		log.Fatalf("could not stop Playwright: %v", err)
+	}
 }

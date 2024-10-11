@@ -51,7 +51,7 @@ func StoreTaskController(c *gin.Context) {
 	}
 
 	// validate task data
-	validated := utils.ValidateData(task, []string{"ID", "Link", "Completed"})
+	validated := utils.ValidateData(task, []string{"ID", "Link", "Completed", "Validate"})
 	if len(validated) > 0 {
 		c.JSON(http.StatusBadRequest, validated)
 		return

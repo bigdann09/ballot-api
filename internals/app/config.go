@@ -34,6 +34,8 @@ func init() {
 		"ssl":  os.Getenv("SSL_MODE"),
 	}
 
+	// utils.PlaywrightArticleScraper()
+
 	// connect to database
 	database.Connect(config)
 
