@@ -88,16 +88,10 @@ func GetLeaderboardsController(c *gin.Context) {
 		return
 	}
 
-	var userPosition uint
-
 	var leaderboard []utils.LeaderboardAPI
-	for key, point := range user_points {
+	for _, point := range user_points {
 		total := point.ReferralPoint + point.TaskPoint
 		user, _ := models.GetUserByID(uint(point.UserID))
-
-		if point.UserID == authUser.ID {
-			userPosition = uint(key + 1)
-		}
 
 		if total > 0 {
 			leaderboard = append(leaderboard, utils.LeaderboardAPI{
@@ -113,6 +107,13 @@ func GetLeaderboardsController(c *gin.Context) {
 	}
 
 	sort.Sort(models.LeaderboardSort(leaderboard))
+
+	var userPosition uint
+	for key, lead := range leaderboard {
+		if lead.TGID == uint64(authUser.TGID) {
+			userPosition = uint(key + 1)
+		}
+	}
 
 	c.JSON(http.StatusOK, map[string]interface{}{
 		"data":     leaderboard,
