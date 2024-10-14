@@ -66,7 +66,7 @@ func RegisteredRoutes() {
 
 	// NewsRoute
 	news := router.Group("/api/news")
-	news.GET("", controllers.GetBallotNewsArticles)
+	news.GET("/user/:tg_id", controllers.GetBallotNewsArticles)
 	news.GET("/:slug", controllers.GetBallotNewsArticlesSlug)
 
 	// PollsRoute
@@ -84,6 +84,7 @@ func RegisteredRoutes() {
 	users.GET("/leaderboard", controllers.GetLeaderboardsController)
 	users.GET("/referrals", controllers.GetUserReferralsController)
 	users.GET("/party", controllers.GetUserPartiesController)
+	users.POST("/articles/claim", controllers.ClaimArticleRewardController)
 
 	router.GET("/api/user", middleware.AuthMiddleware(), controllers.GetUserController)
 	router.GET("/api/users/:tg_id", controllers.CheckUserController)
@@ -111,5 +112,6 @@ func RegisteredRoutes() {
 
 func Run(port string) {
 	fmt.Println("started server at port", port)
-	router.Run(port)
+	err := router.Run(port)
+	fmt.Println(err)
 }

@@ -8,11 +8,13 @@ import (
 	"strings"
 
 	"github.com/ballot/internals/models"
+	"github.com/ballot/internals/utils"
 
 	"github.com/gin-gonic/gin"
 )
 
 func GetBallotNewsArticles(c *gin.Context) {
+	tgID := utils.ParseStringToInt(c.Param("tg_id"))
 	articles := models.GetArticles()
 	if len(articles) == 0 {
 		c.JSON(http.StatusNotFound, gin.H{
@@ -22,8 +24,26 @@ func GetBallotNewsArticles(c *gin.Context) {
 		return
 	}
 
+	// get user
+	user, err := models.GetUser(int64(tgID))
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{
+			"status":  http.StatusNotFound,
+			"message": "User not found",
+		})
+		return
+	}
+
+	var unreadArticles []*models.Article
+	for _, article := range articles {
+		found := models.CheckCompletedArticle(user.ID, article.Slug)
+		if !found {
+			unreadArticles = append(unreadArticles, article)
+		}
+	}
+
 	// set content type and write response
-	c.JSON(http.StatusOK, articles)
+	c.JSON(http.StatusOK, unreadArticles)
 }
 
 func GetBallotNewsArticlesSlug(c *gin.Context) {

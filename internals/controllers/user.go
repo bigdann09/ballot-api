@@ -44,19 +44,13 @@ func GetUserReferralsController(c *gin.Context) {
 	c.JSON(http.StatusOK, referees)
 }
 
+// @Router /user/person/login [post]
 func GetUserController(c *gin.Context) {
 	user, err := utils.GetAuthUser(c)
 	if err != nil {
 		c.JSON(http.StatusUnauthorized, gin.H{
 			"status":  http.StatusUnauthorized,
 			"message": err.Error(),
-		})
-		return
-	}
-
-	if user.ID == 0 {
-		c.JSON(http.StatusNotFound, gin.H{
-			"error": "User not found",
 		})
 		return
 	}
@@ -262,4 +256,60 @@ func GetUserPartiesController(c *gin.Context) {
 		"republicans": republicans,
 		"democrats":   democratics,
 	})
+}
+
+func ClaimArticleRewardController(c *gin.Context) {
+	user, err := utils.GetAuthUser(c)
+	if err != nil {
+		c.JSON(http.StatusUnauthorized, gin.H{
+			"status":  http.StatusUnauthorized,
+			"message": err.Error(),
+		})
+		return
+	}
+
+	var claim map[string]string
+	if err := c.BindJSON(&claim); err != nil {
+		c.JSON(http.StatusUnprocessableEntity, gin.H{
+			"status":  http.StatusUnauthorized,
+			"message": err.Error(),
+		})
+		return
+	}
+
+	// check if user already claimed for article
+	found := models.CheckCompletedArticle(user.ID, claim["article"])
+	if found {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"status":  http.StatusBadRequest,
+			"message": "You have already claimed for this article",
+		})
+		return
+	}
+
+	err = models.MarkArticleAsCompleted(user.ID, claim["article"])
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"status":  http.StatusInternalServerError,
+			"message": err.Error(),
+		})
+		return
+	}
+
+	earned := uint64(utils.ParseStringToInt(os.Getenv("ARTICLE_CLAIM_POINTS")))
+
+	// add point to user
+	models.UpdateTaskPoint(user.ID, earned)
+
+	// update user last activity
+	models.UpdateLastActivity(user.ID)
+
+	// send notification to user
+	utils.SendMessageToBot(user.TGID, fmt.Sprintf("You just claimed points for reading an article. You now have %d points.", earned))
+
+	c.JSON(http.StatusOK, gin.H{
+		"status":  http.StatusOK,
+		"message": "Article claimed successfully",
+	})
+
 }

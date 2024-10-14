@@ -1,6 +1,8 @@
 package models
 
 import (
+	"time"
+
 	"github.com/ballot/internals/database"
 	"github.com/ballot/internals/utils"
 	"gorm.io/gorm"
@@ -8,10 +10,11 @@ import (
 
 type Activity struct {
 	gorm.Model
-	UserID       int    `json:"user_id"`
-	LastLogin    string `json:"last_login" gorm:"default:null"`
-	LastActivity string `json:"last_activity" gorm:"default:null"`
-	LastVotedAt  string `json:"last_voted_at" gorm:"default:null"`
+	UserID       int       `json:"user_id"`
+	LastLogin    time.Time `json:"last_login" gorm:"default:null"`
+	LastActivity time.Time `json:"last_activity" gorm:"default:null"`
+	LastVotedAt  time.Time `json:"last_voted_at" gorm:"default:null"`
+	NextVoteTime time.Time `json:"next_vote_time" gorm:"default:null"`
 }
 
 func NewActivity(userID int) error {
@@ -34,8 +37,9 @@ func GetActivity(userID int64) (*Activity, error) {
 
 func UpdateVoteActivity(userID uint) error {
 	result := database.DB.Model(&Activity{}).Where("user_id =?", userID).Updates(&Activity{
-		LastActivity: utils.CurrentTime(),
-		LastVotedAt:  utils.CurrentTime(),
+		LastActivity: time.Now(),
+		LastVotedAt:  time.Now(),
+		NextVoteTime: utils.NextVoteTime(),
 	})
 	if result.Error != nil {
 		return result.Error
@@ -45,8 +49,8 @@ func UpdateVoteActivity(userID uint) error {
 
 func UpdateLoginActivity(userID uint) error {
 	result := database.DB.Model(&Activity{}).Where("user_id =?", userID).Updates(&Activity{
-		LastActivity: utils.CurrentTime(),
-		LastLogin:    utils.CurrentTime(),
+		LastActivity: time.Now(),
+		LastLogin:    time.Now(),
 	})
 	if result.Error != nil {
 		return result.Error
@@ -56,7 +60,7 @@ func UpdateLoginActivity(userID uint) error {
 
 func UpdateLastActivity(userID uint) error {
 	result := database.DB.Model(&Activity{}).Where("user_id =?", userID).Updates(&Activity{
-		LastActivity: utils.CurrentTime(),
+		LastActivity: time.Now(),
 	})
 	if result.Error != nil {
 		return result.Error

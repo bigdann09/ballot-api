@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/ballot/internals/models"
 	"github.com/ballot/internals/utils"
@@ -58,7 +59,7 @@ func MakeVoteController(c *gin.Context) {
 		return
 	}
 
-	if activity.LastVotedAt == "" {
+	if activity.LastVotedAt.Year() == 1 {
 		models.MakeVote(&models.Vote{
 			UserID:      uint(user.ID),
 			CandidateID: candidate.ID,
@@ -69,10 +70,8 @@ func MakeVoteController(c *gin.Context) {
 
 		// add vote points to user
 		models.UpdateTaskPoint(uint(user.ID), uint64(utils.ParseStringToInt(os.Getenv("VOTE_POINTS"))))
-
 	} else {
-		last_voted := utils.CalculateTimeDiff(activity.LastVotedAt)
-		if last_voted < 24 {
+		if !time.Now().After(activity.NextVoteTime) {
 			c.JSON(http.StatusBadRequest, gin.H{
 				"status":  http.StatusBadRequest,
 				"message": "You can only vote once every 24 hours",
