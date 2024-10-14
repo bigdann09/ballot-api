@@ -22,9 +22,6 @@ func init() {
 		}
 	}
 
-	// set timezone
-	// os.Setenv("TZ", os.Getenv("TIMEZONE"))
-
 	config := map[string]string{
 		"host": os.Getenv("DB_HOST"),
 		"port": os.Getenv("DB_PORT"),
@@ -33,6 +30,8 @@ func init() {
 		"name": os.Getenv("DB_NAME"),
 		"ssl":  os.Getenv("SSL_MODE"),
 	}
+
+	// models.WatchInactivity()
 
 	// connect to database
 	database.Connect(config)

@@ -13,6 +13,13 @@ type UserAPI struct {
 	TaskPoint     uint64 `json:"task_point"`
 }
 
+type UserActivity struct {
+	ID           uint      `json:"id"`
+	TGID         int64     `json:"tg_id,omitempty"`
+	LastLogin    time.Time `json:"last_login"`
+	LastActivity time.Time `json:"last_activity"`
+}
+
 type LeaderboardAPI struct {
 	TGID        uint64 `json:"tgid"`
 	Username    string `json:"username"`

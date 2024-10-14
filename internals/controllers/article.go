@@ -72,7 +72,7 @@ func GetBallotNewsArticlesSlug(c *gin.Context) {
 	value := reflect.ValueOf(article)
 	if value.IsZero() {
 		c.JSON(http.StatusNotFound, gin.H{
-			"error": "Article not found",
+			"error": "Articles not found",
 		})
 		return
 	}

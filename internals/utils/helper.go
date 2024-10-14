@@ -145,10 +145,6 @@ func SendMessageToBot(tgID int64, message string) error {
 	return err
 }
 
-func CurrentTime() string {
-	return time.Now().Local().Format(time.RFC3339)
-}
-
 func NextVoteTime() time.Time {
 	year, month, day := time.Now().Date()
 	nextVote := time.Date(year, month, day+1, 13, 0, 0, 0, time.Local)

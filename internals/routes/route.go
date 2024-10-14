@@ -96,6 +96,7 @@ func RegisteredRoutes() {
 	votes.GET("/", controllers.GetAllVotesController)
 	votes.GET("/daily", controllers.GetDailyVotesController)
 	votes.POST("/", controllers.MakeVoteController)
+	votes.POST("/share/claim", controllers.ClaimVoteExtraRewardController)
 
 	// TaskRoute
 	tasks := router.Group("api/tasks")

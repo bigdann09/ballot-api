@@ -119,3 +119,31 @@ func GetDailyVotesController(c *gin.Context) {
 
 	c.JSON(http.StatusOK, votes)
 }
+
+func ClaimVoteExtraRewardController(c *gin.Context) {
+	user, err := utils.GetAuthUser(c)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"status":  http.StatusBadRequest,
+			"message": err.Error(),
+		})
+		return
+	}
+
+	if user.ID == 0 {
+		c.JSON(http.StatusNotFound, gin.H{
+			"status":  http.StatusNotFound,
+			"message": err.Error(),
+		})
+		return
+	}
+
+	// update user task point
+	models.UpdateTaskPoint(uint(user.ID), uint64(utils.ParseStringToInt(os.Getenv("VOTE_SHARE_POINTS"))))
+
+	c.JSON(http.StatusOK, gin.H{
+		"status":  http.StatusOK,
+		"message": "Vote share reward claimed successfully",
+	})
+
+}
