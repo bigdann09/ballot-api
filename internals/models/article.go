@@ -22,6 +22,7 @@ type Article struct {
 	Metadata    string            `json:"metadata"`
 	Contents    []string          `json:"contents"`
 	Socials     map[string]string `json:"socials"`
+	Completed   bool              `json:"completed"`
 }
 
 func GetArticles() []*Article {
@@ -44,6 +45,11 @@ func GetArticles() []*Article {
 
 	c.OnError(func(r *colly.Response, err error) {
 		log.Println("error:", r.StatusCode, err)
+		if r.StatusCode == 404 {
+			day := time.Now().Day() - 1
+			url := fmt.Sprintf("https://edition.cnn.com/politics/live-news/trump-harris-election-10-%d-24/index.html", day)
+			r.Request.Visit(url)
+		}
 	})
 
 	c.OnHTML("article.live-story-post.liveStoryPost", func(e *colly.HTMLElement) {
@@ -77,7 +83,9 @@ func GetArticles() []*Article {
 		}
 
 		article.Socials = socials
-		articles = append(articles, &article)
+		if article.Title != "" {
+			articles = append(articles, &article)
+		}
 	})
 
 	c.OnScraped(func(r *colly.Response) {
@@ -92,8 +100,7 @@ func GetArticles() []*Article {
 		os.WriteFile("articles.json", parsed, 0666)
 	})
 
-	// day := time.Now().Day()
-	day := 10
+	day := time.Now().Day()
 	url := fmt.Sprintf("https://edition.cnn.com/politics/live-news/trump-harris-election-10-%d-24/index.html", day)
 
 	c.Visit(url)
