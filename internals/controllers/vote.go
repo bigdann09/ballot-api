@@ -70,8 +70,9 @@ func MakeVoteController(c *gin.Context) {
 
 		// add vote points to user
 		models.UpdateTaskPoint(uint(user.ID), uint64(utils.ParseStringToInt(os.Getenv("VOTE_POINTS"))))
+
 	} else {
-		if !time.Now().After(activity.NextVoteTime) {
+		if time.Now().After(activity.NextVoteTime) {
 			c.JSON(http.StatusBadRequest, gin.H{
 				"status":  http.StatusBadRequest,
 				"message": "You can only vote once every 24 hours",

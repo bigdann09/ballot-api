@@ -27,16 +27,20 @@ type Article struct {
 
 func GetArticles() []*Article {
 	var articles []*Article
+	local, _ := time.LoadLocation("America/New_York")
+
 	c := colly.NewCollector(
+		colly.AllowURLRevisit(),
 		colly.AllowedDomains("https://edition.cnn.com", "www.edition.cnn.com", "edition.cnn.com"),
-		colly.UserAgent("Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"),
+		// colly.UserAgent("Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1"),
 		colly.CacheDir("./news_cache"),
 	)
 
-	c.SetRequestTimeout(120 * time.Second)
+	// c.SetRequestTimeout(120 * time.Second)
 
 	c.OnRequest(func(r *colly.Request) {
 		fmt.Println("Visiting", r.URL)
+		r.Headers.Set("User-Agent", "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1")
 	})
 
 	c.OnResponse(func(r *colly.Response) {
@@ -46,7 +50,8 @@ func GetArticles() []*Article {
 	c.OnError(func(r *colly.Response, err error) {
 		log.Println("error:", r.StatusCode, err)
 		if r.StatusCode == 404 {
-			day := time.Now().Day() - 1
+			current := time.Now().In(local)
+			day := current.Day() - 1
 			url := fmt.Sprintf("https://edition.cnn.com/politics/live-news/trump-harris-election-10-%d-24/index.html", day)
 			r.Request.Visit(url)
 		}
@@ -100,10 +105,13 @@ func GetArticles() []*Article {
 		os.WriteFile("articles.json", parsed, 0666)
 	})
 
-	day := time.Now().Day()
+	current := time.Now().In(local)
+	day := current.Day()
 	url := fmt.Sprintf("https://edition.cnn.com/politics/live-news/trump-harris-election-10-%d-24/index.html", day)
 
 	c.Visit(url)
+
+	fmt.Println("day", day, "articles", articles)
 
 	return articles
 }

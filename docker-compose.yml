@@ -22,7 +22,7 @@ services:
       TELEGRAM_NAME: BallotMiniBot
       JWT_KEY: BQAweDELMAkGA1UEBhMCTkcxDjAMBgNVBAgMBUxhZ29zMQwwCgYDV
       PRODUCTION: true
-      TIMEZONE: America/Los_Angeles
+      TIMEZONE: America/New_York
     ports:
       - "8003:8003"
     depends_on:

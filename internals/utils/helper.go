@@ -146,8 +146,9 @@ func SendMessageToBot(tgID int64, message string) error {
 }
 
 func NextVoteTime() time.Time {
+	loc, _ := time.LoadLocation("America/New_York")
 	year, month, day := time.Now().Date()
-	nextVote := time.Date(year, month, day+1, 13, 0, 0, 0, time.Local)
+	nextVote := time.Date(year, month, day+1, 1, 0, 0, 0, loc)
 	return nextVote
 }
 
