@@ -33,8 +33,6 @@ func init() {
 		"ssl":  os.Getenv("SSL_MODE"),
 	}
 
-	// models.WatchInactivity()
-
 	// connect to database
 	database.Connect(config)
 

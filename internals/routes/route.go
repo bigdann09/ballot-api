@@ -98,6 +98,8 @@ func RegisteredRoutes() {
 	votes.POST("/", controllers.MakeVoteController)
 	votes.POST("/share/claim", controllers.ClaimVoteExtraRewardController)
 
+	router.GET("/rrer", controllers.ActivityCheckerController)
+
 	// TaskRoute
 	tasks := router.Group("api/tasks")
 	tasks.Use(middleware.AuthMiddleware()) // apply middleware authentication

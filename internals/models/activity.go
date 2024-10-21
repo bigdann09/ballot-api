@@ -2,6 +2,7 @@ package models
 
 import (
 	"fmt"
+	"log"
 	"time"
 
 	"github.com/ballot/internals/database"
@@ -71,7 +72,7 @@ func UpdateLastActivity(userID uint) error {
 
 func getAllUserActivities() ([]utils.UserActivity, error) {
 	var userActivities []utils.UserActivity
-	result := database.DB.Model(&User{}).Select("users.id, users.tg_id, activities.last_activity, activities.last_login").Joins("activities ON activities.user_id = users.id").Scan(&userActivities)
+	result := database.DB.Raw("SELECT users.id, users.tg_id, activities.last_activity, activities.last_login FROM users LEFT JOIN activities ON activities.user_id = users.id").Scan(&userActivities)
 	if result.Error != nil {
 		return userActivities, result.Error
 	}
@@ -81,13 +82,16 @@ func getAllUserActivities() ([]utils.UserActivity, error) {
 }
 
 func WatchInactivity() {
-	_, _ = getAllUserActivities()
-	// if len(userActivities) > 0 {
-	// for _, activity := range userActivities {
-	// 	if time.Since(activity.LastActivity) > 10 || time.Since(activity.LastLogin) > 10 {
-	// 		fmt.Println("fff")
-	// 	}
-	// }
-	// }
-	fmt.Println(222)
+	userActivities, err := getAllUserActivities()
+	if err != nil {
+		log.Println("Error getting activities")
+	}
+
+	if len(userActivities) > 0 {
+		for _, activity := range userActivities {
+			if time.Since(activity.LastActivity) > 10 || time.Since(activity.LastLogin) > 10 {
+				fmt.Println("fff")
+			}
+		}
+	}
 }

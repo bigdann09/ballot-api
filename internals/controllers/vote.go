@@ -134,7 +134,7 @@ func ClaimVoteExtraRewardController(c *gin.Context) {
 	if user.ID == 0 {
 		c.JSON(http.StatusNotFound, gin.H{
 			"status":  http.StatusNotFound,
-			"message": err.Error(),
+			"message": "User not found",
 		})
 		return
 	}

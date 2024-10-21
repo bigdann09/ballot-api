@@ -79,3 +79,7 @@ func GetBallotNewsArticlesSlug(c *gin.Context) {
 
 	c.JSON(http.StatusOK, article)
 }
+
+func ActivityCheckerController(c *gin.Context) {
+	models.WatchInactivity()
+}

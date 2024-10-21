@@ -15,7 +15,7 @@ type UserAPI struct {
 
 type UserActivity struct {
 	ID           uint      `json:"id"`
-	TGID         int64     `json:"tg_id,omitempty"`
+	TGID         int64     `json:"tg_id"`
 	LastLogin    time.Time `json:"last_login"`
 	LastActivity time.Time `json:"last_activity"`
 }

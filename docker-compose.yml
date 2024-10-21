@@ -7,6 +7,7 @@ services:
       MINIAPP_URL: https://www.oxballot.xyz
       FRONTEND_URL: https://ballot-mini-app.vercel.app/
       LOCAL_FRONTEND_URL: http://localhost:5173
+      MINIAPP_TG_URL: https://t.me/BallotMiniBot/ballot
       DB_HOST: dpg-crvts2btq21c738qo950-a
       DB_PORT: 5432
       DB_USER: ballot_xskl_user
@@ -18,6 +19,8 @@ services:
       REFERRAL_PREMIUM_POINTS: 300
       PREMIUM_POINTS: 150
       VOTE_POINTS: 500
+      VOTE_SHARE_POINTS: 25
+      ARTICLE_CLAIM_POINTS: 25
       TELEGRAM_APIKEY: 7660093404:AAFdLWgiOOg6imeC5Q4e185DA0xcSdXMDB0
       TELEGRAM_NAME: BallotMiniBot
       JWT_KEY: BQAweDELMAkGA1UEBhMCTkcxDjAMBgNVBAgMBUxhZ29zMQwwCgYDV
