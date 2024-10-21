@@ -111,7 +111,5 @@ func GetArticles() []*Article {
 
 	c.Visit(url)
 
-	fmt.Println("day", day, "articles", articles)
-
 	return articles
 }
