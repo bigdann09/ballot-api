@@ -27,8 +27,8 @@ func NewActivity(userID int) error {
 	return nil
 }
 
-func GetActivity(userID int64) (*Activity, error) {
-	var activity *Activity
+func GetActivity(userID int64) (Activity, error) {
+	var activity Activity
 	result := database.DB.Model(&Activity{}).Scan(&activity)
 	if result.Error != nil {
 		return activity, result.Error
