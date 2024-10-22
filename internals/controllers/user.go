@@ -22,6 +22,14 @@ func GetUserReferralsController(c *gin.Context) {
 		return
 	}
 
+	if user.ID == 0 {
+		c.JSON(http.StatusNotFound, gin.H{
+			"status":  http.StatusNotFound,
+			"message": "User not found",
+		})
+		return
+	}
+
 	referrals, err := models.GetReferrals(user.ID)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
@@ -55,6 +63,14 @@ func GetUserController(c *gin.Context) {
 		return
 	}
 
+	if user.ID == 0 {
+		c.JSON(http.StatusNotFound, gin.H{
+			"status":  http.StatusNotFound,
+			"message": "User not found",
+		})
+		return
+	}
+
 	// get user point
 	point, _ := models.GetPoint(user.ID)
 	user.ReferralPoint = uint64(point.ReferralPoint)
@@ -71,6 +87,14 @@ func GetLeaderboardsController(c *gin.Context) {
 			"status":  http.StatusUnauthorized,
 			"message": err.Error(),
 		})
+	}
+
+	if authUser.ID == 0 {
+		c.JSON(http.StatusNotFound, gin.H{
+			"status":  http.StatusNotFound,
+			"message": "User not found",
+		})
+		return
 	}
 
 	// fetch all points

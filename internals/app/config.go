@@ -22,6 +22,7 @@ func init() {
 		}
 	}
 
+	// set app timezone
 	os.Setenv("TZ", os.Getenv("TIMEZONE"))
 
 	config := map[string]string{

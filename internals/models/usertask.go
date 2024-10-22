@@ -1,6 +1,8 @@
 package models
 
-import "github.com/ballot/internals/database"
+import (
+	"github.com/ballot/internals/database"
+)
 
 type UserTask struct {
 	TGID   int64 `json:"tg_id"`
@@ -15,6 +17,9 @@ func CompleteTask(tgID int64, taskID uint) error {
 	if result.Error != nil {
 		return result.Error
 	}
+
+	// store user point
+
 	return nil
 }
 

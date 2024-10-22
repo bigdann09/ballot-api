@@ -39,7 +39,6 @@ func GetAllPoints() ([]*utils.PointAPI, error) {
 	if result.Error != nil {
 		return points, result.Error
 	}
-
 	return points, nil
 }
 

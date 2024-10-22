@@ -110,12 +110,27 @@ func GetAllVotesController(c *gin.Context) {
 }
 
 func GetDailyVotesController(c *gin.Context) {
-	votes, err := models.GetDailyVotes()
-	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{
-			"error": err.Error(),
-		})
-		return
+	previous := utils.ParseStringToBool(c.Query("previous"))
+
+	var votes []*utils.VoteAPI
+	var err error
+
+	if previous {
+		votes, err = models.GetFormerVotes()
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+	} else {
+		votes, err = models.GetDailyVotes()
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
 	}
 
 	c.JSON(http.StatusOK, votes)

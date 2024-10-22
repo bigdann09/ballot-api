@@ -27,7 +27,6 @@ type Article struct {
 
 func GetArticles() []*Article {
 	var articles []*Article
-	local, _ := time.LoadLocation("America/New_York")
 
 	c := colly.NewCollector(
 		colly.AllowURLRevisit(),
@@ -50,8 +49,7 @@ func GetArticles() []*Article {
 	c.OnError(func(r *colly.Response, err error) {
 		log.Println("error:", r.StatusCode, err)
 		if r.StatusCode == 404 {
-			current := time.Now().In(local)
-			day := current.Day() - 1
+			day := time.Now().Day() - 1
 			url := fmt.Sprintf("https://edition.cnn.com/politics/live-news/trump-harris-election-10-%d-24/index.html", day)
 			r.Request.Visit(url)
 		}
@@ -105,8 +103,8 @@ func GetArticles() []*Article {
 		os.WriteFile("articles.json", parsed, 0666)
 	})
 
-	current := time.Now().In(local)
-	day := current.Day()
+	day := time.Now().Day()
+	fmt.Println(day)
 	url := fmt.Sprintf("https://edition.cnn.com/politics/live-news/trump-harris-election-10-%d-24/index.html", day)
 
 	c.Visit(url)

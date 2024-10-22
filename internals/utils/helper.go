@@ -69,6 +69,11 @@ func ParseStringToInt(s string) int {
 	return num
 }
 
+func ParseStringToBool(s string) bool {
+	val, _ := strconv.ParseBool(s)
+	return val
+}
+
 func CreateJWTToken(issuer int64) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, &jwt.MapClaims{
 		"user":       issuer,
@@ -146,10 +151,14 @@ func SendMessageToBot(tgID int64, message string) error {
 }
 
 func NextVoteTime() time.Time {
-	loc, _ := time.LoadLocation("America/New_York")
 	year, month, day := time.Now().Date()
-	nextVote := time.Date(year, month, day+1, 1, 0, 0, 0, loc)
+	nextVote := time.Date(year, month, day+1, 1, 0, 0, 0, time.Local)
 	return nextVote
+}
+
+func GetDate() (int, int, int) {
+	year, month, day := time.Now().Date()
+	return year, int(month), day
 }
 
 func NewUUID() string {

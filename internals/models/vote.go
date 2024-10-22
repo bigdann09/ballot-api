@@ -1,6 +1,7 @@
 package models
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/ballot/internals/database"
@@ -48,6 +49,23 @@ func GetDailyVotes() ([]*utils.VoteAPI, error) {
 		}
 	} else if len(data) == 0 {
 		data = []*utils.VoteAPI{}
+	}
+
+	if len(votes) == 0 {
+		votes = []*utils.VoteAPI{}
+	}
+
+	return votes, nil
+}
+
+func GetFormerVotes() ([]*utils.VoteAPI, error) {
+	var votes []*utils.VoteAPI
+	year, month, day := utils.GetDate()
+	formatted := fmt.Sprintf("%d-%d-%d", year, month, day-1)
+	fmt.Println(formatted)
+	result := database.DB.Raw("SELECT * FROM votes WHERE TO_CHAR(created_at, 'YYYY-MM-DD') = ?", formatted).Scan(&votes)
+	if result.Error != nil {
+		return votes, result.Error
 	}
 
 	if len(votes) == 0 {

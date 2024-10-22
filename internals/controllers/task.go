@@ -17,6 +17,14 @@ func GetAllTasksController(c *gin.Context) {
 		})
 	}
 
+	if user.ID == 0 {
+		c.JSON(http.StatusNotFound, gin.H{
+			"status":  http.StatusNotFound,
+			"message": "User not found",
+		})
+		return
+	}
+
 	tasks, err := models.GetAllTasks()
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
@@ -91,6 +99,14 @@ func MarkTaskCompleteController(c *gin.Context) {
 		})
 	}
 
+	if user.ID == 0 {
+		c.JSON(http.StatusNotFound, gin.H{
+			"status":  http.StatusNotFound,
+			"message": "User not found",
+		})
+		return
+	}
+
 	task, err := models.GetTaskByUUID(uuid, user.TGID)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
@@ -109,6 +125,16 @@ func MarkTaskCompleteController(c *gin.Context) {
 	}
 
 	err = models.CompleteTask(user.TGID, task.ID)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"status":  http.StatusInternalServerError,
+			"message": err.Error(),
+		})
+		return
+	}
+
+	// update user point
+	err = models.UpdateTaskPoint(user.ID, uint64(task.Point))
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
 			"status":  http.StatusInternalServerError,
